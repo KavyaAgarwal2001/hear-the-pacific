@@ -67,6 +67,7 @@ async function load() {
   els.status.hidden = true;
   els.play.disabled = false;
   renderJumps();
+  renderCo2Range(score.notes);
   setCurrent(-1);
 }
 
@@ -411,6 +412,75 @@ document.addEventListener("keydown", (e) => {
   e.preventDefault();
   if (!els.play.disabled) state.playing ? pause() : play();
 });
+
+// ---------- explainer ----------
+
+// Mirrors backend/hear_pacific/mapping.py; keep the two in sync.
+const PENTATONIC = [0, 2, 4, 7, 9];
+const NOTE_STEPS = [...[0, 1, 2].flatMap((o) => PENTATONIC.map((d) => o * 12 + d)), 36];
+const BASE_MIDI = 48;
+const NOTE_NAMES = ["C", "C♯", "D", "D♯", "E", "F", "F♯", "G", "G♯", "A", "A♯", "B"];
+
+const clampAnom = (a) => Math.max(-Y_RANGE, Math.min(Y_RANGE, a));
+const stepIndex = (a) => Math.round(((clampAnom(a) + Y_RANGE) / (2 * Y_RANGE)) * (NOTE_STEPS.length - 1));
+const stepAnomaly = (k) => -Y_RANGE + (k * 2 * Y_RANGE) / (NOTE_STEPS.length - 1);
+const phaseOf = (a) => (a >= 0.5 ? "warm" : a <= -0.5 ? "cool" : "neutral");
+const noteName = (m) => `${NOTE_NAMES[m % 12]}${Math.floor(m / 12) - 1}`;
+
+const ex = {
+  pacific: document.querySelector(".pacific"),
+  stateLabel: document.querySelector(".svg-state"),
+  scale: $("scale"), slider: $("try"), out: $("try-out"), play: $("try-play"),
+  co2Start: $("co2-start"), co2End: $("co2-end"),
+};
+
+function setOceanState(s) {
+  ex.pacific.dataset.state = s;
+  ex.stateLabel.textContent = s === "nino" ? "El Niño: warm water spreads east" : "Normal: warm water piles up in the west";
+  ex.pacific.querySelectorAll(".toggle button").forEach((b) => b.classList.toggle("on", b.dataset.state === s));
+}
+
+function renderScale() {
+  NOTE_STEPS.forEach((_, k) => {
+    const cell = document.createElement("div");
+    cell.className = `cell ${phaseOf(stepAnomaly(k))}`;
+    cell.style.height = `${18 + (k / (NOTE_STEPS.length - 1)) * 74}px`;
+    ex.scale.append(cell);
+  });
+}
+
+function updatePreview() {
+  const a = Number(ex.slider.value);
+  const k = stepIndex(a);
+  const midi = BASE_MIDI + NOTE_STEPS[k];
+  const phase = phaseOf(a);
+  ex.out.innerHTML = `<b class="${phase}">${fmtAnom(a)}</b> → note <b>${noteName(midi)}</b>, ${fmtPhase(phase).toLowerCase()} voice`;
+  [...ex.scale.children].forEach((c, i) => c.classList.toggle("on", i === k));
+  return { midi, phase };
+}
+
+async function previewNote() {
+  const { midi, phase } = updatePreview();
+  unlockMediaChannel();
+  if (!audio) await (audioInit ??= initAudio());
+  audio.voices[phase].triggerAttackRelease(Tone.Frequency(midi, "midi").toFrequency(), 0.6);
+}
+
+function renderCo2Range(notes) {
+  const withCo2 = notes.filter((n) => n.co2_ppm != null);
+  const first = withCo2[0], last = withCo2[withCo2.length - 1];
+  ex.co2Start.textContent = `${Math.round(first.co2_ppm)} ppm (${first.year})`;
+  ex.co2End.textContent = `${Math.round(last.co2_ppm)} ppm (${last.year})`;
+}
+
+ex.pacific.querySelectorAll(".toggle button").forEach((b) =>
+  b.addEventListener("click", () => setOceanState(b.dataset.state)));
+ex.slider.addEventListener("input", updatePreview);
+ex.slider.addEventListener("change", previewNote);
+ex.play.addEventListener("click", previewNote);
+renderScale();
+updatePreview();
+setOceanState("normal");
 
 new ResizeObserver(resize).observe(els.canvas);
 

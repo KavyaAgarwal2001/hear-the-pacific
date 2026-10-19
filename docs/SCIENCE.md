@@ -36,7 +36,7 @@ The pitch mapping is monotonic: a higher anomaly never produces a lower note.
 
 | Limitation | Effect |
 |---|---|
-| Pitch quantization | Small differences (< ~0.2 °C) can share a note — exact values shown on hover |
+| Pitch quantization | Notes are 0.4 °C apart (16 steps over 6 °C), so nearby values share a note — exact values shown on hover |
 | Base-period updates | Historical ONI values can be revised slightly when NOAA updates |
 | Recent months | Latest ONI values are preliminary |
 | Sonification | Conveys patterns, not statistics; no claims are made from audio alone |

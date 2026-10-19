@@ -57,24 +57,136 @@
       <span><i class="sw co2"></i>CO₂ (right axis)</span>
     </section>
 
+    <section class="explain">
+      <h2 class="section-title">How it works, in four steps</h2>
+
+      <article class="step">
+        <div class="step-text">
+          <span class="step-num">1</span>
+          <h3>The Pacific swings between warm and cool</h3>
+          <p>
+            Every 2–7 years, the surface of the tropical Pacific Ocean turns unusually
+            <b class="warm">warm (El Niño)</b> or unusually <b class="cool">cool (La Niña)</b>.
+            These swings move rain, drought and heat waves around the whole planet.
+          </p>
+        </div>
+        <figure class="step-visual pacific">
+          <svg viewBox="0 0 300 130" role="img" aria-label="Schematic: in a normal year warm water piles up in the western Pacific; in an El Niño year it spreads east">
+            <defs>
+              <radialGradient id="warmGlow"><stop offset="0" stop-color="var(--warm)" stop-opacity=".95"/><stop offset="1" stop-color="var(--warm)" stop-opacity="0"/></radialGradient>
+              <radialGradient id="coolGlow"><stop offset="0" stop-color="var(--cool)" stop-opacity=".9"/><stop offset="1" stop-color="var(--cool)" stop-opacity="0"/></radialGradient>
+            </defs>
+            <rect x="0" y="12" width="300" height="104" rx="8" fill="var(--ocean)"/>
+            <rect x="0" y="12" width="22" height="104" rx="6" fill="var(--land)"/>
+            <rect x="278" y="12" width="22" height="104" rx="6" fill="var(--land)"/>
+            <line x1="22" y1="64" x2="278" y2="64" stroke="var(--muted)" stroke-dasharray="3 4" opacity=".6"/>
+            <g class="normal">
+              <ellipse cx="80" cy="64" rx="75" ry="36" fill="url(#warmGlow)"/>
+              <ellipse cx="240" cy="64" rx="55" ry="24" fill="url(#coolGlow)"/>
+            </g>
+            <g class="nino">
+              <ellipse cx="150" cy="64" rx="135" ry="34" fill="url(#warmGlow)"/>
+            </g>
+            <rect x="134" y="48" width="81" height="32" fill="none" stroke="var(--text)" stroke-width="1.5" stroke-dasharray="4 3"/>
+            <text x="174" y="44" text-anchor="middle" class="svg-label">Niño-3.4</text>
+            <text x="0" y="126" class="svg-small">Asia</text>
+            <text x="300" y="126" text-anchor="end" class="svg-small">Americas</text>
+            <text x="150" y="9" text-anchor="middle" class="svg-small svg-state"></text>
+          </svg>
+          <div class="toggle" role="group" aria-label="Choose ocean state">
+            <button type="button" data-state="normal" class="on">Normal year</button>
+            <button type="button" data-state="nino">El Niño year</button>
+          </div>
+          <figcaption>Simplified sketch, not to scale.</figcaption>
+        </figure>
+      </article>
+
+      <article class="step">
+        <div class="step-text">
+          <span class="step-num">2</span>
+          <h3>Scientists take its temperature in one spot</h3>
+          <p>
+            NOAA watches a patch of ocean in the middle of the Pacific called
+            <b>Niño-3.4</b> (the dashed box above). Each season they compare its
+            temperature with what is normal for that time of year. The difference is the
+            <b>anomaly</b>, the number this whole project is built on.
+          </p>
+        </div>
+        <figure class="step-visual equation" aria-label="Example: 28.9 °C this season minus 26.9 °C normal equals plus 2.0 °C anomaly">
+          <div class="eq-box"><span class="eq-num">28.9 °C</span><span class="eq-label">this season</span></div>
+          <span class="eq-op">−</span>
+          <div class="eq-box"><span class="eq-num">26.9 °C</span><span class="eq-label">normal</span></div>
+          <span class="eq-op">=</span>
+          <div class="eq-box result"><span class="eq-num warm">+2.0 °C</span><span class="eq-label">anomaly</span></div>
+          <figcaption>Illustrative numbers. +2.0 °C means "two degrees warmer than usual".</figcaption>
+        </figure>
+      </article>
+
+      <article class="step">
+        <div class="step-text">
+          <span class="step-num">3</span>
+          <h3>Warmer means a higher note</h3>
+          <p>
+            Each season becomes one note. The warmer the anomaly, the higher the note,
+            like climbing stairs. The notes come from a pentatonic scale, so any
+            sequence sounds pleasant. Drag the slider to try it.
+          </p>
+        </div>
+        <figure class="step-visual try">
+          <div id="scale" class="scale" aria-hidden="true"></div>
+          <div class="scale-axis"><span>−3 °C</span><span>0</span><span>+3 °C</span></div>
+          <input id="try" type="range" min="-3" max="3" step="0.1" value="2" aria-label="Temperature anomaly">
+          <div class="try-row">
+            <p id="try-out" class="try-out"></p>
+            <button id="try-play" type="button">▶ Hear it</button>
+          </div>
+        </figure>
+      </article>
+
+      <article class="step">
+        <div class="step-text">
+          <span class="step-num">4</span>
+          <h3>Three voices and a hum</h3>
+          <p>
+            Warm, cool and normal seasons each get their own instrument, so you can hear
+            which kind of season you're in. The low hum underneath is carbon dioxide in the
+            air, measured on Mauna Loa in Hawaiʻi since 1958. As CO₂ rises, the hum gets
+            brighter.
+          </p>
+        </div>
+        <figure class="step-visual voices">
+          <div class="voice"><i class="sw warm"></i><b>Warm season</b><span>bright, plucky</span></div>
+          <div class="voice"><i class="sw cool"></i><b>Cool season</b><span>soft, round</span></div>
+          <div class="voice"><i class="sw neutral"></i><b>Normal season</b><span>quiet</span></div>
+          <div class="hum">
+            <div class="hum-bar"></div>
+            <div class="hum-labels"><span id="co2-start">—</span><span id="co2-end">—</span></div>
+            <span class="hum-caption">CO₂ hum: darker → brighter</span>
+          </div>
+        </figure>
+      </article>
+    </section>
+
     <section class="notes">
       <div>
-        <h2>How it maps</h2>
+        <h2>What the music can't tell you</h2>
         <ul>
-          <li><b>Pitch</b> — the Oceanic Niño Index (3-month mean Niño-3.4 anomaly) mapped linearly from −3 °C to +3 °C onto a three-octave pentatonic scale. Higher is always warmer.</li>
-          <li><b>Timbre</b> — warm, cool and neutral seasons each have their own voice, using NOAA's ±0.5 °C thresholds.</li>
-          <li><b>Drone</b> — monthly CO₂ at Mauna Loa opens a filter as concentrations rise. It enters in 1958, when the record begins.</li>
+          <li>Notes are 0.4 °C apart, so seasons with similar temperatures can share a note. Hover the chart for the exact number.</li>
+          <li>One warm season doesn't make an El Niño. NOAA only declares one when warm conditions last for about five overlapping seasons in a row.</li>
+          <li>The newest numbers are early estimates and can change a little.</li>
+          <li>The music helps you feel the pattern. For real conclusions, use the numbers.</li>
         </ul>
       </div>
-      <div>
-        <h2>Limitations</h2>
+      <details class="tech">
+        <summary>Technical details</summary>
         <ul>
-          <li>Pitch is rounded to a scale, so seasons within ~0.2 °C can share a note. Hover the chart for exact values.</li>
-          <li>A single warm or cool season is not an El Niño or La Niña <i>episode</i>; NOAA requires five consecutive overlapping seasons.</li>
-          <li>The most recent values are preliminary and NOAA revises past values when base periods update.</li>
-          <li>The audio shows patterns. Use the numbers, not the sound, for any quantitative claim.</li>
+          <li><b>Data</b>: Oceanic Niño Index (ONI): 3-month running mean of ERSSTv5 sea-surface temperature anomalies in Niño-3.4 (5°N–5°S, 170°W–120°W), using NOAA's centered 30-year base periods.</li>
+          <li><b>Pitch</b>: linear map from −3 °C to +3 °C onto a 16-note, three-octave C-major pentatonic scale (C3–C6); 0.4 °C per step. Values outside the range are clipped and flagged.</li>
+          <li><b>Timbre</b>: NOAA's ±0.5 °C thresholds applied to each season individually (not an episode classification).</li>
+          <li><b>Drone</b>: Mauna Loa monthly mean CO₂ (NOAA GML), scaled over the record's minimum to maximum, controls a low-pass filter. Silent before March 1958.</li>
+          <li>Full methods: <a href="https://github.com/KavyaAgarwal2001/hear-the-pacific/blob/main/docs/SCIENCE.md">docs/SCIENCE.md</a>.</li>
         </ul>
-      </div>
+      </details>
     </section>
 
     <footer>

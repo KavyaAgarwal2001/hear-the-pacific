@@ -1,5 +1,7 @@
 """Data-to-sound mapping. See docs/SCIENCE.md for the rules."""
 
+import math
+
 PENTATONIC = (0, 2, 4, 7, 9)
 ONI_RANGE_C = (-3.0, 3.0)
 EL_NINO_THRESHOLD_C = 0.5
@@ -14,7 +16,8 @@ def anomaly_to_midi(anomaly_c: float) -> tuple[int, bool]:
     lo, hi = ONI_RANGE_C
     clipped = not lo <= anomaly_c <= hi
     frac = (min(max(anomaly_c, lo), hi) - lo) / (hi - lo)
-    return BASE_MIDI_NOTE + _STEPS[round(frac * (len(_STEPS) - 1))], clipped
+    # Round half up (not Python's half-to-even) to match the frontend's Math.round.
+    return BASE_MIDI_NOTE + _STEPS[math.floor(frac * (len(_STEPS) - 1) + 0.5)], clipped
 
 
 def enso_phase(anomaly_c: float) -> str:

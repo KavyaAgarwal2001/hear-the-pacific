@@ -18,3 +18,9 @@ def test_enso_phase_thresholds():
     assert enso_phase(0.5) == "warm"
     assert enso_phase(-0.5) == "cool"
     assert enso_phase(0.49) == "neutral"
+
+
+def test_halfway_values_round_up_like_the_frontend():
+    # +0.4 °C sits exactly between steps 8 and 9; JS Math.round picks step 9 (A4).
+    assert anomaly_to_midi(0.4)[0] == 69
+    assert anomaly_to_midi(-2.0)[0] == 55
