@@ -323,7 +323,30 @@ function step(time) {
   Tone.Draw.schedule(() => setCurrent(i), time);
 }
 
+// iOS routes Web Audio through the ringer channel, so the silent switch mutes
+// it. Declaring a playback session (Safari 16.4+) or playing a looping silent
+// <audio> element moves the page onto the media channel instead.
+let unlockEl = null;
+
+function silentWavUrl(seconds = 0.5, rate = 8000) {
+  const n = Math.round(seconds * rate);
+  const v = new DataView(new ArrayBuffer(44 + n * 2)); // samples stay zero = silence
+  const str = (o, s) => [...s].forEach((c, i) => v.setUint8(o + i, c.charCodeAt(0)));
+  str(0, "RIFF"); v.setUint32(4, 36 + n * 2, true); str(8, "WAVE");
+  str(12, "fmt "); v.setUint32(16, 16, true); v.setUint16(20, 1, true); v.setUint16(22, 1, true);
+  v.setUint32(24, rate, true); v.setUint32(28, rate * 2, true); v.setUint16(32, 2, true); v.setUint16(34, 16, true);
+  str(36, "data"); v.setUint32(40, n * 2, true);
+  return URL.createObjectURL(new Blob([v.buffer], { type: "audio/wav" }));
+}
+
+function unlockMediaChannel() {
+  if ("audioSession" in navigator) navigator.audioSession.type = "playback";
+  unlockEl ??= Object.assign(new Audio(silentWavUrl()), { loop: true, playsInline: true });
+  unlockEl.play().catch(() => {});
+}
+
 async function play() {
+  unlockMediaChannel(); // must run synchronously inside the tap
   if (!audio) await (audioInit ??= initAudio());
   if (state.idx >= state.notes.length) state.idx = 0;
   Tone.Transport.start();
@@ -335,6 +358,7 @@ function pause() {
   if (!audio) return;
   Tone.Transport.pause();
   audio.droneGain.gain.rampTo(0, 0.3);
+  unlockEl?.pause();
   state.playing = false;
   els.play.textContent = "▶ Play";
 }
