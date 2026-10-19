@@ -36,6 +36,7 @@ backend/hear_pacific/   Python package
   build.py              CLI: writes frontend/public/score.json
 frontend/               Static site: Tone.js player + canvas chart (GitHub Pages)
 docs/SCIENCE.md         Data, mapping, limitations
+docs/SOUND.md           Synthesis: waveforms, envelopes, tuning, signal chain
 tests/                  Unit tests
 ```
 

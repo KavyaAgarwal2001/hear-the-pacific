@@ -167,6 +167,39 @@
       </article>
     </section>
 
+    <section class="musicians">
+      <h2 class="section-title">For musicians: how the sound is made</h2>
+      <p class="mu-intro">
+        No samples. Every sound is synthesized live in your browser with
+        <a href="https://tonejs.github.io/">Tone.js</a> 14.8.49 on the Web Audio API.
+        The waveform pictures below are rendered offline by the same engine with the same
+        settings the player uses, so what you see is exactly what plays.
+      </p>
+
+      <h3>Signal chain</h3>
+      <div id="mu-chain" class="chain"></div>
+
+      <h3>The voices</h3>
+      <p id="mu-gate" class="mu-gate"></p>
+      <div id="mu-voices" class="mu-grid"></div>
+
+      <h3>Scale and tuning</h3>
+      <p class="mu-text">
+        C major pentatonic (C D E G A) over three octaves, C3 to C6: 16 notes in
+        12-tone equal temperament with A4 = 440 Hz. Each note covers a 0.4 °C band of
+        temperature anomaly.
+      </p>
+      <div class="table-scroll">
+        <table id="mu-notes">
+          <thead><tr><th>Note</th><th>MIDI</th><th>Frequency</th><th>Anomaly band</th><th>Voice</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+
+      <h3>Timing and dynamics</h3>
+      <ul id="mu-timing" class="mu-list"></ul>
+    </section>
+
     <section class="notes">
       <div>
         <h2>What the music can't tell you</h2>

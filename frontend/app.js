@@ -68,6 +68,7 @@ async function load() {
   els.play.disabled = false;
   renderJumps();
   renderCo2Range(score.notes);
+  renderTiming();
   setCurrent(-1);
 }
 
@@ -281,24 +282,59 @@ function showTooltip(i, clientX) {
 
 const stepSeconds = () => 1 / Number(els.speed.value);
 
+// Every synthesis parameter lives here. The engine and the "For musicians"
+// section both read from it, so the documentation can't drift from the sound.
+const SOUND = {
+  noteLength: 0.85, // fraction of each season's time slot a note is held
+  voices: {
+    warm: {
+      label: "Warm season", oscillator: "triangle", volumeDb: 0,
+      envelope: { attack: 0.005, decay: 0.15, sustain: 0.35, release: 0.5 },
+    },
+    cool: {
+      label: "Cool season", oscillator: "sine", volumeDb: 2,
+      envelope: { attack: 0.03, decay: 0.25, sustain: 0.45, release: 0.8 },
+    },
+    neutral: {
+      label: "Neutral season", oscillator: "sine", volumeDb: -8,
+      envelope: { attack: 0.02, decay: 0.2, sustain: 0.2, release: 0.4 },
+    },
+  },
+  curves: { attackCurve: "linear", decayCurve: "exponential", releaseCurve: "exponential" },
+  reverb: { decay: 3, preDelay: 0.01, wet: 0.22 },
+  drone: {
+    note: "C2", oscillator: "sawtooth", count: 3, spreadCents: 14, volumeDb: -20,
+    level: 0.7, fadeSeconds: 0.4,
+    filter: { type: "lowpass", rolloff: -12, Q: 1, minHz: 120, rangeHz: 1600, glideSeconds: 0.3 },
+  },
+};
+
+const synthOptions = (v) => ({
+  oscillator: { type: v.oscillator },
+  envelope: { ...v.envelope, ...SOUND.curves },
+  volume: v.volumeDb,
+});
+const droneOptions = () => {
+  const d = SOUND.drone;
+  return { frequency: d.note, type: d.oscillator, count: d.count, spread: d.spreadCents, volume: d.volumeDb };
+};
+const droneFilterOptions = (frequency) => {
+  const f = SOUND.drone.filter;
+  return { type: f.type, rolloff: f.rolloff, Q: f.Q, frequency };
+};
+const droneCutoff = (level) => SOUND.drone.filter.minHz + level * SOUND.drone.filter.rangeHz;
+
 async function initAudio() {
   await Tone.start();
   const master = new Tone.Volume(Number(els.volume.value)).toDestination();
-  const reverb = new Tone.Reverb({ decay: 3, wet: 0.22 }).connect(master);
+  const reverb = new Tone.Reverb(SOUND.reverb).connect(master);
+  const voices = Object.fromEntries(
+    Object.entries(SOUND.voices).map(([k, v]) => [k, new Tone.Synth(synthOptions(v)).connect(reverb)]),
+  );
 
-  const synth = (type, envelope, volume = 0) =>
-    new Tone.Synth({ oscillator: { type }, envelope, volume }).connect(reverb);
-  const voices = {
-    warm: synth("triangle", { attack: 0.005, decay: 0.15, sustain: 0.35, release: 0.5 }),
-    cool: synth("sine", { attack: 0.03, decay: 0.25, sustain: 0.45, release: 0.8 }, 2),
-    neutral: synth("sine", { attack: 0.02, decay: 0.2, sustain: 0.2, release: 0.4 }, -8),
-  };
-
-  const droneFilter = new Tone.Filter({ frequency: 150, type: "lowpass", Q: 1 }).connect(master);
+  const droneFilter = new Tone.Filter(droneFilterOptions(droneCutoff(0))).connect(master);
   const droneGain = new Tone.Gain(0).connect(droneFilter);
-  new Tone.FatOscillator({ frequency: "C2", type: "sawtooth", count: 3, spread: 14, volume: -20 })
-    .connect(droneGain)
-    .start();
+  new Tone.FatOscillator(droneOptions()).connect(droneGain).start();
 
   const loop = new Tone.Loop(step, stepSeconds()).start(0);
   audio = { master, voices, droneFilter, droneGain, loop };
@@ -313,13 +349,14 @@ function step(time) {
   const i = state.idx++;
   const n = notes[i];
   const freq = Tone.Frequency(n.midi, "midi").toFrequency();
-  audio.voices[n.phase].triggerAttackRelease(freq, stepSeconds() * 0.85, time);
+  audio.voices[n.phase].triggerAttackRelease(freq, stepSeconds() * SOUND.noteLength, time);
 
+  const d = SOUND.drone;
   if (n.co2_level == null) {
-    audio.droneGain.gain.rampTo(0, 0.4, time);
+    audio.droneGain.gain.rampTo(0, d.fadeSeconds, time);
   } else {
-    audio.droneGain.gain.rampTo(0.7, 0.4, time);
-    audio.droneFilter.frequency.rampTo(120 + n.co2_level * 1600, 0.3, time);
+    audio.droneGain.gain.rampTo(d.level, d.fadeSeconds, time);
+    audio.droneFilter.frequency.rampTo(droneCutoff(n.co2_level), d.filter.glideSeconds, time);
   }
   Tone.Draw.schedule(() => setCurrent(i), time);
 }
@@ -481,6 +518,246 @@ ex.play.addEventListener("click", previewNote);
 renderScale();
 updatePreview();
 setOceanState("normal");
+
+// ---------- for musicians ----------
+
+const mu = {
+  chain: $("mu-chain"), gate: $("mu-gate"), voices: $("mu-voices"),
+  notes: document.querySelector("#mu-notes tbody"), timing: $("mu-timing"),
+};
+const AUDITION_HZ = 440; // A4: every voice is pictured and auditioned on the same pitch
+const fmtMs = (s) => `${Math.round(s * 1000)} ms`;
+const fmtDb = (db) => `${db > 0 ? "+" : db < 0 ? "−" : ""}${Math.abs(db)} dB`;
+const fmtSigned = (a) => {
+  const r = Math.round(a * 10) / 10; // avoid "+0.0" from float noise
+  return `${r > 0 ? "+" : r < 0 ? "−" : ""}${Math.abs(r).toFixed(1)}`;
+};
+const midiHz = (m) => 440 * 2 ** ((m - 69) / 12);
+
+function renderChain() {
+  const { reverb, drone } = SOUND;
+  const f = drone.filter;
+  const row = (label, boxes) =>
+    `<div class="chain-row"><span class="row-label">${label}</span>` +
+    boxes.map(([t, d]) => `<div class="chain-box"><b>${t}</b><span>${d}</span></div>`)
+      .join('<span class="chain-arrow" aria-hidden="true">→</span>') +
+    "</div>";
+  mu.chain.innerHTML =
+    row("Melody (one note per season)", [
+      ["Pitch", "anomaly → pentatonic note"],
+      ["Synth voice", "oscillator + ADSR envelope"],
+      ["Reverb", `${reverb.decay} s decay, ${Math.round(reverb.wet * 100)}% wet`],
+      ["Master volume", "Volume slider"],
+      ["Output", "stereo"],
+    ]) +
+    row("Hum (CO₂)", [
+      ["Drone", `${drone.count} × ${drone.oscillator} on ${drone.note}`],
+      ["Gain", `${drone.fadeSeconds} s fades, level ${drone.level}`],
+      ["Low-pass filter", `cutoff ${f.minHz}–${f.minHz + f.rangeHz} Hz ← CO₂`],
+      ["Master volume", "Volume slider"],
+      ["Output", "stereo"],
+    ]);
+}
+
+function renderCards() {
+  const voiceCards = Object.entries(SOUND.voices).map(([key, v]) => {
+    const e = v.envelope;
+    return `<article class="mu-card">
+      <div class="mu-head"><i class="sw ${key}"></i><b>${v.label}</b>
+        <button type="button" data-audition="${key}">▶ A4</button></div>
+      <canvas class="mu-env" data-env="${key}" aria-label="${v.label} amplitude envelope"></canvas>
+      <canvas class="mu-zoom" data-zoom="${key}" aria-label="${v.label} waveform close-up"></canvas>
+      <p class="mu-caption">Top: one A4 note, start to finish. Bottom: 3 cycles, zoomed in.</p>
+      <dl>
+        <dt>Waveform</dt><dd>${v.oscillator}</dd>
+        <dt>Attack</dt><dd>${fmtMs(e.attack)}, ${SOUND.curves.attackCurve}</dd>
+        <dt>Decay</dt><dd>${fmtMs(e.decay)} to sustain, ${SOUND.curves.decayCurve}</dd>
+        <dt>Sustain</dt><dd>${Math.round(e.sustain * 100)}% of peak</dd>
+        <dt>Release</dt><dd>${fmtMs(e.release)}, ${SOUND.curves.releaseCurve}</dd>
+        <dt>Level</dt><dd>${fmtDb(v.volumeDb)}</dd>
+      </dl>
+    </article>`;
+  });
+
+  const d = SOUND.drone, f = d.filter;
+  const spreadEach = d.spreadCents / (d.count - 1);
+  const detunes = Array.from({ length: d.count }, (_, i) => -d.spreadCents / 2 + i * spreadEach)
+    .map((c) => `${c > 0 ? "+" : c < 0 ? "−" : ""}${Math.abs(c)}`).join(", ");
+  const droneCard = `<article class="mu-card">
+    <div class="mu-head"><i class="sw co2"></i><b>CO₂ hum</b>
+      <button type="button" data-audition="drone">▶ 1958 → today</button></div>
+    <canvas class="mu-zoom" data-drone="0" aria-label="Drone waveform at the 1958 filter setting"></canvas>
+    <p class="mu-caption">Lowest CO₂ (1958): cutoff ${f.minHz} Hz, a dark, rounded wave.</p>
+    <canvas class="mu-zoom" data-drone="1" aria-label="Drone waveform at today's filter setting"></canvas>
+    <p class="mu-caption">Highest CO₂ (today): cutoff ${f.minHz + f.rangeHz} Hz, more of the sawtooth's edge gets through. Both scaled to the same height.</p>
+    <dl>
+      <dt>Oscillators</dt><dd>${d.count} × ${d.oscillator}, ${d.note} (${midiHz(36).toFixed(1)} Hz)</dd>
+      <dt>Detune</dt><dd>${detunes} cents (slow beating)</dd>
+      <dt>Filter</dt><dd>${f.type}, ${-f.rolloff} dB/oct, Q ${f.Q}</dd>
+      <dt>Cutoff</dt><dd>${f.minHz} Hz + CO₂ level × ${f.rangeHz} Hz, ${fmtMs(f.glideSeconds)} glide</dd>
+      <dt>Level</dt><dd>${fmtDb(d.volumeDb)}, no reverb</dd>
+    </dl>
+  </article>`;
+
+  mu.voices.innerHTML = voiceCards.join("") + droneCard;
+  mu.voices.querySelectorAll("[data-audition]").forEach((b) =>
+    b.addEventListener("click", () => audition(b.dataset.audition)));
+}
+
+function renderNoteTable() {
+  const last = NOTE_STEPS.length - 1;
+  mu.notes.innerHTML = NOTE_STEPS.map((s, k) => {
+    const midi = BASE_MIDI + s, center = stepAnomaly(k);
+    // A band can straddle the ±0.5 °C thresholds, so check both of its ends.
+    const lowPhase = phaseOf(k === 0 ? -Infinity : center - 0.2);
+    const highPhase = phaseOf(k === last ? Infinity : center + 0.2 - 1e-9);
+    const voice = lowPhase === highPhase ? fmtPhase(lowPhase) : `${fmtPhase(lowPhase)} or ${fmtPhase(highPhase).toLowerCase()}`;
+    const band = k === 0 ? `≤ ${fmtSigned(center + 0.2)} °C`
+      : k === last ? `≥ ${fmtSigned(center - 0.2)} °C`
+      : `${fmtSigned(center - 0.2)} to ${fmtSigned(center + 0.2)} °C`;
+    return `<tr><td>${noteName(midi)}</td><td>${midi}</td><td>${midiHz(midi).toFixed(1)} Hz</td>` +
+      `<td>${band}</td><td class="${highPhase === "neutral" ? lowPhase : highPhase}">${voice}</td></tr>`;
+  }).reverse().join("");
+}
+
+function renderTiming() {
+  const speeds = [...els.speed.options].map((o) => Number(o.value));
+  const list = (fn) => speeds.map(fn).join(" / ");
+  const { reverb } = SOUND;
+  mu.timing.innerHTML = [
+    `One note per overlapping three-month season: 12 notes per year, ${state.notes.length || "~920"} in all.`,
+    `Speeds ${list((v) => v)} seasons per second = ${list((v) => v * 60)} notes per minute; one year of data lasts ${list((v) => +(12 / v).toFixed(2))} s.`,
+    `Each note is held for ${Math.round(SOUND.noteLength * 100)}% of its slot, then released. Each voice is monophonic: a new note in the same voice cuts the previous tail, while different voices can overlap.`,
+    "Every note is played at the same velocity. Loudness differences come only from the voice levels; no dynamics are taken from the data.",
+    `Reverb is a convolution reverb with a generated impulse response (decaying noise): ${reverb.decay} s decay, ${fmtMs(reverb.preDelay)} pre-delay, ${Math.round(reverb.wet * 100)}% wet. It is applied to the melody voices only.`,
+    "Master level is the Volume slider: −40 to 0 dB (default −10 dB).",
+  ].map((t) => `<li>${t}</li>`).join("");
+}
+
+function prepCanvas(c) {
+  const dpr = window.devicePixelRatio || 1;
+  c.width = Math.round(c.clientWidth * dpr);
+  c.height = Math.round(c.clientHeight * dpr);
+  const g = c.getContext("2d");
+  g.setTransform(dpr, 0, 0, dpr, 0, 0);
+  return [g, c.clientWidth, c.clientHeight];
+}
+
+function drawEnvelope(c, r, peak, maxDur, col) {
+  const [g, w, h] = prepCanvas(c);
+  const mid = h / 2, scale = (mid - 4) / peak, total = maxDur * r.sr;
+  g.fillStyle = col;
+  for (let x = 0; x < w; x++) {
+    const i0 = Math.floor((x / w) * total), i1 = Math.min(r.data.length, Math.floor(((x + 1) / w) * total));
+    if (i0 >= r.data.length) break;
+    let lo = 0, hi = 0;
+    for (let i = i0; i < i1; i++) {
+      if (r.data[i] < lo) lo = r.data[i];
+      if (r.data[i] > hi) hi = r.data[i];
+    }
+    g.fillRect(x, mid - hi * scale, 1, Math.max(1, (hi - lo) * scale));
+  }
+  const gx = (r.gate / maxDur) * w;
+  g.strokeStyle = COLORS.muted;
+  g.setLineDash([3, 3]);
+  g.beginPath();
+  g.moveTo(gx, 0);
+  g.lineTo(gx, h);
+  g.stroke();
+  g.setLineDash([]);
+  g.fillStyle = COLORS.muted;
+  g.font = "10px system-ui, sans-serif";
+  g.fillText("note off", gx + 4, 11);
+  g.fillText("0", 3, h - 4);
+  g.textAlign = "right";
+  g.fillText(fmtMs(maxDur), w - 3, h - 4);
+}
+
+function drawWave(c, data, sr, t0, span, col) {
+  const [g, w, h] = prepCanvas(c);
+  const i0 = Math.floor(t0 * sr), m = Math.floor(span * sr);
+  let peak = 1e-9;
+  for (let i = 0; i <= m; i++) peak = Math.max(peak, Math.abs(data[i0 + i]));
+  g.strokeStyle = COLORS.line;
+  g.beginPath();
+  g.moveTo(0, h / 2);
+  g.lineTo(w, h / 2);
+  g.stroke();
+  g.strokeStyle = col;
+  g.lineWidth = 1.5;
+  g.beginPath();
+  for (let i = 0; i <= m; i++) {
+    const x = (i / m) * w, y = h / 2 - (data[i0 + i] / peak) * (h / 2 - 4);
+    i ? g.lineTo(x, y) : g.moveTo(x, y);
+  }
+  g.stroke();
+}
+
+let muToken = 0;
+
+// Render each voice offline with the player's exact settings, then draw it.
+async function renderWaveforms() {
+  const token = ++muToken;
+  const gate = stepSeconds() * SOUND.noteLength;
+  mu.gate.textContent = `At ${els.speed.value} seasons per second, each note gets a ${fmtMs(stepSeconds())} slot ` +
+    `and is held for ${fmtMs(gate)} before release. Change the speed above and these pictures update.`;
+
+  const renders = {};
+  for (const [key, v] of Object.entries(SOUND.voices)) {
+    const dur = gate + v.envelope.release * 1.2 + 0.02;
+    const buf = await Tone.Offline(() => {
+      new Tone.Synth(synthOptions(v)).toDestination().triggerAttackRelease(AUDITION_HZ, gate, 0);
+    }, dur);
+    renders[key] = { data: buf.getChannelData(0), sr: buf.sampleRate, gate, attack: v.envelope.attack };
+  }
+  const drones = [];
+  for (const level of [0, 1]) {
+    const buf = await Tone.Offline(() => {
+      const filter = new Tone.Filter(droneFilterOptions(droneCutoff(level))).toDestination();
+      new Tone.FatOscillator(droneOptions()).connect(filter).start(0);
+    }, 0.3);
+    drones.push({ data: buf.getChannelData(0), sr: buf.sampleRate });
+  }
+  if (token !== muToken) return;
+
+  // One amplitude scale across voices so their relative levels are visible.
+  const peak = Math.max(...Object.values(renders).map((r) => r.data.reduce((m, x) => Math.max(m, Math.abs(x)), 0)));
+  const maxDur = Math.max(...Object.values(renders).map((r) => r.data.length / r.sr));
+  for (const [key, r] of Object.entries(renders)) {
+    drawEnvelope(mu.voices.querySelector(`[data-env="${key}"]`), r, peak, maxDur, COLORS[key]);
+    drawWave(mu.voices.querySelector(`[data-zoom="${key}"]`), r.data, r.sr, r.attack + 0.01, 3 / AUDITION_HZ, COLORS[key]);
+  }
+  const droneSpan = 2 / midiHz(36);
+  drones.forEach((r, level) =>
+    drawWave(mu.voices.querySelector(`[data-drone="${level}"]`), r.data, r.sr, 0.2, droneSpan, COLORS.co2));
+}
+
+async function audition(key) {
+  unlockMediaChannel();
+  if (!audio) await (audioInit ??= initAudio());
+  if (key !== "drone") {
+    audio.voices[key].triggerAttackRelease(AUDITION_HZ, 0.6);
+    return;
+  }
+  if (state.playing) pause();
+  const d = SOUND.drone, t = Tone.now() + 0.4, sweep = 4;
+  audio.droneFilter.frequency.cancelScheduledValues(t);
+  audio.droneFilter.frequency.setValueAtTime(droneCutoff(0), t);
+  audio.droneFilter.frequency.linearRampToValueAtTime(droneCutoff(1), t + sweep);
+  audio.droneGain.gain.rampTo(d.level, d.fadeSeconds, t);
+  audio.droneGain.gain.rampTo(0, d.fadeSeconds, t + sweep);
+}
+
+renderChain();
+renderCards();
+renderNoteTable();
+renderTiming();
+let muResize = null;
+new ResizeObserver(() => {
+  clearTimeout(muResize);
+  muResize = setTimeout(() => renderWaveforms().catch(console.error), 150);
+}).observe(mu.voices);
+els.speed.addEventListener("change", () => renderWaveforms().catch(console.error));
 
 new ResizeObserver(resize).observe(els.canvas);
 
