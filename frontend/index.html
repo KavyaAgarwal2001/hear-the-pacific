@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hear the Pacific</title>
+  <meta name="description" content="75 years of El Niño and La Niña, played as music from NOAA ocean data.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="wrap">
+    <header>
+      <p class="eyebrow">ENSO sonification · 1950 – present</p>
+      <h1>Hear the Pacific</h1>
+      <p class="lede">
+        Each note is one season of tropical Pacific sea-surface temperature.
+        El Niño warmth rises in pitch; La Niña cold falls. Underneath, atmospheric
+        CO₂ measured at Mauna Loa slowly brightens a low drone.
+      </p>
+    </header>
+
+    <section class="readout" aria-live="polite">
+      <div class="stat"><span class="label">Season</span><span id="r-season" class="value">—</span></div>
+      <div class="stat"><span class="label">Niño-3.4 anomaly</span><span id="r-anom" class="value">—</span></div>
+      <div class="stat"><span class="label">Phase</span><span id="r-phase" class="value">—</span></div>
+      <div class="stat"><span class="label">CO₂ (Mauna Loa)</span><span id="r-co2" class="value">—</span></div>
+    </section>
+
+    <section class="chart-wrap">
+      <canvas id="chart" role="img"
+        aria-label="Bar chart of the Oceanic Niño Index from 1950 to present with a CO2 line overlay"></canvas>
+      <div id="tooltip" class="tooltip" hidden></div>
+      <p id="status" class="status">Loading NOAA data…</p>
+    </section>
+
+    <section class="controls">
+      <button id="play" class="primary" disabled>▶ Play</button>
+      <label>Speed
+        <select id="speed">
+          <option value="4">4 seasons / s</option>
+          <option value="8" selected>8 seasons / s</option>
+          <option value="16">16 seasons / s</option>
+        </select>
+      </label>
+      <label>Volume <input id="volume" type="range" min="-40" max="0" value="-10"></label>
+    </section>
+
+    <section class="jumps">
+      <span class="label">Jump to</span>
+      <div id="jumps" class="jump-list"></div>
+    </section>
+
+    <section class="legend">
+      <span><i class="sw warm"></i>Warm season (≥ +0.5 °C)</span>
+      <span><i class="sw cool"></i>Cool season (≤ −0.5 °C)</span>
+      <span><i class="sw neutral"></i>Neutral</span>
+      <span><i class="sw co2"></i>CO₂ (right axis)</span>
+    </section>
+
+    <section class="notes">
+      <div>
+        <h2>How it maps</h2>
+        <ul>
+          <li><b>Pitch</b> — the Oceanic Niño Index (3-month mean Niño-3.4 anomaly) mapped linearly from −3 °C to +3 °C onto a three-octave pentatonic scale. Higher is always warmer.</li>
+          <li><b>Timbre</b> — warm, cool and neutral seasons each have their own voice, using NOAA's ±0.5 °C thresholds.</li>
+          <li><b>Drone</b> — monthly CO₂ at Mauna Loa opens a filter as concentrations rise. It enters in 1958, when the record begins.</li>
+        </ul>
+      </div>
+      <div>
+        <h2>Limitations</h2>
+        <ul>
+          <li>Pitch is rounded to a scale, so seasons within ~0.2 °C can share a note. Hover the chart for exact values.</li>
+          <li>A single warm or cool season is not an El Niño or La Niña <i>episode</i>; NOAA requires five consecutive overlapping seasons.</li>
+          <li>The most recent values are preliminary and NOAA revises past values when base periods update.</li>
+          <li>The audio shows patterns. Use the numbers, not the sound, for any quantitative claim.</li>
+        </ul>
+      </div>
+    </section>
+
+    <footer>
+      Data: <a href="https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/ensostuff/ONI_v5.php">NOAA CPC Oceanic Niño Index (ERSSTv5)</a>
+      and <a href="https://gml.noaa.gov/ccgg/trends/">NOAA GML Mauna Loa CO₂</a>.
+      Data built <span id="generated">—</span>.
+      <a href="https://github.com/KavyaAgarwal2001/hear-the-pacific">Code and methods on GitHub</a>.
+    </footer>
+  </main>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tone/14.8.49/Tone.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

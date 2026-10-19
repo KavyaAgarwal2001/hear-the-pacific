@@ -1,0 +1,9219 @@
+{
+ "generated_at": "2026-10-19T03:33:03.209580+00:00",
+ "sources": {
+  "oni": "https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt",
+  "co2": "https://gml.noaa.gov/webdata/ccgg/trends/co2/co2_mm_mlo.csv"
+ },
+ "mapping": {
+  "oni_range_c": [
+   -3.0,
+   3.0
+  ],
+  "threshold_c": 0.5,
+  "scale": "pentatonic",
+  "base_midi": 48,
+  "octaves": 3
+ },
+ "notes": [
+  {
+   "year": 1950,
+   "season": "DJF",
+   "anomaly_c": -1.32,
+   "midi": 57,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": null,
+   "co2_level": null
+  },
+  {
+   "year": 1950,
+   "season": "JFM",
+   "anomaly_c": -1.2,
+   "midi": 57,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": null,
+   "co2_level": null
+  },
+  {
+   "year": 1950,
+   "season": "FMA",
+   "anomaly_c": -1.12,
+   "midi": 60,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": null,
+   "co2_level": null
+  },
+  {
+   "year": 1950,
+   "season": "MAM",
+   "anomaly_c": -1.08,
+   "midi": 60,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": null,
+   "co2_level": null
+  },
+  {
+   "year": 1950,
+   "season": "AMJ",
+   "anomaly_c": -1.1,
+   "midi": 60,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": null,
+   "co2_level": null
+  },
+  {
+   "year": 1950,
+   "season": "MJJ",
+   "anomaly_c": -0.9,
+   "midi": 60,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": null,
+   "co2_level": null
+  },
+  {
+   "year": 1950,
+   "season": "JJA",
+   "anomaly_c": -0.62,
+   "midi": 62,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": null,
+   "co2_level": null
+  },
+  {
+   "year": 1950,
+   "season": "JAS",
+   "anomaly_c": -0.57,
+   "midi": 62,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": null,
+   "co2_level": null
+  },
+  {
+   "year": 1950,
+   "season": "ASO",
+   "anomaly_c": -0.56,
+   "midi": 62,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": null,
+   "co2_level": null
+  },
+  {
+   "year": 1950,
+   "season": "SON",
+   "anomaly_c": -0.62,
+   "midi": 62,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": null,
+   "co2_level": null
+  },
+  {
+   "year": 1950,
+   "season": "OND",
+   "anomaly_c": -0.66,
+   "midi": 62,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": null,
+   "co2_level": null
+  },
+  {
+   "year": 1950,
+   "season": "NDJ",
+   "anomaly_c": -0.79,
+   "midi": 62,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": null,
+   "co2_level": null
+  },
+  {
+   "year": 1951,
+   "season": "DJF",
+   "anomaly_c": -0.66,
+   "midi": 62,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": null,
+   "co2_level": null
+  },
+  {
+   "year": 1951,
+   "season": "JFM",
+   "anomaly_c": -0.36,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": null,
+   "co2_level": null
+  },
+  {
+   "year": 1951,
+   "season": "FMA",
+   "anomaly_c": -0.04,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": null,
+   "co2_level": null
+  },
+  {
+   "year": 1951,
+   "season": "MAM",
+   "anomaly_c": 0.16,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": null,
+   "co2_level": null
+  },
+  {
+   "year": 1951,
+   "season": "AMJ",
+   "anomaly_c": 0.27,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": null,
+   "co2_level": null
+  },
+  {
+   "year": 1951,
+   "season": "MJJ",
+   "anomaly_c": 0.5,
+   "midi": 69,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": null,
+   "co2_level": null
+  },
+  {
+   "year": 1951,
+   "season": "JJA",
+   "anomaly_c": 0.71,
+   "midi": 69,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": null,
+   "co2_level": null
+  },
+  {
+   "year": 1951,
+   "season": "JAS",
+   "anomaly_c": 0.9,
+   "midi": 72,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": null,
+   "co2_level": null
+  },
+  {
+   "year": 1951,
+   "season": "ASO",
+   "anomaly_c": 1.02,
+   "midi": 72,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": null,
+   "co2_level": null
+  },
+  {
+   "year": 1951,
+   "season": "SON",
+   "anomaly_c": 1.03,
+   "midi": 72,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": null,
+   "co2_level": null
+  },
+  {
+   "year": 1951,
+   "season": "OND",
+   "anomaly_c": 0.96,
+   "midi": 72,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": null,
+   "co2_level": null
+  },
+  {
+   "year": 1951,
+   "season": "NDJ",
+   "anomaly_c": 0.71,
+   "midi": 69,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": null,
+   "co2_level": null
+  },
+  {
+   "year": 1952,
+   "season": "DJF",
+   "anomaly_c": 0.52,
+   "midi": 69,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": null,
+   "co2_level": null
+  },
+  {
+   "year": 1952,
+   "season": "JFM",
+   "anomaly_c": 0.27,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": null,
+   "co2_level": null
+  },
+  {
+   "year": 1952,
+   "season": "FMA",
+   "anomaly_c": 0.33,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": null,
+   "co2_level": null
+  },
+  {
+   "year": 1952,
+   "season": "MAM",
+   "anomaly_c": 0.18,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": null,
+   "co2_level": null
+  },
+  {
+   "year": 1952,
+   "season": "AMJ",
+   "anomaly_c": -0.07,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": null,
+   "co2_level": null
+  },
+  {
+   "year": 1952,
+   "season": "MJJ",
+   "anomaly_c": -0.44,
+   "midi": 62,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": null,
+   "co2_level": null
+  },
+  {
+   "year": 1952,
+   "season": "JJA",
+   "anomaly_c": -0.45,
+   "midi": 62,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": null,
+   "co2_level": null
+  },
+  {
+   "year": 1952,
+   "season": "JAS",
+   "anomaly_c": -0.2,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": null,
+   "co2_level": null
+  },
+  {
+   "year": 1952,
+   "season": "ASO",
+   "anomaly_c": 0.03,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": null,
+   "co2_level": null
+  },
+  {
+   "year": 1952,
+   "season": "SON",
+   "anomaly_c": 0.04,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": null,
+   "co2_level": null
+  },
+  {
+   "year": 1952,
+   "season": "OND",
+   "anomaly_c": -0.11,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": null,
+   "co2_level": null
+  },
+  {
+   "year": 1952,
+   "season": "NDJ",
+   "anomaly_c": 0.06,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": null,
+   "co2_level": null
+  },
+  {
+   "year": 1953,
+   "season": "DJF",
+   "anomaly_c": 0.25,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": null,
+   "co2_level": null
+  },
+  {
+   "year": 1953,
+   "season": "JFM",
+   "anomaly_c": 0.5,
+   "midi": 69,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": null,
+   "co2_level": null
+  },
+  {
+   "year": 1953,
+   "season": "FMA",
+   "anomaly_c": 0.48,
+   "midi": 69,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": null,
+   "co2_level": null
+  },
+  {
+   "year": 1953,
+   "season": "MAM",
+   "anomaly_c": 0.56,
+   "midi": 69,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": null,
+   "co2_level": null
+  },
+  {
+   "year": 1953,
+   "season": "AMJ",
+   "anomaly_c": 0.77,
+   "midi": 69,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": null,
+   "co2_level": null
+  },
+  {
+   "year": 1953,
+   "season": "MJJ",
+   "anomaly_c": 0.74,
+   "midi": 69,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": null,
+   "co2_level": null
+  },
+  {
+   "year": 1953,
+   "season": "JJA",
+   "anomaly_c": 0.63,
+   "midi": 69,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": null,
+   "co2_level": null
+  },
+  {
+   "year": 1953,
+   "season": "JAS",
+   "anomaly_c": 0.68,
+   "midi": 69,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": null,
+   "co2_level": null
+  },
+  {
+   "year": 1953,
+   "season": "ASO",
+   "anomaly_c": 0.59,
+   "midi": 69,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": null,
+   "co2_level": null
+  },
+  {
+   "year": 1953,
+   "season": "SON",
+   "anomaly_c": 0.78,
+   "midi": 69,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": null,
+   "co2_level": null
+  },
+  {
+   "year": 1953,
+   "season": "OND",
+   "anomaly_c": 0.52,
+   "midi": 69,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": null,
+   "co2_level": null
+  },
+  {
+   "year": 1953,
+   "season": "NDJ",
+   "anomaly_c": 0.56,
+   "midi": 69,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": null,
+   "co2_level": null
+  },
+  {
+   "year": 1954,
+   "season": "DJF",
+   "anomaly_c": 0.41,
+   "midi": 69,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": null,
+   "co2_level": null
+  },
+  {
+   "year": 1954,
+   "season": "JFM",
+   "anomaly_c": 0.35,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": null,
+   "co2_level": null
+  },
+  {
+   "year": 1954,
+   "season": "FMA",
+   "anomaly_c": 0.01,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": null,
+   "co2_level": null
+  },
+  {
+   "year": 1954,
+   "season": "MAM",
+   "anomaly_c": -0.27,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": null,
+   "co2_level": null
+  },
+  {
+   "year": 1954,
+   "season": "AMJ",
+   "anomaly_c": -0.48,
+   "midi": 62,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": null,
+   "co2_level": null
+  },
+  {
+   "year": 1954,
+   "season": "MJJ",
+   "anomaly_c": -0.48,
+   "midi": 62,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": null,
+   "co2_level": null
+  },
+  {
+   "year": 1954,
+   "season": "JJA",
+   "anomaly_c": -0.67,
+   "midi": 62,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": null,
+   "co2_level": null
+  },
+  {
+   "year": 1954,
+   "season": "JAS",
+   "anomaly_c": -0.83,
+   "midi": 60,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": null,
+   "co2_level": null
+  },
+  {
+   "year": 1954,
+   "season": "ASO",
+   "anomaly_c": -0.73,
+   "midi": 62,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": null,
+   "co2_level": null
+  },
+  {
+   "year": 1954,
+   "season": "SON",
+   "anomaly_c": -0.52,
+   "midi": 62,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": null,
+   "co2_level": null
+  },
+  {
+   "year": 1954,
+   "season": "OND",
+   "anomaly_c": -0.4,
+   "midi": 62,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": null,
+   "co2_level": null
+  },
+  {
+   "year": 1954,
+   "season": "NDJ",
+   "anomaly_c": -0.44,
+   "midi": 62,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": null,
+   "co2_level": null
+  },
+  {
+   "year": 1955,
+   "season": "DJF",
+   "anomaly_c": -0.5,
+   "midi": 62,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": null,
+   "co2_level": null
+  },
+  {
+   "year": 1955,
+   "season": "JFM",
+   "anomaly_c": -0.48,
+   "midi": 62,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": null,
+   "co2_level": null
+  },
+  {
+   "year": 1955,
+   "season": "FMA",
+   "anomaly_c": -0.58,
+   "midi": 62,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": null,
+   "co2_level": null
+  },
+  {
+   "year": 1955,
+   "season": "MAM",
+   "anomaly_c": -0.76,
+   "midi": 62,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": null,
+   "co2_level": null
+  },
+  {
+   "year": 1955,
+   "season": "AMJ",
+   "anomaly_c": -0.78,
+   "midi": 62,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": null,
+   "co2_level": null
+  },
+  {
+   "year": 1955,
+   "season": "MJJ",
+   "anomaly_c": -0.88,
+   "midi": 60,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": null,
+   "co2_level": null
+  },
+  {
+   "year": 1955,
+   "season": "JJA",
+   "anomaly_c": -0.72,
+   "midi": 62,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": null,
+   "co2_level": null
+  },
+  {
+   "year": 1955,
+   "season": "JAS",
+   "anomaly_c": -0.92,
+   "midi": 60,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": null,
+   "co2_level": null
+  },
+  {
+   "year": 1955,
+   "season": "ASO",
+   "anomaly_c": -1.11,
+   "midi": 60,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": null,
+   "co2_level": null
+  },
+  {
+   "year": 1955,
+   "season": "SON",
+   "anomaly_c": -1.44,
+   "midi": 57,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": null,
+   "co2_level": null
+  },
+  {
+   "year": 1955,
+   "season": "OND",
+   "anomaly_c": -1.59,
+   "midi": 57,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": null,
+   "co2_level": null
+  },
+  {
+   "year": 1955,
+   "season": "NDJ",
+   "anomaly_c": -1.51,
+   "midi": 57,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": null,
+   "co2_level": null
+  },
+  {
+   "year": 1956,
+   "season": "DJF",
+   "anomaly_c": -1.17,
+   "midi": 60,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": null,
+   "co2_level": null
+  },
+  {
+   "year": 1956,
+   "season": "JFM",
+   "anomaly_c": -0.81,
+   "midi": 60,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": null,
+   "co2_level": null
+  },
+  {
+   "year": 1956,
+   "season": "FMA",
+   "anomaly_c": -0.57,
+   "midi": 62,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": null,
+   "co2_level": null
+  },
+  {
+   "year": 1956,
+   "season": "MAM",
+   "anomaly_c": -0.51,
+   "midi": 62,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": null,
+   "co2_level": null
+  },
+  {
+   "year": 1956,
+   "season": "AMJ",
+   "anomaly_c": -0.49,
+   "midi": 62,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": null,
+   "co2_level": null
+  },
+  {
+   "year": 1956,
+   "season": "MJJ",
+   "anomaly_c": -0.47,
+   "midi": 62,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": null,
+   "co2_level": null
+  },
+  {
+   "year": 1956,
+   "season": "JJA",
+   "anomaly_c": -0.55,
+   "midi": 62,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": null,
+   "co2_level": null
+  },
+  {
+   "year": 1956,
+   "season": "JAS",
+   "anomaly_c": -0.52,
+   "midi": 62,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": null,
+   "co2_level": null
+  },
+  {
+   "year": 1956,
+   "season": "ASO",
+   "anomaly_c": -0.43,
+   "midi": 62,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": null,
+   "co2_level": null
+  },
+  {
+   "year": 1956,
+   "season": "SON",
+   "anomaly_c": -0.39,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": null,
+   "co2_level": null
+  },
+  {
+   "year": 1956,
+   "season": "OND",
+   "anomaly_c": -0.37,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": null,
+   "co2_level": null
+  },
+  {
+   "year": 1956,
+   "season": "NDJ",
+   "anomaly_c": -0.39,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": null,
+   "co2_level": null
+  },
+  {
+   "year": 1957,
+   "season": "DJF",
+   "anomaly_c": -0.27,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": null,
+   "co2_level": null
+  },
+  {
+   "year": 1957,
+   "season": "JFM",
+   "anomaly_c": -0.06,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": null,
+   "co2_level": null
+  },
+  {
+   "year": 1957,
+   "season": "FMA",
+   "anomaly_c": 0.26,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": null,
+   "co2_level": null
+  },
+  {
+   "year": 1957,
+   "season": "MAM",
+   "anomaly_c": 0.63,
+   "midi": 69,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": null,
+   "co2_level": null
+  },
+  {
+   "year": 1957,
+   "season": "AMJ",
+   "anomaly_c": 0.72,
+   "midi": 69,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": null,
+   "co2_level": null
+  },
+  {
+   "year": 1957,
+   "season": "MJJ",
+   "anomaly_c": 0.82,
+   "midi": 72,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": null,
+   "co2_level": null
+  },
+  {
+   "year": 1957,
+   "season": "JJA",
+   "anomaly_c": 0.96,
+   "midi": 72,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": null,
+   "co2_level": null
+  },
+  {
+   "year": 1957,
+   "season": "JAS",
+   "anomaly_c": 1.03,
+   "midi": 72,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": null,
+   "co2_level": null
+  },
+  {
+   "year": 1957,
+   "season": "ASO",
+   "anomaly_c": 1.12,
+   "midi": 72,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": null,
+   "co2_level": null
+  },
+  {
+   "year": 1957,
+   "season": "SON",
+   "anomaly_c": 1.15,
+   "midi": 72,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": null,
+   "co2_level": null
+  },
+  {
+   "year": 1957,
+   "season": "OND",
+   "anomaly_c": 1.39,
+   "midi": 74,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": null,
+   "co2_level": null
+  },
+  {
+   "year": 1957,
+   "season": "NDJ",
+   "anomaly_c": 1.62,
+   "midi": 76,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": null,
+   "co2_level": null
+  },
+  {
+   "year": 1958,
+   "season": "DJF",
+   "anomaly_c": 1.69,
+   "midi": 76,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": null,
+   "co2_level": null
+  },
+  {
+   "year": 1958,
+   "season": "JFM",
+   "anomaly_c": 1.59,
+   "midi": 74,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": null,
+   "co2_level": null
+  },
+  {
+   "year": 1958,
+   "season": "FMA",
+   "anomaly_c": 1.17,
+   "midi": 72,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 315.71,
+   "co2_level": 0.02743495663775821
+  },
+  {
+   "year": 1958,
+   "season": "MAM",
+   "anomaly_c": 0.84,
+   "midi": 72,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 317.45,
+   "co2_level": 0.041944629753168566
+  },
+  {
+   "year": 1958,
+   "season": "AMJ",
+   "anomaly_c": 0.57,
+   "midi": 69,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 317.51,
+   "co2_level": 0.04244496330887239
+  },
+  {
+   "year": 1958,
+   "season": "MJJ",
+   "anomaly_c": 0.49,
+   "midi": 69,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 317.27,
+   "co2_level": 0.0404436290860571
+  },
+  {
+   "year": 1958,
+   "season": "JJA",
+   "anomaly_c": 0.43,
+   "midi": 69,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 315.87,
+   "co2_level": 0.02876917945296856
+  },
+  {
+   "year": 1958,
+   "season": "JAS",
+   "anomaly_c": 0.32,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 314.93,
+   "co2_level": 0.020930620413609005
+  },
+  {
+   "year": 1958,
+   "season": "ASO",
+   "anomaly_c": 0.28,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 313.21,
+   "co2_level": 0.006587725150099766
+  },
+  {
+   "year": 1958,
+   "season": "SON",
+   "anomaly_c": 0.3,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 312.42,
+   "co2_level": 0.0
+  },
+  {
+   "year": 1958,
+   "season": "OND",
+   "anomaly_c": 0.36,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 313.33,
+   "co2_level": 0.007588392261507409
+  },
+  {
+   "year": 1958,
+   "season": "NDJ",
+   "anomaly_c": 0.56,
+   "midi": 69,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 314.67,
+   "co2_level": 0.018762508338892602
+  },
+  {
+   "year": 1959,
+   "season": "DJF",
+   "anomaly_c": 0.6,
+   "midi": 69,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 315.58,
+   "co2_level": 0.02635090060040001
+  },
+  {
+   "year": 1959,
+   "season": "JFM",
+   "anomaly_c": 0.64,
+   "midi": 69,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 316.49,
+   "co2_level": 0.033939292861907895
+  },
+  {
+   "year": 1959,
+   "season": "FMA",
+   "anomaly_c": 0.48,
+   "midi": 69,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 316.65,
+   "co2_level": 0.03527351567711777
+  },
+  {
+   "year": 1959,
+   "season": "MAM",
+   "anomaly_c": 0.39,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 317.72,
+   "co2_level": 0.044196130753836
+  },
+  {
+   "year": 1959,
+   "season": "AMJ",
+   "anomaly_c": 0.24,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 318.29,
+   "co2_level": 0.04894929953302207
+  },
+  {
+   "year": 1959,
+   "season": "MJJ",
+   "anomaly_c": 0.02,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 318.15,
+   "co2_level": 0.04778185456971284
+  },
+  {
+   "year": 1959,
+   "season": "JJA",
+   "anomaly_c": -0.19,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 316.54,
+   "co2_level": 0.034356237491661154
+  },
+  {
+   "year": 1959,
+   "season": "JAS",
+   "anomaly_c": -0.23,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 314.8,
+   "co2_level": 0.019846564376250802
+  },
+  {
+   "year": 1959,
+   "season": "ASO",
+   "anomaly_c": -0.04,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 313.84,
+   "co2_level": 0.011841227484989655
+  },
+  {
+   "year": 1959,
+   "season": "SON",
+   "anomaly_c": 0.11,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 313.33,
+   "co2_level": 0.007588392261507409
+  },
+  {
+   "year": 1959,
+   "season": "OND",
+   "anomaly_c": 0.23,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 314.81,
+   "co2_level": 0.01992995330220136
+  },
+  {
+   "year": 1959,
+   "season": "NDJ",
+   "anomaly_c": 0.14,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 315.58,
+   "co2_level": 0.02635090060040001
+  },
+  {
+   "year": 1960,
+   "season": "DJF",
+   "anomaly_c": 0.02,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 316.43,
+   "co2_level": 0.03343895930620407
+  },
+  {
+   "year": 1960,
+   "season": "JFM",
+   "anomaly_c": 0.03,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 316.98,
+   "co2_level": 0.038025350233489026
+  },
+  {
+   "year": 1960,
+   "season": "FMA",
+   "anomaly_c": 0.06,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 317.58,
+   "co2_level": 0.043028685790526766
+  },
+  {
+   "year": 1960,
+   "season": "MAM",
+   "anomaly_c": 0.17,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 319.03,
+   "co2_level": 0.05512008005336857
+  },
+  {
+   "year": 1960,
+   "season": "AMJ",
+   "anomaly_c": 0.04,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 320.03,
+   "co2_level": 0.06345897264843195
+  },
+  {
+   "year": 1960,
+   "season": "MJJ",
+   "anomaly_c": 0.0,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 319.58,
+   "co2_level": 0.05970647098065352
+  },
+  {
+   "year": 1960,
+   "season": "JJA",
+   "anomaly_c": 0.01,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 318.18,
+   "co2_level": 0.048032021347564985
+  },
+  {
+   "year": 1960,
+   "season": "JAS",
+   "anomaly_c": 0.15,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 315.9,
+   "co2_level": 0.029019346230820236
+  },
+  {
+   "year": 1960,
+   "season": "ASO",
+   "anomaly_c": 0.19,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 314.17,
+   "co2_level": 0.014593062041360912
+  },
+  {
+   "year": 1960,
+   "season": "SON",
+   "anomaly_c": 0.08,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 313.83,
+   "co2_level": 0.011757838559039098
+  },
+  {
+   "year": 1960,
+   "season": "OND",
+   "anomaly_c": -0.07,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 315.0,
+   "co2_level": 0.021514342895263383
+  },
+  {
+   "year": 1960,
+   "season": "NDJ",
+   "anomaly_c": -0.07,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 316.19,
+   "co2_level": 0.031437625083388786
+  },
+  {
+   "year": 1961,
+   "season": "DJF",
+   "anomaly_c": 0.0,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 316.89,
+   "co2_level": 0.03727484989993306
+  },
+  {
+   "year": 1961,
+   "season": "JFM",
+   "anomaly_c": 0.03,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 317.7,
+   "co2_level": 0.04402935290193441
+  },
+  {
+   "year": 1961,
+   "season": "FMA",
+   "anomaly_c": 0.01,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 318.54,
+   "co2_level": 0.051034022681787916
+  },
+  {
+   "year": 1961,
+   "season": "MAM",
+   "anomaly_c": 0.05,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 319.48,
+   "co2_level": 0.05887258172114747
+  },
+  {
+   "year": 1961,
+   "season": "AMJ",
+   "anomaly_c": 0.22,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 320.58,
+   "co2_level": 0.0680453635757169
+  },
+  {
+   "year": 1961,
+   "season": "MJJ",
+   "anomaly_c": 0.22,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 319.77,
+   "co2_level": 0.06129086057371555
+  },
+  {
+   "year": 1961,
+   "season": "JJA",
+   "anomaly_c": 0.08,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 318.56,
+   "co2_level": 0.05120080053368903
+  },
+  {
+   "year": 1961,
+   "season": "JAS",
+   "anomaly_c": -0.2,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 316.79,
+   "co2_level": 0.036440960640427005
+  },
+  {
+   "year": 1961,
+   "season": "ASO",
+   "anomaly_c": -0.32,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 314.99,
+   "co2_level": 0.021430953969312827
+  },
+  {
+   "year": 1961,
+   "season": "SON",
+   "anomaly_c": -0.22,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 315.31,
+   "co2_level": 0.02409939959973305
+  },
+  {
+   "year": 1961,
+   "season": "OND",
+   "anomaly_c": -0.11,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 316.1,
+   "co2_level": 0.03068712474983329
+  },
+  {
+   "year": 1961,
+   "season": "NDJ",
+   "anomaly_c": -0.05,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 317.01,
+   "co2_level": 0.0382755170113407
+  },
+  {
+   "year": 1962,
+   "season": "DJF",
+   "anomaly_c": -0.16,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 317.94,
+   "co2_level": 0.0460306871247497
+  },
+  {
+   "year": 1962,
+   "season": "JFM",
+   "anomaly_c": -0.17,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 318.55,
+   "co2_level": 0.05111741160773847
+  },
+  {
+   "year": 1962,
+   "season": "FMA",
+   "anomaly_c": -0.15,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 319.68,
+   "co2_level": 0.06054036024016005
+  },
+  {
+   "year": 1962,
+   "season": "MAM",
+   "anomaly_c": -0.2,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 320.57,
+   "co2_level": 0.06796197464976635
+  },
+  {
+   "year": 1962,
+   "season": "AMJ",
+   "anomaly_c": -0.19,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 321.02,
+   "co2_level": 0.07171447631754477
+  },
+  {
+   "year": 1962,
+   "season": "MJJ",
+   "anomaly_c": -0.13,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 320.62,
+   "co2_level": 0.06837891927951961
+  },
+  {
+   "year": 1962,
+   "season": "JJA",
+   "anomaly_c": 0.0,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 319.61,
+   "co2_level": 0.059956637758505675
+  },
+  {
+   "year": 1962,
+   "season": "JAS",
+   "anomaly_c": -0.1,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 317.4,
+   "co2_level": 0.0415276851234153
+  },
+  {
+   "year": 1962,
+   "season": "ASO",
+   "anomaly_c": -0.16,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 316.24,
+   "co2_level": 0.03185456971314205
+  },
+  {
+   "year": 1962,
+   "season": "SON",
+   "anomaly_c": -0.25,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 315.42,
+   "co2_level": 0.025016677785190136
+  },
+  {
+   "year": 1962,
+   "season": "OND",
+   "anomaly_c": -0.25,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 316.69,
+   "co2_level": 0.03560707138092047
+  },
+  {
+   "year": 1962,
+   "season": "NDJ",
+   "anomaly_c": -0.32,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 317.7,
+   "co2_level": 0.04402935290193441
+  },
+  {
+   "year": 1963,
+   "season": "DJF",
+   "anomaly_c": -0.33,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 318.74,
+   "co2_level": 0.052701801200800494
+  },
+  {
+   "year": 1963,
+   "season": "JFM",
+   "anomaly_c": -0.17,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 319.07,
+   "co2_level": 0.05545363575717128
+  },
+  {
+   "year": 1963,
+   "season": "FMA",
+   "anomaly_c": 0.01,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 319.86,
+   "co2_level": 0.06204136090727152
+  },
+  {
+   "year": 1963,
+   "season": "MAM",
+   "anomaly_c": 0.13,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 321.38,
+   "co2_level": 0.0747164776517677
+  },
+  {
+   "year": 1963,
+   "season": "AMJ",
+   "anomaly_c": 0.12,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 322.24,
+   "co2_level": 0.08188792528352232
+  },
+  {
+   "year": 1963,
+   "season": "MJJ",
+   "anomaly_c": 0.45,
+   "midi": 69,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 321.49,
+   "co2_level": 0.07563375583722479
+  },
+  {
+   "year": 1963,
+   "season": "JJA",
+   "anomaly_c": 0.76,
+   "midi": 69,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 319.74,
+   "co2_level": 0.061040693795863875
+  },
+  {
+   "year": 1963,
+   "season": "JAS",
+   "anomaly_c": 1.09,
+   "midi": 72,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 317.77,
+   "co2_level": 0.04461307538358879
+  },
+  {
+   "year": 1963,
+   "season": "ASO",
+   "anomaly_c": 1.09,
+   "midi": 72,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 316.21,
+   "co2_level": 0.0316044029352899
+  },
+  {
+   "year": 1963,
+   "season": "SON",
+   "anomaly_c": 1.13,
+   "midi": 72,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 315.99,
+   "co2_level": 0.029769846564376205
+  },
+  {
+   "year": 1963,
+   "season": "OND",
+   "anomaly_c": 1.19,
+   "midi": 72,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 317.07,
+   "co2_level": 0.03877585056704452
+  },
+  {
+   "year": 1963,
+   "season": "NDJ",
+   "anomaly_c": 1.13,
+   "midi": 72,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 318.35,
+   "co2_level": 0.04944963308872589
+  },
+  {
+   "year": 1964,
+   "season": "DJF",
+   "anomaly_c": 0.95,
+   "midi": 72,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 319.57,
+   "co2_level": 0.059623082054702965
+  },
+  {
+   "year": 1964,
+   "season": "JFM",
+   "anomaly_c": 0.52,
+   "midi": 69,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 320.04,
+   "co2_level": 0.06354236157438298
+  },
+  {
+   "year": 1964,
+   "season": "FMA",
+   "anomaly_c": 0.06,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 320.75,
+   "co2_level": 0.06946297531687781
+  },
+  {
+   "year": 1964,
+   "season": "MAM",
+   "anomaly_c": -0.35,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 321.84,
+   "co2_level": 0.07855236824549669
+  },
+  {
+   "year": 1964,
+   "season": "AMJ",
+   "anomaly_c": -0.6,
+   "midi": 62,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 322.25,
+   "co2_level": 0.08197131420947287
+  },
+  {
+   "year": 1964,
+   "season": "MJJ",
+   "anomaly_c": -0.66,
+   "midi": 62,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 321.89,
+   "co2_level": 0.07896931287524994
+  },
+  {
+   "year": 1964,
+   "season": "JJA",
+   "anomaly_c": -0.67,
+   "midi": 62,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 320.44,
+   "co2_level": 0.06687791861240815
+  },
+  {
+   "year": 1964,
+   "season": "JAS",
+   "anomaly_c": -0.7,
+   "midi": 62,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 318.69,
+   "co2_level": 0.05228485657104723
+  },
+  {
+   "year": 1964,
+   "season": "ASO",
+   "anomaly_c": -0.72,
+   "midi": 62,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 316.71,
+   "co2_level": 0.03577384923282159
+  },
+  {
+   "year": 1964,
+   "season": "SON",
+   "anomaly_c": -0.8,
+   "midi": 62,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 316.87,
+   "co2_level": 0.03710807204803194
+  },
+  {
+   "year": 1964,
+   "season": "OND",
+   "anomaly_c": -0.79,
+   "midi": 62,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 317.68,
+   "co2_level": 0.0438625750500333
+  },
+  {
+   "year": 1964,
+   "season": "NDJ",
+   "anomaly_c": -0.75,
+   "midi": 62,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 318.71,
+   "co2_level": 0.05245163442294835
+  },
+  {
+   "year": 1965,
+   "season": "DJF",
+   "anomaly_c": -0.51,
+   "midi": 62,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 319.44,
+   "co2_level": 0.058539026017344765
+  },
+  {
+   "year": 1965,
+   "season": "JFM",
+   "anomaly_c": -0.25,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 320.44,
+   "co2_level": 0.06687791861240815
+  },
+  {
+   "year": 1965,
+   "season": "FMA",
+   "anomaly_c": -0.04,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 320.89,
+   "co2_level": 0.07063042028018657
+  },
+  {
+   "year": 1965,
+   "season": "MAM",
+   "anomaly_c": 0.16,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 322.14,
+   "co2_level": 0.08105403602401579
+  },
+  {
+   "year": 1965,
+   "season": "AMJ",
+   "anomaly_c": 0.47,
+   "midi": 69,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 322.17,
+   "co2_level": 0.08130420280186794
+  },
+  {
+   "year": 1965,
+   "season": "MJJ",
+   "anomaly_c": 0.79,
+   "midi": 69,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 321.87,
+   "co2_level": 0.07880253502334883
+  },
+  {
+   "year": 1965,
+   "season": "JJA",
+   "anomaly_c": 1.1,
+   "midi": 72,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 321.21,
+   "co2_level": 0.07329886591060679
+  },
+  {
+   "year": 1965,
+   "season": "JAS",
+   "anomaly_c": 1.27,
+   "midi": 74,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 318.87,
+   "co2_level": 0.053785857238158694
+  },
+  {
+   "year": 1965,
+   "season": "ASO",
+   "anomaly_c": 1.55,
+   "midi": 74,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 317.82,
+   "co2_level": 0.045030020013342054
+  },
+  {
+   "year": 1965,
+   "season": "SON",
+   "anomaly_c": 1.7,
+   "midi": 76,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 317.3,
+   "co2_level": 0.04069379586390925
+  },
+  {
+   "year": 1965,
+   "season": "OND",
+   "anomaly_c": 1.82,
+   "midi": 76,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 318.87,
+   "co2_level": 0.053785857238158694
+  },
+  {
+   "year": 1965,
+   "season": "NDJ",
+   "anomaly_c": 1.6,
+   "midi": 76,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 319.42,
+   "co2_level": 0.058372248165443646
+  },
+  {
+   "year": 1966,
+   "season": "DJF",
+   "anomaly_c": 1.24,
+   "midi": 74,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 320.62,
+   "co2_level": 0.06837891927951961
+  },
+  {
+   "year": 1966,
+   "season": "JFM",
+   "anomaly_c": 0.95,
+   "midi": 72,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 321.6,
+   "co2_level": 0.07655103402268187
+  },
+  {
+   "year": 1966,
+   "season": "FMA",
+   "anomaly_c": 0.76,
+   "midi": 69,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 322.39,
+   "co2_level": 0.08313875917278164
+  },
+  {
+   "year": 1966,
+   "season": "MAM",
+   "anomaly_c": 0.43,
+   "midi": 69,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 323.7,
+   "co2_level": 0.09406270847231468
+  },
+  {
+   "year": 1966,
+   "season": "AMJ",
+   "anomaly_c": 0.24,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 324.08,
+   "co2_level": 0.09723148765843873
+  },
+  {
+   "year": 1966,
+   "season": "MJJ",
+   "anomaly_c": 0.18,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 323.75,
+   "co2_level": 0.09447965310206795
+  },
+  {
+   "year": 1966,
+   "season": "JJA",
+   "anomaly_c": 0.25,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 322.37,
+   "co2_level": 0.08297198132088052
+  },
+  {
+   "year": 1966,
+   "season": "JAS",
+   "anomaly_c": 0.13,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 320.36,
+   "co2_level": 0.06621080720480321
+  },
+  {
+   "year": 1966,
+   "season": "ASO",
+   "anomaly_c": -0.09,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 318.64,
+   "co2_level": 0.05186791194129397
+  },
+  {
+   "year": 1966,
+   "season": "SON",
+   "anomaly_c": -0.12,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 318.1,
+   "co2_level": 0.047364909939960044
+  },
+  {
+   "year": 1966,
+   "season": "OND",
+   "anomaly_c": -0.23,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 319.78,
+   "co2_level": 0.061374249499666106
+  },
+  {
+   "year": 1966,
+   "season": "NDJ",
+   "anomaly_c": -0.35,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 321.02,
+   "co2_level": 0.07171447631754477
+  },
+  {
+   "year": 1967,
+   "season": "DJF",
+   "anomaly_c": -0.46,
+   "midi": 62,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 322.33,
+   "co2_level": 0.08263842561707782
+  },
+  {
+   "year": 1967,
+   "season": "JFM",
+   "anomaly_c": -0.48,
+   "midi": 62,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 322.5,
+   "co2_level": 0.08405603735823872
+  },
+  {
+   "year": 1967,
+   "season": "FMA",
+   "anomaly_c": -0.5,
+   "midi": 62,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 323.03,
+   "co2_level": 0.08847565043362209
+  },
+  {
+   "year": 1967,
+   "season": "MAM",
+   "anomaly_c": -0.37,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 324.41,
+   "co2_level": 0.09998332221480999
+  },
+  {
+   "year": 1967,
+   "season": "AMJ",
+   "anomaly_c": -0.15,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 325.0,
+   "co2_level": 0.10490326884589717
+  },
+  {
+   "year": 1967,
+   "season": "MJJ",
+   "anomaly_c": 0.05,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 324.09,
+   "co2_level": 0.09731487658438928
+  },
+  {
+   "year": 1967,
+   "season": "JJA",
+   "anomaly_c": -0.02,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 322.54,
+   "co2_level": 0.08438959306204143
+  },
+  {
+   "year": 1967,
+   "season": "JAS",
+   "anomaly_c": -0.26,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 320.92,
+   "co2_level": 0.07088058705803872
+  },
+  {
+   "year": 1967,
+   "season": "ASO",
+   "anomaly_c": -0.4,
+   "midi": 62,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 319.25,
+   "co2_level": 0.056954636424282744
+  },
+  {
+   "year": 1967,
+   "season": "SON",
+   "anomaly_c": -0.4,
+   "midi": 62,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 319.39,
+   "co2_level": 0.0581220813875915
+  },
+  {
+   "year": 1967,
+   "season": "OND",
+   "anomaly_c": -0.36,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 320.73,
+   "co2_level": 0.0692961974649767
+  },
+  {
+   "year": 1967,
+   "season": "NDJ",
+   "anomaly_c": -0.42,
+   "midi": 62,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 321.96,
+   "co2_level": 0.07955303535690433
+  },
+  {
+   "year": 1968,
+   "season": "DJF",
+   "anomaly_c": -0.62,
+   "midi": 62,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 322.57,
+   "co2_level": 0.08463975983989311
+  },
+  {
+   "year": 1968,
+   "season": "JFM",
+   "anomaly_c": -0.73,
+   "midi": 62,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 323.15,
+   "co2_level": 0.08947631754502973
+  },
+  {
+   "year": 1968,
+   "season": "FMA",
+   "anomaly_c": -0.63,
+   "midi": 62,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 323.89,
+   "co2_level": 0.0956470980653767
+  },
+  {
+   "year": 1968,
+   "season": "MAM",
+   "anomaly_c": -0.48,
+   "midi": 62,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 325.02,
+   "co2_level": 0.10507004669779828
+  },
+  {
+   "year": 1968,
+   "season": "AMJ",
+   "anomaly_c": -0.1,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 325.57,
+   "co2_level": 0.10965643762508323
+  },
+  {
+   "year": 1968,
+   "season": "MJJ",
+   "anomaly_c": 0.17,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 325.36,
+   "co2_level": 0.1079052701801201
+  },
+  {
+   "year": 1968,
+   "season": "JJA",
+   "anomaly_c": 0.44,
+   "midi": 69,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 324.14,
+   "co2_level": 0.09773182121414255
+  },
+  {
+   "year": 1968,
+   "season": "JAS",
+   "anomaly_c": 0.38,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 322.11,
+   "co2_level": 0.08080386924616412
+  },
+  {
+   "year": 1968,
+   "season": "ASO",
+   "anomaly_c": 0.34,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 320.33,
+   "co2_level": 0.06596064042695106
+  },
+  {
+   "year": 1968,
+   "season": "SON",
+   "anomaly_c": 0.5,
+   "midi": 69,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 320.25,
+   "co2_level": 0.06529352901934612
+  },
+  {
+   "year": 1968,
+   "season": "OND",
+   "anomaly_c": 0.66,
+   "midi": 69,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 321.32,
+   "co2_level": 0.07421614409606388
+  },
+  {
+   "year": 1968,
+   "season": "NDJ",
+   "anomaly_c": 0.93,
+   "midi": 72,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 322.89,
+   "co2_level": 0.08730820547031333
+  },
+  {
+   "year": 1969,
+   "season": "DJF",
+   "anomaly_c": 0.98,
+   "midi": 72,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 324.0,
+   "co2_level": 0.09656437625083379
+  },
+  {
+   "year": 1969,
+   "season": "JFM",
+   "anomaly_c": 0.98,
+   "midi": 72,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 324.41,
+   "co2_level": 0.09998332221480999
+  },
+  {
+   "year": 1969,
+   "season": "FMA",
+   "anomaly_c": 0.77,
+   "midi": 69,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 325.63,
+   "co2_level": 0.11015677118078705
+  },
+  {
+   "year": 1969,
+   "season": "MAM",
+   "anomaly_c": 0.69,
+   "midi": 69,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 326.66,
+   "co2_level": 0.11874583055370258
+  },
+  {
+   "year": 1969,
+   "season": "AMJ",
+   "anomaly_c": 0.62,
+   "midi": 69,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 327.38,
+   "co2_level": 0.12474983322214797
+  },
+  {
+   "year": 1969,
+   "season": "MJJ",
+   "anomaly_c": 0.48,
+   "midi": 69,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 326.71,
+   "co2_level": 0.11916277518345537
+  },
+  {
+   "year": 1969,
+   "season": "JJA",
+   "anomaly_c": 0.37,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 325.88,
+   "co2_level": 0.11224149432955291
+  },
+  {
+   "year": 1969,
+   "season": "JAS",
+   "anomaly_c": 0.41,
+   "midi": 69,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 323.66,
+   "co2_level": 0.09372915276851244
+  },
+  {
+   "year": 1969,
+   "season": "ASO",
+   "anomaly_c": 0.61,
+   "midi": 69,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 322.38,
+   "co2_level": 0.08305537024683107
+  },
+  {
+   "year": 1969,
+   "season": "SON",
+   "anomaly_c": 0.71,
+   "midi": 69,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 321.78,
+   "co2_level": 0.07805203468979287
+  },
+  {
+   "year": 1969,
+   "season": "OND",
+   "anomaly_c": 0.81,
+   "midi": 72,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 322.85,
+   "co2_level": 0.08697464976651109
+  },
+  {
+   "year": 1969,
+   "season": "NDJ",
+   "anomaly_c": 0.71,
+   "midi": 69,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 324.11,
+   "co2_level": 0.09748165443629088
+  },
+  {
+   "year": 1970,
+   "season": "DJF",
+   "anomaly_c": 0.46,
+   "midi": 69,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 325.06,
+   "co2_level": 0.10540360240160099
+  },
+  {
+   "year": 1970,
+   "season": "JFM",
+   "anomaly_c": 0.23,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 325.99,
+   "co2_level": 0.11315877251500998
+  },
+  {
+   "year": 1970,
+   "season": "FMA",
+   "anomaly_c": 0.23,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 326.93,
+   "co2_level": 0.12099733155436955
+  },
+  {
+   "year": 1970,
+   "season": "MAM",
+   "anomaly_c": 0.28,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 328.13,
+   "co2_level": 0.1310040026684455
+  },
+  {
+   "year": 1970,
+   "season": "AMJ",
+   "anomaly_c": 0.11,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 328.08,
+   "co2_level": 0.13058705803869225
+  },
+  {
+   "year": 1970,
+   "season": "MJJ",
+   "anomaly_c": -0.26,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 327.67,
+   "co2_level": 0.1271681120747165
+  },
+  {
+   "year": 1970,
+   "season": "JJA",
+   "anomaly_c": -0.55,
+   "midi": 62,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 326.34,
+   "co2_level": 0.11607738492328189
+  },
+  {
+   "year": 1970,
+   "season": "JAS",
+   "anomaly_c": -0.72,
+   "midi": 62,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 324.68,
+   "co2_level": 0.10223482321547694
+  },
+  {
+   "year": 1970,
+   "season": "ASO",
+   "anomaly_c": -0.69,
+   "midi": 62,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 323.1,
+   "co2_level": 0.08905937291527694
+  },
+  {
+   "year": 1970,
+   "season": "SON",
+   "anomaly_c": -0.72,
+   "midi": 62,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 323.06,
+   "co2_level": 0.08872581721147424
+  },
+  {
+   "year": 1970,
+   "season": "OND",
+   "anomaly_c": -0.78,
+   "midi": 62,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 324.01,
+   "co2_level": 0.09664776517678435
+  },
+  {
+   "year": 1970,
+   "season": "NDJ",
+   "anomaly_c": -1.1,
+   "midi": 60,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 325.13,
+   "co2_level": 0.10598732488325537
+  },
+  {
+   "year": 1971,
+   "season": "DJF",
+   "anomaly_c": -1.29,
+   "midi": 57,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 326.17,
+   "co2_level": 0.11465977318212145
+  },
+  {
+   "year": 1971,
+   "season": "JFM",
+   "anomaly_c": -1.36,
+   "midi": 57,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 326.69,
+   "co2_level": 0.11899599733155426
+  },
+  {
+   "year": 1971,
+   "season": "FMA",
+   "anomaly_c": -1.08,
+   "midi": 60,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 327.18,
+   "co2_level": 0.1230820547031354
+  },
+  {
+   "year": 1971,
+   "season": "MAM",
+   "anomaly_c": -0.81,
+   "midi": 60,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 327.78,
+   "co2_level": 0.12808539026017313
+  },
+  {
+   "year": 1971,
+   "season": "AMJ",
+   "anomaly_c": -0.72,
+   "midi": 62,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 328.93,
+   "co2_level": 0.1376751167444963
+  },
+  {
+   "year": 1971,
+   "season": "MJJ",
+   "anomaly_c": -0.69,
+   "midi": 62,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 328.57,
+   "co2_level": 0.13467311541027338
+  },
+  {
+   "year": 1971,
+   "season": "JJA",
+   "anomaly_c": -0.68,
+   "midi": 62,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 327.36,
+   "co2_level": 0.12458305537024686
+  },
+  {
+   "year": 1971,
+   "season": "JAS",
+   "anomaly_c": -0.6,
+   "midi": 62,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 325.43,
+   "co2_level": 0.10848899266177447
+  },
+  {
+   "year": 1971,
+   "season": "ASO",
+   "anomaly_c": -0.68,
+   "midi": 62,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 323.36,
+   "co2_level": 0.09122748498999333
+  },
+  {
+   "year": 1971,
+   "season": "SON",
+   "anomaly_c": -0.78,
+   "midi": 62,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 323.56,
+   "co2_level": 0.09289526350900593
+  },
+  {
+   "year": 1971,
+   "season": "OND",
+   "anomaly_c": -0.86,
+   "midi": 60,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 324.8,
+   "co2_level": 0.10323549032688459
+  },
+  {
+   "year": 1971,
+   "season": "NDJ",
+   "anomaly_c": -0.78,
+   "midi": 62,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 326.01,
+   "co2_level": 0.11332555036691111
+  },
+  {
+   "year": 1972,
+   "season": "DJF",
+   "anomaly_c": -0.57,
+   "midi": 62,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 326.77,
+   "co2_level": 0.1196631087391592
+  },
+  {
+   "year": 1972,
+   "season": "JFM",
+   "anomaly_c": -0.27,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 327.63,
+   "co2_level": 0.12683455637091381
+  },
+  {
+   "year": 1972,
+   "season": "FMA",
+   "anomaly_c": 0.04,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 327.75,
+   "co2_level": 0.12783522348232146
+  },
+  {
+   "year": 1972,
+   "season": "MAM",
+   "anomaly_c": 0.25,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 329.72,
+   "co2_level": 0.14426284189459654
+  },
+  {
+   "year": 1972,
+   "season": "AMJ",
+   "anomaly_c": 0.48,
+   "midi": 69,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 330.07,
+   "co2_level": 0.14718145430286844
+  },
+  {
+   "year": 1972,
+   "season": "MJJ",
+   "anomaly_c": 0.7,
+   "midi": 69,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 329.09,
+   "co2_level": 0.13900933955970618
+  },
+  {
+   "year": 1972,
+   "season": "JJA",
+   "anomaly_c": 1.0,
+   "midi": 72,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 328.04,
+   "co2_level": 0.13025350233489
+  },
+  {
+   "year": 1972,
+   "season": "JAS",
+   "anomaly_c": 1.26,
+   "midi": 74,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 326.32,
+   "co2_level": 0.11591060707138078
+  },
+  {
+   "year": 1972,
+   "season": "ASO",
+   "anomaly_c": 1.49,
+   "midi": 74,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 324.84,
+   "co2_level": 0.10356904603068681
+  },
+  {
+   "year": 1972,
+   "season": "SON",
+   "anomaly_c": 1.69,
+   "midi": 76,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 325.2,
+   "co2_level": 0.10657104736490974
+  },
+  {
+   "year": 1972,
+   "season": "OND",
+   "anomaly_c": 1.84,
+   "midi": 76,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 326.5,
+   "co2_level": 0.11741160773849224
+  },
+  {
+   "year": 1972,
+   "season": "NDJ",
+   "anomaly_c": 1.77,
+   "midi": 76,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 327.55,
+   "co2_level": 0.12616744496330887
+  },
+  {
+   "year": 1973,
+   "season": "DJF",
+   "anomaly_c": 1.55,
+   "midi": 74,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 328.55,
+   "co2_level": 0.13450633755837227
+  },
+  {
+   "year": 1973,
+   "season": "JFM",
+   "anomaly_c": 1.13,
+   "midi": 72,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 329.57,
+   "co2_level": 0.14301200800533675
+  },
+  {
+   "year": 1973,
+   "season": "FMA",
+   "anomaly_c": 0.56,
+   "midi": 69,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 330.3,
+   "co2_level": 0.14909939959973317
+  },
+  {
+   "year": 1973,
+   "season": "MAM",
+   "anomaly_c": -0.03,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 331.5,
+   "co2_level": 0.15910607071380914
+  },
+  {
+   "year": 1973,
+   "season": "AMJ",
+   "anomaly_c": -0.51,
+   "midi": 62,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 332.48,
+   "co2_level": 0.1672781854569714
+  },
+  {
+   "year": 1973,
+   "season": "MJJ",
+   "anomaly_c": -0.8,
+   "midi": 62,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 332.07,
+   "co2_level": 0.1638592394929952
+  },
+  {
+   "year": 1973,
+   "season": "JJA",
+   "anomaly_c": -0.99,
+   "midi": 60,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 330.87,
+   "co2_level": 0.15385256837891922
+  },
+  {
+   "year": 1973,
+   "season": "JAS",
+   "anomaly_c": -1.11,
+   "midi": 60,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 329.31,
+   "co2_level": 0.14084389593062036
+  },
+  {
+   "year": 1973,
+   "season": "ASO",
+   "anomaly_c": -1.26,
+   "midi": 57,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 327.52,
+   "co2_level": 0.12591727818545673
+  },
+  {
+   "year": 1973,
+   "season": "SON",
+   "anomaly_c": -1.58,
+   "midi": 57,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 327.19,
+   "co2_level": 0.12316544362908595
+  },
+  {
+   "year": 1973,
+   "season": "OND",
+   "anomaly_c": -1.89,
+   "midi": 55,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 328.17,
+   "co2_level": 0.1313375583722482
+  },
+  {
+   "year": 1973,
+   "season": "NDJ",
+   "anomaly_c": -2.04,
+   "midi": 52,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 328.65,
+   "co2_level": 0.1353402268178783
+  },
+  {
+   "year": 1974,
+   "season": "DJF",
+   "anomaly_c": -1.87,
+   "midi": 55,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 329.36,
+   "co2_level": 0.1412608405603736
+  },
+  {
+   "year": 1974,
+   "season": "JFM",
+   "anomaly_c": -1.59,
+   "midi": 57,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 330.71,
+   "co2_level": 0.15251834556370888
+  },
+  {
+   "year": 1974,
+   "season": "FMA",
+   "anomaly_c": -1.24,
+   "midi": 57,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 331.49,
+   "co2_level": 0.15902268178785858
+  },
+  {
+   "year": 1974,
+   "season": "MAM",
+   "anomaly_c": -0.99,
+   "midi": 60,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 332.65,
+   "co2_level": 0.16869579719813182
+  },
+  {
+   "year": 1974,
+   "season": "AMJ",
+   "anomaly_c": -0.71,
+   "midi": 62,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 333.19,
+   "co2_level": 0.1731987991994662
+  },
+  {
+   "year": 1974,
+   "season": "MJJ",
+   "anomaly_c": -0.64,
+   "midi": 62,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 332.2,
+   "co2_level": 0.1649432955303534
+  },
+  {
+   "year": 1974,
+   "season": "JJA",
+   "anomaly_c": -0.46,
+   "midi": 62,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 331.07,
+   "co2_level": 0.15552034689793182
+  },
+  {
+   "year": 1974,
+   "season": "JAS",
+   "anomaly_c": -0.4,
+   "midi": 62,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 329.15,
+   "co2_level": 0.13950967311541
+  },
+  {
+   "year": 1974,
+   "season": "ASO",
+   "anomaly_c": -0.47,
+   "midi": 62,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 327.33,
+   "co2_level": 0.1243328885923947
+  },
+  {
+   "year": 1974,
+   "season": "SON",
+   "anomaly_c": -0.69,
+   "midi": 62,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 327.28,
+   "co2_level": 0.12391594396264144
+  },
+  {
+   "year": 1974,
+   "season": "OND",
+   "anomaly_c": -0.88,
+   "midi": 60,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 328.31,
+   "co2_level": 0.13250500333555698
+  },
+  {
+   "year": 1974,
+   "season": "NDJ",
+   "anomaly_c": -0.71,
+   "midi": 62,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 329.58,
+   "co2_level": 0.1430953969312873
+  },
+  {
+   "year": 1975,
+   "season": "DJF",
+   "anomaly_c": -0.56,
+   "midi": 62,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 330.73,
+   "co2_level": 0.15268512341561047
+  },
+  {
+   "year": 1975,
+   "season": "JFM",
+   "anomaly_c": -0.55,
+   "midi": 62,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 331.46,
+   "co2_level": 0.15877251501000642
+  },
+  {
+   "year": 1975,
+   "season": "FMA",
+   "anomaly_c": -0.61,
+   "midi": 62,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 331.94,
+   "co2_level": 0.162775183455637
+  },
+  {
+   "year": 1975,
+   "season": "MAM",
+   "anomaly_c": -0.66,
+   "midi": 62,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 333.11,
+   "co2_level": 0.1725316877918613
+  },
+  {
+   "year": 1975,
+   "season": "AMJ",
+   "anomaly_c": -0.8,
+   "midi": 62,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 333.95,
+   "co2_level": 0.17953635757171432
+  },
+  {
+   "year": 1975,
+   "season": "MJJ",
+   "anomaly_c": -0.92,
+   "midi": 60,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 333.42,
+   "co2_level": 0.17511674449633094
+  },
+  {
+   "year": 1975,
+   "season": "JJA",
+   "anomaly_c": -1.08,
+   "midi": 60,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 331.97,
+   "co2_level": 0.16302535023348913
+  },
+  {
+   "year": 1975,
+   "season": "JAS",
+   "anomaly_c": -1.12,
+   "midi": 60,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 329.95,
+   "co2_level": 0.1461807871914608
+  },
+  {
+   "year": 1975,
+   "season": "ASO",
+   "anomaly_c": -1.29,
+   "midi": 57,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 328.49,
+   "co2_level": 0.13400600400266843
+  },
+  {
+   "year": 1975,
+   "season": "SON",
+   "anomaly_c": -1.32,
+   "midi": 57,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 328.36,
+   "co2_level": 0.13292194796531023
+  },
+  {
+   "year": 1975,
+   "season": "OND",
+   "anomaly_c": -1.47,
+   "midi": 57,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 329.38,
+   "co2_level": 0.14142761841227472
+  },
+  {
+   "year": 1975,
+   "season": "NDJ",
+   "anomaly_c": -1.58,
+   "midi": 57,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 330.77,
+   "co2_level": 0.15301867911941272
+  },
+  {
+   "year": 1976,
+   "season": "DJF",
+   "anomaly_c": -1.49,
+   "midi": 57,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 331.56,
+   "co2_level": 0.15960640426951295
+  },
+  {
+   "year": 1976,
+   "season": "JFM",
+   "anomaly_c": -1.11,
+   "midi": 60,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 332.74,
+   "co2_level": 0.1694462975316878
+  },
+  {
+   "year": 1976,
+   "season": "FMA",
+   "anomaly_c": -0.65,
+   "midi": 62,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 333.36,
+   "co2_level": 0.17461641094062713
+  },
+  {
+   "year": 1976,
+   "season": "MAM",
+   "anomaly_c": -0.45,
+   "midi": 62,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 334.74,
+   "co2_level": 0.18612408272181455
+  },
+  {
+   "year": 1976,
+   "season": "AMJ",
+   "anomaly_c": -0.23,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 334.72,
+   "co2_level": 0.18595730486991344
+  },
+  {
+   "year": 1976,
+   "season": "MJJ",
+   "anomaly_c": 0.0,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 333.97,
+   "co2_level": 0.1797031354236159
+  },
+  {
+   "year": 1976,
+   "season": "JJA",
+   "anomaly_c": 0.23,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 333.08,
+   "co2_level": 0.17228152101400912
+  },
+  {
+   "year": 1976,
+   "season": "JAS",
+   "anomaly_c": 0.4,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 330.68,
+   "co2_level": 0.15226817878585722
+  },
+  {
+   "year": 1976,
+   "season": "ASO",
+   "anomaly_c": 0.6,
+   "midi": 69,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 328.96,
+   "co2_level": 0.13792528352234798
+  },
+  {
+   "year": 1976,
+   "season": "SON",
+   "anomaly_c": 0.79,
+   "midi": 69,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 328.72,
+   "co2_level": 0.13592394929953316
+  },
+  {
+   "year": 1976,
+   "season": "OND",
+   "anomaly_c": 0.81,
+   "midi": 72,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 330.16,
+   "co2_level": 0.14793195463642442
+  },
+  {
+   "year": 1976,
+   "season": "NDJ",
+   "anomaly_c": 0.84,
+   "midi": 72,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 331.62,
+   "co2_level": 0.16010673782521678
+  },
+  {
+   "year": 1977,
+   "season": "DJF",
+   "anomaly_c": 0.71,
+   "midi": 69,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 332.68,
+   "co2_level": 0.16894596397598396
+  },
+  {
+   "year": 1977,
+   "season": "JFM",
+   "anomaly_c": 0.66,
+   "midi": 69,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 333.17,
+   "co2_level": 0.1730320213475651
+  },
+  {
+   "year": 1977,
+   "season": "FMA",
+   "anomaly_c": 0.33,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 334.96,
+   "co2_level": 0.18795863909272825
+  },
+  {
+   "year": 1977,
+   "season": "MAM",
+   "anomaly_c": 0.26,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 336.14,
+   "co2_level": 0.19779853235490308
+  },
+  {
+   "year": 1977,
+   "season": "AMJ",
+   "anomaly_c": 0.26,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 336.93,
+   "co2_level": 0.20438625750500333
+  },
+  {
+   "year": 1977,
+   "season": "MJJ",
+   "anomaly_c": 0.46,
+   "midi": 69,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 336.17,
+   "co2_level": 0.19804869913275525
+  },
+  {
+   "year": 1977,
+   "season": "JJA",
+   "anomaly_c": 0.39,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 334.89,
+   "co2_level": 0.18737491661107386
+  },
+  {
+   "year": 1977,
+   "season": "JAS",
+   "anomaly_c": 0.35,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 332.56,
+   "co2_level": 0.16794529686457632
+  },
+  {
+   "year": 1977,
+   "season": "ASO",
+   "anomaly_c": 0.45,
+   "midi": 69,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 331.29,
+   "co2_level": 0.157354903268846
+  },
+  {
+   "year": 1977,
+   "season": "SON",
+   "anomaly_c": 0.68,
+   "midi": 69,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 331.28,
+   "co2_level": 0.15727151434289496
+  },
+  {
+   "year": 1977,
+   "season": "OND",
+   "anomaly_c": 0.84,
+   "midi": 72,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 332.46,
+   "co2_level": 0.1671114076050698
+  },
+  {
+   "year": 1977,
+   "season": "NDJ",
+   "anomaly_c": 0.82,
+   "midi": 72,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 333.6,
+   "co2_level": 0.17661774516344242
+  },
+  {
+   "year": 1978,
+   "season": "DJF",
+   "anomaly_c": 0.71,
+   "midi": 69,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 334.94,
+   "co2_level": 0.18779186124082714
+  },
+  {
+   "year": 1978,
+   "season": "JFM",
+   "anomaly_c": 0.52,
+   "midi": 69,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 335.26,
+   "co2_level": 0.19046030687124735
+  },
+  {
+   "year": 1978,
+   "season": "FMA",
+   "anomaly_c": 0.17,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 336.66,
+   "co2_level": 0.20213475650433638
+  },
+  {
+   "year": 1978,
+   "season": "MAM",
+   "anomaly_c": -0.06,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 337.69,
+   "co2_level": 0.21072381587725142
+  },
+  {
+   "year": 1978,
+   "season": "AMJ",
+   "anomaly_c": -0.28,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 338.02,
+   "co2_level": 0.2134756504336222
+  },
+  {
+   "year": 1978,
+   "season": "MJJ",
+   "anomaly_c": -0.24,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 338.01,
+   "co2_level": 0.21339226150767165
+  },
+  {
+   "year": 1978,
+   "season": "JJA",
+   "anomaly_c": -0.37,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 336.5,
+   "co2_level": 0.200800533689126
+  },
+  {
+   "year": 1978,
+   "season": "JAS",
+   "anomaly_c": -0.37,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 334.42,
+   "co2_level": 0.1834556370913943
+  },
+  {
+   "year": 1978,
+   "season": "ASO",
+   "anomaly_c": -0.44,
+   "midi": 62,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 332.36,
+   "co2_level": 0.16627751834556376
+  },
+  {
+   "year": 1978,
+   "season": "SON",
+   "anomaly_c": -0.27,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 332.45,
+   "co2_level": 0.16702801867911923
+  },
+  {
+   "year": 1978,
+   "season": "OND",
+   "anomaly_c": -0.07,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 333.76,
+   "co2_level": 0.1779519679786523
+  },
+  {
+   "year": 1978,
+   "season": "NDJ",
+   "anomaly_c": 0.11,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 334.91,
+   "co2_level": 0.18754169446297544
+  },
+  {
+   "year": 1979,
+   "season": "DJF",
+   "anomaly_c": 0.19,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 336.14,
+   "co2_level": 0.19779853235490308
+  },
+  {
+   "year": 1979,
+   "season": "JFM",
+   "anomaly_c": 0.21,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 336.69,
+   "co2_level": 0.20238492328218805
+  },
+  {
+   "year": 1979,
+   "season": "FMA",
+   "anomaly_c": 0.29,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 338.27,
+   "co2_level": 0.21556037358238805
+  },
+  {
+   "year": 1979,
+   "season": "MAM",
+   "anomaly_c": 0.32,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 338.82,
+   "co2_level": 0.220146764509673
+  },
+  {
+   "year": 1979,
+   "season": "AMJ",
+   "anomaly_c": 0.29,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 339.24,
+   "co2_level": 0.22364909939959976
+  },
+  {
+   "year": 1979,
+   "season": "MJJ",
+   "anomaly_c": 0.14,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 339.26,
+   "co2_level": 0.22381587725150087
+  },
+  {
+   "year": 1979,
+   "season": "JJA",
+   "anomaly_c": 0.09,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 337.54,
+   "co2_level": 0.2094729819879921
+  },
+  {
+   "year": 1979,
+   "season": "JAS",
+   "anomaly_c": 0.22,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 335.72,
+   "co2_level": 0.1942961974649768
+  },
+  {
+   "year": 1979,
+   "season": "ASO",
+   "anomaly_c": 0.34,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 333.97,
+   "co2_level": 0.1797031354236159
+  },
+  {
+   "year": 1979,
+   "season": "SON",
+   "anomaly_c": 0.47,
+   "midi": 69,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 334.24,
+   "co2_level": 0.18195463642428286
+  },
+  {
+   "year": 1979,
+   "season": "OND",
+   "anomaly_c": 0.5,
+   "midi": 69,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 335.32,
+   "co2_level": 0.19096064042695118
+  },
+  {
+   "year": 1979,
+   "season": "NDJ",
+   "anomaly_c": 0.64,
+   "midi": 69,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 336.81,
+   "co2_level": 0.2033855903935957
+  },
+  {
+   "year": 1980,
+   "season": "DJF",
+   "anomaly_c": 0.62,
+   "midi": 69,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 337.9,
+   "co2_level": 0.21247498332221457
+  },
+  {
+   "year": 1980,
+   "season": "JFM",
+   "anomaly_c": 0.47,
+   "midi": 69,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 338.34,
+   "co2_level": 0.21614409606404242
+  },
+  {
+   "year": 1980,
+   "season": "FMA",
+   "anomaly_c": 0.35,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 340.07,
+   "co2_level": 0.2305703802535022
+  },
+  {
+   "year": 1980,
+   "season": "MAM",
+   "anomaly_c": 0.34,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 340.93,
+   "co2_level": 0.23774182788525686
+  },
+  {
+   "year": 1980,
+   "season": "AMJ",
+   "anomaly_c": 0.45,
+   "midi": 69,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 341.45,
+   "co2_level": 0.24207805203468966
+  },
+  {
+   "year": 1980,
+   "season": "MJJ",
+   "anomaly_c": 0.4,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 341.36,
+   "co2_level": 0.24132755170113415
+  },
+  {
+   "year": 1980,
+   "season": "JJA",
+   "anomaly_c": 0.18,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 339.45,
+   "co2_level": 0.22540026684456288
+  },
+  {
+   "year": 1980,
+   "season": "JAS",
+   "anomaly_c": -0.06,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 337.67,
+   "co2_level": 0.2105570380253503
+  },
+  {
+   "year": 1980,
+   "season": "ASO",
+   "anomaly_c": -0.17,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 336.25,
+   "co2_level": 0.19871581054036017
+  },
+  {
+   "year": 1980,
+   "season": "SON",
+   "anomaly_c": -0.07,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 336.14,
+   "co2_level": 0.19779853235490308
+  },
+  {
+   "year": 1980,
+   "season": "OND",
+   "anomaly_c": 0.08,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 337.3,
+   "co2_level": 0.20747164776517682
+  },
+  {
+   "year": 1980,
+   "season": "NDJ",
+   "anomaly_c": -0.05,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 338.29,
+   "co2_level": 0.21572715143428964
+  },
+  {
+   "year": 1981,
+   "season": "DJF",
+   "anomaly_c": -0.27,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 339.29,
+   "co2_level": 0.224066044029353
+  },
+  {
+   "year": 1981,
+   "season": "JFM",
+   "anomaly_c": -0.42,
+   "midi": 62,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 340.55,
+   "co2_level": 0.23457304869913279
+  },
+  {
+   "year": 1981,
+   "season": "FMA",
+   "anomaly_c": -0.41,
+   "midi": 62,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 341.63,
+   "co2_level": 0.2435790527018011
+  },
+  {
+   "year": 1981,
+   "season": "MAM",
+   "anomaly_c": -0.27,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 342.6,
+   "co2_level": 0.25166777851901284
+  },
+  {
+   "year": 1981,
+   "season": "AMJ",
+   "anomaly_c": -0.28,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 343.04,
+   "co2_level": 0.2553368912608407
+  },
+  {
+   "year": 1981,
+   "season": "MJJ",
+   "anomaly_c": -0.27,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 342.54,
+   "co2_level": 0.251167444963309
+  },
+  {
+   "year": 1981,
+   "season": "JJA",
+   "anomaly_c": -0.28,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 340.82,
+   "co2_level": 0.23682454969979977
+  },
+  {
+   "year": 1981,
+   "season": "JAS",
+   "anomaly_c": -0.23,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 338.48,
+   "co2_level": 0.21731154102735167
+  },
+  {
+   "year": 1981,
+   "season": "ASO",
+   "anomaly_c": -0.08,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 336.95,
+   "co2_level": 0.20455303535690444
+  },
+  {
+   "year": 1981,
+   "season": "SON",
+   "anomaly_c": -0.16,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 337.05,
+   "co2_level": 0.20538692461641098
+  },
+  {
+   "year": 1981,
+   "season": "OND",
+   "anomaly_c": -0.19,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 338.58,
+   "co2_level": 0.2181454302868577
+  },
+  {
+   "year": 1981,
+   "season": "NDJ",
+   "anomaly_c": -0.14,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 339.91,
+   "co2_level": 0.22923615743829234
+  },
+  {
+   "year": 1982,
+   "season": "DJF",
+   "anomaly_c": -0.05,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 340.93,
+   "co2_level": 0.23774182788525686
+  },
+  {
+   "year": 1982,
+   "season": "JFM",
+   "anomaly_c": 0.02,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 341.76,
+   "co2_level": 0.2446631087391593
+  },
+  {
+   "year": 1982,
+   "season": "FMA",
+   "anomaly_c": 0.07,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 342.78,
+   "co2_level": 0.2531687791861238
+  },
+  {
+   "year": 1982,
+   "season": "MAM",
+   "anomaly_c": 0.34,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 343.96,
+   "co2_level": 0.2630086724482987
+  },
+  {
+   "year": 1982,
+   "season": "AMJ",
+   "anomaly_c": 0.65,
+   "midi": 69,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 344.77,
+   "co2_level": 0.2697631754503
+  },
+  {
+   "year": 1982,
+   "season": "MJJ",
+   "anomaly_c": 0.73,
+   "midi": 69,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 343.88,
+   "co2_level": 0.2623415610406937
+  },
+  {
+   "year": 1982,
+   "season": "JJA",
+   "anomaly_c": 0.78,
+   "midi": 69,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 342.42,
+   "co2_level": 0.25016677785190133
+  },
+  {
+   "year": 1982,
+   "season": "JAS",
+   "anomaly_c": 0.99,
+   "midi": 72,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 340.24,
+   "co2_level": 0.23198799199466313
+  },
+  {
+   "year": 1982,
+   "season": "ASO",
+   "anomaly_c": 1.45,
+   "midi": 74,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 338.37,
+   "co2_level": 0.21639426284189459
+  },
+  {
+   "year": 1982,
+   "season": "SON",
+   "anomaly_c": 1.82,
+   "midi": 76,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 338.41,
+   "co2_level": 0.21672781854569728
+  },
+  {
+   "year": 1982,
+   "season": "OND",
+   "anomaly_c": 2.03,
+   "midi": 79,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 339.44,
+   "co2_level": 0.22531687791861232
+  },
+  {
+   "year": 1982,
+   "season": "NDJ",
+   "anomaly_c": 2.12,
+   "midi": 79,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 340.78,
+   "co2_level": 0.23649099399599705
+  },
+  {
+   "year": 1983,
+   "season": "DJF",
+   "anomaly_c": 2.14,
+   "midi": 79,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 341.57,
+   "co2_level": 0.2430787191460973
+  },
+  {
+   "year": 1983,
+   "season": "JFM",
+   "anomaly_c": 1.91,
+   "midi": 76,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 342.78,
+   "co2_level": 0.2531687791861238
+  },
+  {
+   "year": 1983,
+   "season": "FMA",
+   "anomaly_c": 1.52,
+   "midi": 74,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 343.37,
+   "co2_level": 0.2580887258172115
+  },
+  {
+   "year": 1983,
+   "season": "MAM",
+   "anomaly_c": 1.23,
+   "midi": 74,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 345.4,
+   "co2_level": 0.2750166777851899
+  },
+  {
+   "year": 1983,
+   "season": "AMJ",
+   "anomaly_c": 0.95,
+   "midi": 72,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 346.14,
+   "co2_level": 0.2811874583055369
+  },
+  {
+   "year": 1983,
+   "season": "MJJ",
+   "anomaly_c": 0.62,
+   "midi": 69,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 345.76,
+   "co2_level": 0.2780186791194128
+  },
+  {
+   "year": 1983,
+   "season": "JJA",
+   "anomaly_c": 0.25,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 344.32,
+   "co2_level": 0.2660106737825216
+  },
+  {
+   "year": 1983,
+   "season": "JAS",
+   "anomaly_c": -0.06,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 342.51,
+   "co2_level": 0.25091727818545684
+  },
+  {
+   "year": 1983,
+   "season": "ASO",
+   "anomaly_c": -0.43,
+   "midi": 62,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 340.46,
+   "co2_level": 0.23382254836557684
+  },
+  {
+   "year": 1983,
+   "season": "SON",
+   "anomaly_c": -0.76,
+   "midi": 62,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 340.53,
+   "co2_level": 0.2344062708472312
+  },
+  {
+   "year": 1983,
+   "season": "OND",
+   "anomaly_c": -0.96,
+   "midi": 60,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 341.79,
+   "co2_level": 0.24491327551701148
+  },
+  {
+   "year": 1983,
+   "season": "NDJ",
+   "anomaly_c": -0.89,
+   "midi": 60,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 343.2,
+   "co2_level": 0.2566711140760506
+  },
+  {
+   "year": 1984,
+   "season": "DJF",
+   "anomaly_c": -0.63,
+   "midi": 62,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 344.21,
+   "co2_level": 0.2650933955970645
+  },
+  {
+   "year": 1984,
+   "season": "JFM",
+   "anomaly_c": -0.51,
+   "midi": 62,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 344.92,
+   "co2_level": 0.2710140093395598
+  },
+  {
+   "year": 1984,
+   "season": "FMA",
+   "anomaly_c": -0.38,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 345.68,
+   "co2_level": 0.2773515677118079
+  },
+  {
+   "year": 1984,
+   "season": "MAM",
+   "anomaly_c": -0.47,
+   "midi": 62,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 347.37,
+   "co2_level": 0.291444296197465
+  },
+  {
+   "year": 1984,
+   "season": "AMJ",
+   "anomaly_c": -0.55,
+   "midi": 62,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 347.77,
+   "co2_level": 0.29477985323549016
+  },
+  {
+   "year": 1984,
+   "season": "MJJ",
+   "anomaly_c": -0.52,
+   "midi": 62,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 347.16,
+   "co2_level": 0.28969312875250186
+  },
+  {
+   "year": 1984,
+   "season": "JJA",
+   "anomaly_c": -0.39,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 345.79,
+   "co2_level": 0.27826884589726497
+  },
+  {
+   "year": 1984,
+   "season": "JAS",
+   "anomaly_c": -0.22,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 343.74,
+   "co2_level": 0.26117411607738494
+  },
+  {
+   "year": 1984,
+   "season": "ASO",
+   "anomaly_c": -0.32,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 341.59,
+   "co2_level": 0.2432454969979984
+  },
+  {
+   "year": 1984,
+   "season": "SON",
+   "anomaly_c": -0.62,
+   "midi": 62,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 341.86,
+   "co2_level": 0.24549699799866584
+  },
+  {
+   "year": 1984,
+   "season": "OND",
+   "anomaly_c": -0.95,
+   "midi": 60,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 343.31,
+   "co2_level": 0.25758839226150765
+  },
+  {
+   "year": 1984,
+   "season": "NDJ",
+   "anomaly_c": -1.06,
+   "midi": 60,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 345.0,
+   "co2_level": 0.2716811207471647
+  },
+  {
+   "year": 1985,
+   "season": "DJF",
+   "anomaly_c": -1.01,
+   "midi": 60,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 345.48,
+   "co2_level": 0.2756837891927953
+  },
+  {
+   "year": 1985,
+   "season": "JFM",
+   "anomaly_c": -0.86,
+   "midi": 60,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 346.41,
+   "co2_level": 0.28343895930620433
+  },
+  {
+   "year": 1985,
+   "season": "FMA",
+   "anomaly_c": -0.85,
+   "midi": 60,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 347.91,
+   "co2_level": 0.2959472981987994
+  },
+  {
+   "year": 1985,
+   "season": "MAM",
+   "anomaly_c": -0.8,
+   "midi": 62,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 348.66,
+   "co2_level": 0.3022014676450969
+  },
+  {
+   "year": 1985,
+   "season": "AMJ",
+   "anomaly_c": -0.79,
+   "midi": 62,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 349.28,
+   "co2_level": 0.3073715810540358
+  },
+  {
+   "year": 1985,
+   "season": "MJJ",
+   "anomaly_c": -0.6,
+   "midi": 62,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 348.65,
+   "co2_level": 0.30211807871914587
+  },
+  {
+   "year": 1985,
+   "season": "JJA",
+   "anomaly_c": -0.44,
+   "midi": 62,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 346.9,
+   "co2_level": 0.28752501667778496
+  },
+  {
+   "year": 1985,
+   "season": "JAS",
+   "anomaly_c": -0.33,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 345.26,
+   "co2_level": 0.2738492328218811
+  },
+  {
+   "year": 1985,
+   "season": "ASO",
+   "anomaly_c": -0.31,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 343.47,
+   "co2_level": 0.258922615076718
+  },
+  {
+   "year": 1985,
+   "season": "SON",
+   "anomaly_c": -0.3,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 343.35,
+   "co2_level": 0.25792194796531037
+  },
+  {
+   "year": 1985,
+   "season": "OND",
+   "anomaly_c": -0.28,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 344.73,
+   "co2_level": 0.26942961974649776
+  },
+  {
+   "year": 1985,
+   "season": "NDJ",
+   "anomaly_c": -0.36,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 346.12,
+   "co2_level": 0.28102068045363576
+  },
+  {
+   "year": 1986,
+   "season": "DJF",
+   "anomaly_c": -0.4,
+   "midi": 62,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 346.78,
+   "co2_level": 0.28652434956637735
+  },
+  {
+   "year": 1986,
+   "season": "JFM",
+   "anomaly_c": -0.38,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 347.48,
+   "co2_level": 0.29236157438292204
+  },
+  {
+   "year": 1986,
+   "season": "FMA",
+   "anomaly_c": -0.25,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 348.25,
+   "co2_level": 0.29878252168112074
+  },
+  {
+   "year": 1986,
+   "season": "MAM",
+   "anomaly_c": -0.17,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 349.86,
+   "co2_level": 0.31220813875917286
+  },
+  {
+   "year": 1986,
+   "season": "AMJ",
+   "anomaly_c": -0.09,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 350.52,
+   "co2_level": 0.31771180787191444
+  },
+  {
+   "year": 1986,
+   "season": "MJJ",
+   "anomaly_c": 0.02,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 349.98,
+   "co2_level": 0.31320880587058053
+  },
+  {
+   "year": 1986,
+   "season": "JJA",
+   "anomaly_c": 0.24,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 348.25,
+   "co2_level": 0.29878252168112074
+  },
+  {
+   "year": 1986,
+   "season": "JAS",
+   "anomaly_c": 0.46,
+   "midi": 69,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 346.17,
+   "co2_level": 0.28143762508338904
+  },
+  {
+   "year": 1986,
+   "season": "ASO",
+   "anomaly_c": 0.64,
+   "midi": 69,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 345.48,
+   "co2_level": 0.2756837891927953
+  },
+  {
+   "year": 1986,
+   "season": "SON",
+   "anomaly_c": 0.86,
+   "midi": 72,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 344.82,
+   "co2_level": 0.27018012008005327
+  },
+  {
+   "year": 1986,
+   "season": "OND",
+   "anomaly_c": 1.06,
+   "midi": 72,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 346.22,
+   "co2_level": 0.28185456971314227
+  },
+  {
+   "year": 1986,
+   "season": "NDJ",
+   "anomaly_c": 1.21,
+   "midi": 74,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 347.48,
+   "co2_level": 0.29236157438292204
+  },
+  {
+   "year": 1987,
+   "season": "DJF",
+   "anomaly_c": 1.18,
+   "midi": 72,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 348.73,
+   "co2_level": 0.3027851901267513
+  },
+  {
+   "year": 1987,
+   "season": "JFM",
+   "anomaly_c": 1.13,
+   "midi": 72,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 348.92,
+   "co2_level": 0.3043695797198133
+  },
+  {
+   "year": 1987,
+   "season": "FMA",
+   "anomaly_c": 1.02,
+   "midi": 72,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 349.81,
+   "co2_level": 0.3117911941294196
+  },
+  {
+   "year": 1987,
+   "season": "MAM",
+   "anomaly_c": 0.94,
+   "midi": 72,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 351.4,
+   "co2_level": 0.32505003335557014
+  },
+  {
+   "year": 1987,
+   "season": "AMJ",
+   "anomaly_c": 0.95,
+   "midi": 72,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 352.15,
+   "co2_level": 0.3313042028018677
+  },
+  {
+   "year": 1987,
+   "season": "MJJ",
+   "anomaly_c": 1.11,
+   "midi": 72,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 351.58,
+   "co2_level": 0.32655103402268165
+  },
+  {
+   "year": 1987,
+   "season": "JJA",
+   "anomaly_c": 1.3,
+   "midi": 74,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 350.21,
+   "co2_level": 0.31512675116744476
+  },
+  {
+   "year": 1987,
+   "season": "JAS",
+   "anomaly_c": 1.46,
+   "midi": 74,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 348.2,
+   "co2_level": 0.29836557705136746
+  },
+  {
+   "year": 1987,
+   "season": "ASO",
+   "anomaly_c": 1.49,
+   "midi": 74,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 346.66,
+   "co2_level": 0.2855236824549702
+  },
+  {
+   "year": 1987,
+   "season": "SON",
+   "anomaly_c": 1.41,
+   "midi": 74,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 346.72,
+   "co2_level": 0.28602401601067395
+  },
+  {
+   "year": 1987,
+   "season": "OND",
+   "anomaly_c": 1.2,
+   "midi": 74,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 348.08,
+   "co2_level": 0.2973649099399598
+  },
+  {
+   "year": 1987,
+   "season": "NDJ",
+   "anomaly_c": 1.0,
+   "midi": 72,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 349.28,
+   "co2_level": 0.3073715810540358
+  },
+  {
+   "year": 1988,
+   "season": "DJF",
+   "anomaly_c": 0.63,
+   "midi": 69,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 350.51,
+   "co2_level": 0.3176284189459639
+  },
+  {
+   "year": 1988,
+   "season": "JFM",
+   "anomaly_c": 0.37,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 351.7,
+   "co2_level": 0.32755170113408927
+  },
+  {
+   "year": 1988,
+   "season": "FMA",
+   "anomaly_c": -0.03,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 352.5,
+   "co2_level": 0.3342228152101401
+  },
+  {
+   "year": 1988,
+   "season": "MAM",
+   "anomaly_c": -0.45,
+   "midi": 62,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 353.67,
+   "co2_level": 0.34397931954636435
+  },
+  {
+   "year": 1988,
+   "season": "AMJ",
+   "anomaly_c": -0.99,
+   "midi": 60,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 354.35,
+   "co2_level": 0.3496497665110075
+  },
+  {
+   "year": 1988,
+   "season": "MJJ",
+   "anomaly_c": -1.3,
+   "midi": 57,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 353.88,
+   "co2_level": 0.3457304869913275
+  },
+  {
+   "year": 1988,
+   "season": "JJA",
+   "anomaly_c": -1.3,
+   "midi": 57,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 352.8,
+   "co2_level": 0.3367244829886592
+  },
+  {
+   "year": 1988,
+   "season": "JAS",
+   "anomaly_c": -1.14,
+   "midi": 60,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 350.49,
+   "co2_level": 0.3174616410940628
+  },
+  {
+   "year": 1988,
+   "season": "ASO",
+   "anomaly_c": -1.27,
+   "midi": 57,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 348.97,
+   "co2_level": 0.3047865243495666
+  },
+  {
+   "year": 1988,
+   "season": "SON",
+   "anomaly_c": -1.54,
+   "midi": 57,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 349.37,
+   "co2_level": 0.30812208138759173
+  },
+  {
+   "year": 1988,
+   "season": "OND",
+   "anomaly_c": -1.81,
+   "midi": 55,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 350.42,
+   "co2_level": 0.3168779186124084
+  },
+  {
+   "year": 1988,
+   "season": "NDJ",
+   "anomaly_c": -1.85,
+   "midi": 55,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 351.62,
+   "co2_level": 0.3268845897264843
+  },
+  {
+   "year": 1989,
+   "season": "DJF",
+   "anomaly_c": -1.64,
+   "midi": 55,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 353.07,
+   "co2_level": 0.33897598398932616
+  },
+  {
+   "year": 1989,
+   "season": "JFM",
+   "anomaly_c": -1.38,
+   "midi": 57,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 353.43,
+   "co2_level": 0.34197798532354906
+  },
+  {
+   "year": 1989,
+   "season": "FMA",
+   "anomaly_c": -1.09,
+   "midi": 60,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 354.08,
+   "co2_level": 0.3473982655103401
+  },
+  {
+   "year": 1989,
+   "season": "MAM",
+   "anomaly_c": -0.85,
+   "midi": 60,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 355.72,
+   "co2_level": 0.3610740493662444
+  },
+  {
+   "year": 1989,
+   "season": "AMJ",
+   "anomaly_c": -0.61,
+   "midi": 62,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 355.95,
+   "co2_level": 0.3629919946631086
+  },
+  {
+   "year": 1989,
+   "season": "MJJ",
+   "anomaly_c": -0.4,
+   "midi": 62,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 355.44,
+   "co2_level": 0.35873915943962636
+  },
+  {
+   "year": 1989,
+   "season": "JJA",
+   "anomaly_c": -0.37,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 354.05,
+   "co2_level": 0.3471480987324884
+  },
+  {
+   "year": 1989,
+   "season": "JAS",
+   "anomaly_c": -0.36,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 351.84,
+   "co2_level": 0.32871914609739805
+  },
+  {
+   "year": 1989,
+   "season": "ASO",
+   "anomaly_c": -0.33,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 350.09,
+   "co2_level": 0.31412608405603715
+  },
+  {
+   "year": 1989,
+   "season": "SON",
+   "anomaly_c": -0.25,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 350.33,
+   "co2_level": 0.31612741827885243
+  },
+  {
+   "year": 1989,
+   "season": "OND",
+   "anomaly_c": -0.12,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 351.55,
+   "co2_level": 0.32630086724483
+  },
+  {
+   "year": 1989,
+   "season": "NDJ",
+   "anomaly_c": -0.04,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 352.91,
+   "co2_level": 0.33764176117411626
+  },
+  {
+   "year": 1990,
+   "season": "DJF",
+   "anomaly_c": 0.18,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 353.86,
+   "co2_level": 0.34556370913942636
+  },
+  {
+   "year": 1990,
+   "season": "JFM",
+   "anomaly_c": 0.19,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 355.1,
+   "co2_level": 0.3559039359573051
+  },
+  {
+   "year": 1990,
+   "season": "FMA",
+   "anomaly_c": 0.3,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 355.75,
+   "co2_level": 0.36132421614409604
+  },
+  {
+   "year": 1990,
+   "season": "MAM",
+   "anomaly_c": 0.27,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 356.38,
+   "co2_level": 0.36657771847898596
+  },
+  {
+   "year": 1990,
+   "season": "AMJ",
+   "anomaly_c": 0.25,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 357.38,
+   "co2_level": 0.37491661107404933
+  },
+  {
+   "year": 1990,
+   "season": "MJJ",
+   "anomaly_c": 0.25,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 356.39,
+   "co2_level": 0.3666611074049365
+  },
+  {
+   "year": 1990,
+   "season": "JJA",
+   "anomaly_c": 0.26,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 354.89,
+   "co2_level": 0.35415276851234145
+  },
+  {
+   "year": 1990,
+   "season": "JAS",
+   "anomaly_c": 0.32,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 353.06,
+   "co2_level": 0.3388925950633756
+  },
+  {
+   "year": 1990,
+   "season": "ASO",
+   "anomaly_c": 0.31,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 351.38,
+   "co2_level": 0.32488325550366903
+  },
+  {
+   "year": 1990,
+   "season": "SON",
+   "anomaly_c": 0.27,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 351.69,
+   "co2_level": 0.3274683122081387
+  },
+  {
+   "year": 1990,
+   "season": "OND",
+   "anomaly_c": 0.31,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 353.14,
+   "co2_level": 0.33955970647098055
+  },
+  {
+   "year": 1990,
+   "season": "NDJ",
+   "anomaly_c": 0.34,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 354.41,
+   "co2_level": 0.3501501000667113
+  },
+  {
+   "year": 1991,
+   "season": "DJF",
+   "anomaly_c": 0.35,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 354.93,
+   "co2_level": 0.3544863242161441
+  },
+  {
+   "year": 1991,
+   "season": "JFM",
+   "anomaly_c": 0.26,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 355.82,
+   "co2_level": 0.36190793862575044
+  },
+  {
+   "year": 1991,
+   "season": "FMA",
+   "anomaly_c": 0.23,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 357.33,
+   "co2_level": 0.37449966644429605
+  },
+  {
+   "year": 1991,
+   "season": "MAM",
+   "anomaly_c": 0.29,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 358.77,
+   "co2_level": 0.3865076717811873
+  },
+  {
+   "year": 1991,
+   "season": "AMJ",
+   "anomaly_c": 0.49,
+   "midi": 69,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 359.23,
+   "co2_level": 0.39034356237491674
+  },
+  {
+   "year": 1991,
+   "season": "MJJ",
+   "anomaly_c": 0.63,
+   "midi": 69,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 358.23,
+   "co2_level": 0.38200466977985337
+  },
+  {
+   "year": 1991,
+   "season": "JJA",
+   "anomaly_c": 0.77,
+   "midi": 69,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 356.3,
+   "co2_level": 0.365910607071381
+  },
+  {
+   "year": 1991,
+   "season": "JAS",
+   "anomaly_c": 0.67,
+   "midi": 69,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 353.97,
+   "co2_level": 0.34648098732488347
+  },
+  {
+   "year": 1991,
+   "season": "ASO",
+   "anomaly_c": 0.72,
+   "midi": 69,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 352.34,
+   "co2_level": 0.33288859239492974
+  },
+  {
+   "year": 1991,
+   "season": "SON",
+   "anomaly_c": 0.83,
+   "midi": 72,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 352.43,
+   "co2_level": 0.3336390927284857
+  },
+  {
+   "year": 1991,
+   "season": "OND",
+   "anomaly_c": 1.18,
+   "midi": 72,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 353.89,
+   "co2_level": 0.3458138759172781
+  },
+  {
+   "year": 1991,
+   "season": "NDJ",
+   "anomaly_c": 1.43,
+   "midi": 74,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 355.21,
+   "co2_level": 0.35682121414276163
+  },
+  {
+   "year": 1992,
+   "season": "DJF",
+   "anomaly_c": 1.54,
+   "midi": 74,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 356.34,
+   "co2_level": 0.36624416277518324
+  },
+  {
+   "year": 1992,
+   "season": "JFM",
+   "anomaly_c": 1.5,
+   "midi": 74,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 357.21,
+   "co2_level": 0.37349899933288844
+  },
+  {
+   "year": 1992,
+   "season": "FMA",
+   "anomaly_c": 1.4,
+   "midi": 74,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 357.97,
+   "co2_level": 0.37983655770513697
+  },
+  {
+   "year": 1992,
+   "season": "MAM",
+   "anomaly_c": 1.3,
+   "midi": 74,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 359.22,
+   "co2_level": 0.3902601734489662
+  },
+  {
+   "year": 1992,
+   "season": "AMJ",
+   "anomaly_c": 1.08,
+   "midi": 72,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 359.71,
+   "co2_level": 0.3943462308205469
+  },
+  {
+   "year": 1992,
+   "season": "MJJ",
+   "anomaly_c": 0.72,
+   "midi": 69,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 359.44,
+   "co2_level": 0.3920947298198799
+  },
+  {
+   "year": 1992,
+   "season": "JJA",
+   "anomaly_c": 0.35,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 357.15,
+   "co2_level": 0.3729986657771846
+  },
+  {
+   "year": 1992,
+   "season": "JAS",
+   "anomaly_c": 0.08,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 354.99,
+   "co2_level": 0.35498665777184796
+  },
+  {
+   "year": 1992,
+   "season": "ASO",
+   "anomaly_c": -0.15,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 353.01,
+   "co2_level": 0.3384756504336223
+  },
+  {
+   "year": 1992,
+   "season": "SON",
+   "anomaly_c": -0.22,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 353.4,
+   "co2_level": 0.34172781854569695
+  },
+  {
+   "year": 1992,
+   "season": "OND",
+   "anomaly_c": -0.24,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 354.42,
+   "co2_level": 0.3502334889926619
+  },
+  {
+   "year": 1992,
+   "season": "NDJ",
+   "anomaly_c": -0.05,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 355.68,
+   "co2_level": 0.36074049366244165
+  },
+  {
+   "year": 1993,
+   "season": "DJF",
+   "anomaly_c": 0.13,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 357.1,
+   "co2_level": 0.3725817211474318
+  },
+  {
+   "year": 1993,
+   "season": "JFM",
+   "anomaly_c": 0.31,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 357.42,
+   "co2_level": 0.37525016677785206
+  },
+  {
+   "year": 1993,
+   "season": "FMA",
+   "anomaly_c": 0.5,
+   "midi": 69,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 358.59,
+   "co2_level": 0.3850066711140758
+  },
+  {
+   "year": 1993,
+   "season": "MAM",
+   "anomaly_c": 0.73,
+   "midi": 69,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 359.39,
+   "co2_level": 0.39167778519012664
+  },
+  {
+   "year": 1993,
+   "season": "AMJ",
+   "anomaly_c": 0.76,
+   "midi": 69,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 360.3,
+   "co2_level": 0.3992661774516345
+  },
+  {
+   "year": 1993,
+   "season": "MJJ",
+   "anomaly_c": 0.56,
+   "midi": 69,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 359.64,
+   "co2_level": 0.3937625083388925
+  },
+  {
+   "year": 1993,
+   "season": "JJA",
+   "anomaly_c": 0.28,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 357.45,
+   "co2_level": 0.3755003335557037
+  },
+  {
+   "year": 1993,
+   "season": "JAS",
+   "anomaly_c": 0.22,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 355.76,
+   "co2_level": 0.3614076050700466
+  },
+  {
+   "year": 1993,
+   "season": "ASO",
+   "anomaly_c": 0.2,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 354.14,
+   "co2_level": 0.3478985990660439
+  },
+  {
+   "year": 1993,
+   "season": "SON",
+   "anomaly_c": 0.2,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 354.23,
+   "co2_level": 0.34864909939959987
+  },
+  {
+   "year": 1993,
+   "season": "OND",
+   "anomaly_c": 0.2,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 355.53,
+   "co2_level": 0.35948965977318187
+  },
+  {
+   "year": 1993,
+   "season": "NDJ",
+   "anomaly_c": 0.19,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 357.03,
+   "co2_level": 0.37199799866577693
+  },
+  {
+   "year": 1994,
+   "season": "DJF",
+   "anomaly_c": 0.07,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 358.36,
+   "co2_level": 0.3830887258172116
+  },
+  {
+   "year": 1994,
+   "season": "JFM",
+   "anomaly_c": 0.0,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 359.04,
+   "co2_level": 0.38875917278185473
+  },
+  {
+   "year": 1994,
+   "season": "FMA",
+   "anomaly_c": 0.04,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 360.11,
+   "co2_level": 0.3976817878585725
+  },
+  {
+   "year": 1994,
+   "season": "MAM",
+   "anomaly_c": 0.17,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 361.36,
+   "co2_level": 0.4081054036024017
+  },
+  {
+   "year": 1994,
+   "season": "AMJ",
+   "anomaly_c": 0.25,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 361.78,
+   "co2_level": 0.411607738492328
+  },
+  {
+   "year": 1994,
+   "season": "MJJ",
+   "anomaly_c": 0.23,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 360.94,
+   "co2_level": 0.404603068712475
+  },
+  {
+   "year": 1994,
+   "season": "JJA",
+   "anomaly_c": 0.3,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 359.51,
+   "co2_level": 0.3926784523015343
+  },
+  {
+   "year": 1994,
+   "season": "JAS",
+   "anomaly_c": 0.3,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 357.59,
+   "co2_level": 0.37666777851901245
+  },
+  {
+   "year": 1994,
+   "season": "ASO",
+   "anomaly_c": 0.47,
+   "midi": 69,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 355.86,
+   "co2_level": 0.36224149432955316
+  },
+  {
+   "year": 1994,
+   "season": "SON",
+   "anomaly_c": 0.66,
+   "midi": 69,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 356.21,
+   "co2_level": 0.36516010673782506
+  },
+  {
+   "year": 1994,
+   "season": "OND",
+   "anomaly_c": 0.93,
+   "midi": 72,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 357.65,
+   "co2_level": 0.3771681120747163
+  },
+  {
+   "year": 1994,
+   "season": "NDJ",
+   "anomaly_c": 0.97,
+   "midi": 72,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 359.1,
+   "co2_level": 0.38925950633755857
+  },
+  {
+   "year": 1995,
+   "season": "DJF",
+   "anomaly_c": 0.88,
+   "midi": 72,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 360.04,
+   "co2_level": 0.3970980653769181
+  },
+  {
+   "year": 1995,
+   "season": "JFM",
+   "anomaly_c": 0.65,
+   "midi": 69,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 361.0,
+   "co2_level": 0.4051034022681788
+  },
+  {
+   "year": 1995,
+   "season": "FMA",
+   "anomaly_c": 0.46,
+   "midi": 69,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 361.98,
+   "co2_level": 0.4132755170113411
+  },
+  {
+   "year": 1995,
+   "season": "MAM",
+   "anomaly_c": 0.19,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 363.44,
+   "co2_level": 0.4254503002001334
+  },
+  {
+   "year": 1995,
+   "season": "AMJ",
+   "anomaly_c": 0.03,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 363.83,
+   "co2_level": 0.42870246831220804
+  },
+  {
+   "year": 1995,
+   "season": "MJJ",
+   "anomaly_c": -0.11,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 363.33,
+   "co2_level": 0.42453302201467635
+  },
+  {
+   "year": 1995,
+   "season": "JJA",
+   "anomaly_c": -0.3,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 361.78,
+   "co2_level": 0.411607738492328
+  },
+  {
+   "year": 1995,
+   "season": "JAS",
+   "anomaly_c": -0.55,
+   "midi": 62,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 359.33,
+   "co2_level": 0.3911774516344228
+  },
+  {
+   "year": 1995,
+   "season": "ASO",
+   "anomaly_c": -0.81,
+   "midi": 60,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 358.32,
+   "co2_level": 0.38275517011340887
+  },
+  {
+   "year": 1995,
+   "season": "SON",
+   "anomaly_c": -0.97,
+   "midi": 60,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 358.14,
+   "co2_level": 0.3812541694462974
+  },
+  {
+   "year": 1995,
+   "season": "OND",
+   "anomaly_c": -1.05,
+   "midi": 60,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 359.61,
+   "co2_level": 0.3935123415610408
+  },
+  {
+   "year": 1995,
+   "season": "NDJ",
+   "anomaly_c": -1.01,
+   "midi": 60,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 360.82,
+   "co2_level": 0.4036024016010673
+  },
+  {
+   "year": 1996,
+   "season": "DJF",
+   "anomaly_c": -0.88,
+   "midi": 60,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 362.2,
+   "co2_level": 0.41511007338225475
+  },
+  {
+   "year": 1996,
+   "season": "JFM",
+   "anomaly_c": -0.7,
+   "midi": 62,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 363.36,
+   "co2_level": 0.42478318879252847
+  },
+  {
+   "year": 1996,
+   "season": "FMA",
+   "anomaly_c": -0.52,
+   "midi": 62,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 364.28,
+   "co2_level": 0.43245496997998645
+  },
+  {
+   "year": 1996,
+   "season": "MAM",
+   "anomaly_c": -0.36,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 364.69,
+   "co2_level": 0.43587391594396263
+  },
+  {
+   "year": 1996,
+   "season": "AMJ",
+   "anomaly_c": -0.25,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 365.25,
+   "co2_level": 0.44054369579719815
+  },
+  {
+   "year": 1996,
+   "season": "MJJ",
+   "anomaly_c": -0.24,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 365.06,
+   "co2_level": 0.43895930620413615
+  },
+  {
+   "year": 1996,
+   "season": "JJA",
+   "anomaly_c": -0.22,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 363.69,
+   "co2_level": 0.42753502334889926
+  },
+  {
+   "year": 1996,
+   "season": "JAS",
+   "anomaly_c": -0.27,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 361.55,
+   "co2_level": 0.4096897931954637
+  },
+  {
+   "year": 1996,
+   "season": "ASO",
+   "anomaly_c": -0.3,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 359.69,
+   "co2_level": 0.39417945296864576
+  },
+  {
+   "year": 1996,
+   "season": "SON",
+   "anomaly_c": -0.33,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 359.72,
+   "co2_level": 0.3944296197464979
+  },
+  {
+   "year": 1996,
+   "season": "OND",
+   "anomaly_c": -0.39,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 361.04,
+   "co2_level": 0.4054369579719815
+  },
+  {
+   "year": 1996,
+   "season": "NDJ",
+   "anomaly_c": -0.41,
+   "midi": 62,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 362.39,
+   "co2_level": 0.41669446297531676
+  },
+  {
+   "year": 1997,
+   "season": "DJF",
+   "anomaly_c": -0.41,
+   "midi": 62,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 363.24,
+   "co2_level": 0.42378252168112085
+  },
+  {
+   "year": 1997,
+   "season": "JFM",
+   "anomaly_c": -0.26,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 364.21,
+   "co2_level": 0.43187124749833206
+  },
+  {
+   "year": 1997,
+   "season": "FMA",
+   "anomaly_c": -0.03,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 364.65,
+   "co2_level": 0.4355403602401599
+  },
+  {
+   "year": 1997,
+   "season": "MAM",
+   "anomaly_c": 0.3,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 366.49,
+   "co2_level": 0.4508839226150768
+  },
+  {
+   "year": 1997,
+   "season": "AMJ",
+   "anomaly_c": 0.71,
+   "midi": 69,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 366.77,
+   "co2_level": 0.4532188125416943
+  },
+  {
+   "year": 1997,
+   "season": "MJJ",
+   "anomaly_c": 1.13,
+   "midi": 72,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 365.73,
+   "co2_level": 0.44454636424282873
+  },
+  {
+   "year": 1997,
+   "season": "JJA",
+   "anomaly_c": 1.48,
+   "midi": 74,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 364.46,
+   "co2_level": 0.4339559706470979
+  },
+  {
+   "year": 1997,
+   "season": "JAS",
+   "anomaly_c": 1.79,
+   "midi": 76,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 362.4,
+   "co2_level": 0.4167778519012673
+  },
+  {
+   "year": 1997,
+   "season": "ASO",
+   "anomaly_c": 2.04,
+   "midi": 79,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 360.44,
+   "co2_level": 0.4004336224149433
+  },
+  {
+   "year": 1997,
+   "season": "SON",
+   "anomaly_c": 2.24,
+   "midi": 79,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 360.97,
+   "co2_level": 0.4048532354903271
+  },
+  {
+   "year": 1997,
+   "season": "OND",
+   "anomaly_c": 2.34,
+   "midi": 79,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 362.65,
+   "co2_level": 0.41886257505003316
+  },
+  {
+   "year": 1997,
+   "season": "NDJ",
+   "anomaly_c": 2.37,
+   "midi": 79,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 364.51,
+   "co2_level": 0.4343729152768512
+  },
+  {
+   "year": 1998,
+   "season": "DJF",
+   "anomaly_c": 2.22,
+   "midi": 79,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 365.39,
+   "co2_level": 0.4417111407605069
+  },
+  {
+   "year": 1998,
+   "season": "JFM",
+   "anomaly_c": 1.91,
+   "midi": 76,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 366.1,
+   "co2_level": 0.4476317545030022
+  },
+  {
+   "year": 1998,
+   "season": "FMA",
+   "anomaly_c": 1.4,
+   "midi": 74,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 367.36,
+   "co2_level": 0.458138759172782
+  },
+  {
+   "year": 1998,
+   "season": "MAM",
+   "anomaly_c": 1.03,
+   "midi": 72,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 368.79,
+   "co2_level": 0.4700633755837227
+  },
+  {
+   "year": 1998,
+   "season": "AMJ",
+   "anomaly_c": 0.4,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 369.56,
+   "co2_level": 0.47648432288192133
+  },
+  {
+   "year": 1998,
+   "season": "MJJ",
+   "anomaly_c": -0.08,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 369.13,
+   "co2_level": 0.47289859906604403
+  },
+  {
+   "year": 1998,
+   "season": "JJA",
+   "anomaly_c": -0.63,
+   "midi": 62,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 367.98,
+   "co2_level": 0.4633088725817213
+  },
+  {
+   "year": 1998,
+   "season": "JAS",
+   "anomaly_c": -0.83,
+   "midi": 60,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 366.1,
+   "co2_level": 0.4476317545030022
+  },
+  {
+   "year": 1998,
+   "season": "ASO",
+   "anomaly_c": -1.02,
+   "midi": 60,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 364.16,
+   "co2_level": 0.4314543028685793
+  },
+  {
+   "year": 1998,
+   "season": "SON",
+   "anomaly_c": -1.12,
+   "midi": 60,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 364.54,
+   "co2_level": 0.43462308205470335
+  },
+  {
+   "year": 1998,
+   "season": "OND",
+   "anomaly_c": -1.31,
+   "midi": 57,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 365.67,
+   "co2_level": 0.4440460306871249
+  },
+  {
+   "year": 1998,
+   "season": "NDJ",
+   "anomaly_c": -1.47,
+   "midi": 57,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 367.3,
+   "co2_level": 0.4576384256170782
+  },
+  {
+   "year": 1999,
+   "season": "DJF",
+   "anomaly_c": -1.51,
+   "midi": 57,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 368.35,
+   "co2_level": 0.46639426284189484
+  },
+  {
+   "year": 1999,
+   "season": "JFM",
+   "anomaly_c": -1.25,
+   "midi": 57,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 369.28,
+   "co2_level": 0.4741494329553033
+  },
+  {
+   "year": 1999,
+   "season": "FMA",
+   "anomaly_c": -0.93,
+   "midi": 60,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 369.84,
+   "co2_level": 0.47881921280853884
+  },
+  {
+   "year": 1999,
+   "season": "MAM",
+   "anomaly_c": -0.8,
+   "midi": 62,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 371.15,
+   "co2_level": 0.4897431621080719
+  },
+  {
+   "year": 1999,
+   "season": "AMJ",
+   "anomaly_c": -0.79,
+   "midi": 62,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 371.12,
+   "co2_level": 0.4894929953302202
+  },
+  {
+   "year": 1999,
+   "season": "MJJ",
+   "anomaly_c": -0.84,
+   "midi": 60,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 370.46,
+   "co2_level": 0.4839893262174782
+  },
+  {
+   "year": 1999,
+   "season": "JJA",
+   "anomaly_c": -0.9,
+   "midi": 60,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 369.61,
+   "co2_level": 0.4769012675116746
+  },
+  {
+   "year": 1999,
+   "season": "JAS",
+   "anomaly_c": -0.94,
+   "midi": 60,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 367.06,
+   "co2_level": 0.4556370913942629
+  },
+  {
+   "year": 1999,
+   "season": "ASO",
+   "anomaly_c": -1.0,
+   "midi": 60,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 364.95,
+   "co2_level": 0.43804202801867903
+  },
+  {
+   "year": 1999,
+   "season": "SON",
+   "anomaly_c": -1.13,
+   "midi": 60,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 365.52,
+   "co2_level": 0.4427951967978651
+  },
+  {
+   "year": 1999,
+   "season": "OND",
+   "anomaly_c": -1.35,
+   "midi": 57,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 366.88,
+   "co2_level": 0.45413609072715144
+  },
+  {
+   "year": 1999,
+   "season": "NDJ",
+   "anomaly_c": -1.53,
+   "midi": 57,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 368.26,
+   "co2_level": 0.46564376250833883
+  },
+  {
+   "year": 2000,
+   "season": "DJF",
+   "anomaly_c": -1.47,
+   "midi": 57,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 369.45,
+   "co2_level": 0.47556704469646427
+  },
+  {
+   "year": 2000,
+   "season": "JFM",
+   "anomaly_c": -1.26,
+   "midi": 57,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 369.71,
+   "co2_level": 0.47773515677118067
+  },
+  {
+   "year": 2000,
+   "season": "FMA",
+   "anomaly_c": -0.98,
+   "midi": 60,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 370.75,
+   "co2_level": 0.4864076050700467
+  },
+  {
+   "year": 2000,
+   "season": "MAM",
+   "anomaly_c": -0.81,
+   "midi": 60,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 371.98,
+   "co2_level": 0.4966644429619748
+  },
+  {
+   "year": 2000,
+   "season": "AMJ",
+   "anomaly_c": -0.67,
+   "midi": 62,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 371.75,
+   "co2_level": 0.4947464976651101
+  },
+  {
+   "year": 2000,
+   "season": "MJJ",
+   "anomaly_c": -0.62,
+   "midi": 62,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 371.87,
+   "co2_level": 0.49574716477651776
+  },
+  {
+   "year": 2000,
+   "season": "JJA",
+   "anomaly_c": -0.48,
+   "midi": 62,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 370.02,
+   "co2_level": 0.4803202134756503
+  },
+  {
+   "year": 2000,
+   "season": "JAS",
+   "anomaly_c": -0.4,
+   "midi": 62,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 368.27,
+   "co2_level": 0.4657271514342894
+  },
+  {
+   "year": 2000,
+   "season": "ASO",
+   "anomaly_c": -0.42,
+   "midi": 62,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 367.15,
+   "co2_level": 0.4563875917278184
+  },
+  {
+   "year": 2000,
+   "season": "SON",
+   "anomaly_c": -0.54,
+   "midi": 62,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 367.18,
+   "co2_level": 0.4566377585056705
+  },
+  {
+   "year": 2000,
+   "season": "OND",
+   "anomaly_c": -0.76,
+   "midi": 62,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 368.53,
+   "co2_level": 0.4678952635090058
+  },
+  {
+   "year": 2000,
+   "season": "NDJ",
+   "anomaly_c": -0.78,
+   "midi": 62,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 369.83,
+   "co2_level": 0.4787358238825883
+  },
+  {
+   "year": 2001,
+   "season": "DJF",
+   "anomaly_c": -0.76,
+   "midi": 62,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 370.76,
+   "co2_level": 0.48649099399599727
+  },
+  {
+   "year": 2001,
+   "season": "JFM",
+   "anomaly_c": -0.54,
+   "midi": 62,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 371.69,
+   "co2_level": 0.4942461641094063
+  },
+  {
+   "year": 2001,
+   "season": "FMA",
+   "anomaly_c": -0.43,
+   "midi": 62,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 372.63,
+   "co2_level": 0.5020847231487658
+  },
+  {
+   "year": 2001,
+   "season": "MAM",
+   "anomaly_c": -0.29,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 373.55,
+   "co2_level": 0.5097565043362243
+  },
+  {
+   "year": 2001,
+   "season": "AMJ",
+   "anomaly_c": -0.19,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 374.03,
+   "co2_level": 0.5137591727818543
+  },
+  {
+   "year": 2001,
+   "season": "MJJ",
+   "anomaly_c": -0.08,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 373.4,
+   "co2_level": 0.5085056704469645
+  },
+  {
+   "year": 2001,
+   "season": "JJA",
+   "anomaly_c": -0.05,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 371.68,
+   "co2_level": 0.49416277518345575
+  },
+  {
+   "year": 2001,
+   "season": "JAS",
+   "anomaly_c": -0.13,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 369.78,
+   "co2_level": 0.478318879252835
+  },
+  {
+   "year": 2001,
+   "season": "ASO",
+   "anomaly_c": -0.15,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 368.34,
+   "co2_level": 0.4663108739159438
+  },
+  {
+   "year": 2001,
+   "season": "SON",
+   "anomaly_c": -0.26,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 368.61,
+   "co2_level": 0.46856237491661124
+  },
+  {
+   "year": 2001,
+   "season": "OND",
+   "anomaly_c": -0.33,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 369.94,
+   "co2_level": 0.4796531020680454
+  },
+  {
+   "year": 2001,
+   "season": "NDJ",
+   "anomaly_c": -0.32,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 371.42,
+   "co2_level": 0.49199466310873935
+  },
+  {
+   "year": 2002,
+   "season": "DJF",
+   "anomaly_c": -0.15,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 372.7,
+   "co2_level": 0.5026684456304202
+  },
+  {
+   "year": 2002,
+   "season": "JFM",
+   "anomaly_c": 0.07,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 373.37,
+   "co2_level": 0.5082555036691129
+  },
+  {
+   "year": 2002,
+   "season": "FMA",
+   "anomaly_c": 0.11,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 374.3,
+   "co2_level": 0.5160106737825219
+  },
+  {
+   "year": 2002,
+   "season": "MAM",
+   "anomaly_c": 0.15,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 375.19,
+   "co2_level": 0.5234322881921281
+  },
+  {
+   "year": 2002,
+   "season": "AMJ",
+   "anomaly_c": 0.3,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 375.93,
+   "co2_level": 0.5296030687124751
+  },
+  {
+   "year": 2002,
+   "season": "MJJ",
+   "anomaly_c": 0.45,
+   "midi": 69,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 375.69,
+   "co2_level": 0.5276017344896597
+  },
+  {
+   "year": 2002,
+   "season": "JJA",
+   "anomaly_c": 0.57,
+   "midi": 69,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 374.16,
+   "co2_level": 0.5148432288192131
+  },
+  {
+   "year": 2002,
+   "season": "JAS",
+   "anomaly_c": 0.63,
+   "midi": 69,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 372.03,
+   "co2_level": 0.49708138759172765
+  },
+  {
+   "year": 2002,
+   "season": "ASO",
+   "anomaly_c": 0.78,
+   "midi": 69,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 370.92,
+   "co2_level": 0.48782521681120766
+  },
+  {
+   "year": 2002,
+   "season": "SON",
+   "anomaly_c": 0.99,
+   "midi": 72,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 370.73,
+   "co2_level": 0.4862408272181456
+  },
+  {
+   "year": 2002,
+   "season": "OND",
+   "anomaly_c": 1.19,
+   "midi": 72,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 372.43,
+   "co2_level": 0.5004169446297533
+  },
+  {
+   "year": 2002,
+   "season": "NDJ",
+   "anomaly_c": 1.08,
+   "midi": 72,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 373.98,
+   "co2_level": 0.5133422281521016
+  },
+  {
+   "year": 2003,
+   "season": "DJF",
+   "anomaly_c": 0.9,
+   "midi": 72,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 375.07,
+   "co2_level": 0.5224316210807205
+  },
+  {
+   "year": 2003,
+   "season": "JFM",
+   "anomaly_c": 0.59,
+   "midi": 69,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 375.82,
+   "co2_level": 0.528685790527018
+  },
+  {
+   "year": 2003,
+   "season": "FMA",
+   "anomaly_c": 0.38,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 376.64,
+   "co2_level": 0.53552368245497
+  },
+  {
+   "year": 2003,
+   "season": "MAM",
+   "anomaly_c": -0.01,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 377.92,
+   "co2_level": 0.5461974649766513
+  },
+  {
+   "year": 2003,
+   "season": "AMJ",
+   "anomaly_c": -0.18,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 378.78,
+   "co2_level": 0.5533689126084055
+  },
+  {
+   "year": 2003,
+   "season": "MJJ",
+   "anomaly_c": -0.13,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 378.46,
+   "co2_level": 0.5507004669779852
+  },
+  {
+   "year": 2003,
+   "season": "JJA",
+   "anomaly_c": 0.09,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 376.88,
+   "co2_level": 0.5375250166777852
+  },
+  {
+   "year": 2003,
+   "season": "JAS",
+   "anomaly_c": 0.14,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 374.57,
+   "co2_level": 0.5182621747831888
+  },
+  {
+   "year": 2003,
+   "season": "ASO",
+   "anomaly_c": 0.23,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 373.34,
+   "co2_level": 0.5080053368912607
+  },
+  {
+   "year": 2003,
+   "season": "SON",
+   "anomaly_c": 0.23,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 373.31,
+   "co2_level": 0.507755170113409
+  },
+  {
+   "year": 2003,
+   "season": "OND",
+   "anomaly_c": 0.29,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 374.84,
+   "co2_level": 0.5205136757838558
+  },
+  {
+   "year": 2003,
+   "season": "NDJ",
+   "anomaly_c": 0.29,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 376.17,
+   "co2_level": 0.5316044029352903
+  },
+  {
+   "year": 2004,
+   "season": "DJF",
+   "anomaly_c": 0.34,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 377.17,
+   "co2_level": 0.5399432955303538
+  },
+  {
+   "year": 2004,
+   "season": "JFM",
+   "anomaly_c": 0.27,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 378.05,
+   "co2_level": 0.5472815210140095
+  },
+  {
+   "year": 2004,
+   "season": "FMA",
+   "anomaly_c": 0.19,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 379.06,
+   "co2_level": 0.5557038025350234
+  },
+  {
+   "year": 2004,
+   "season": "MAM",
+   "anomaly_c": 0.1,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 380.54,
+   "co2_level": 0.5680453635757173
+  },
+  {
+   "year": 2004,
+   "season": "AMJ",
+   "anomaly_c": 0.12,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 380.8,
+   "co2_level": 0.5702134756504338
+  },
+  {
+   "year": 2004,
+   "season": "MJJ",
+   "anomaly_c": 0.22,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 379.87,
+   "co2_level": 0.5624583055370248
+  },
+  {
+   "year": 2004,
+   "season": "JJA",
+   "anomaly_c": 0.39,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 377.65,
+   "co2_level": 0.5439459639759838
+  },
+  {
+   "year": 2004,
+   "season": "JAS",
+   "anomaly_c": 0.54,
+   "midi": 69,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 376.17,
+   "co2_level": 0.5316044029352903
+  },
+  {
+   "year": 2004,
+   "season": "ASO",
+   "anomaly_c": 0.58,
+   "midi": 69,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 374.43,
+   "co2_level": 0.51709472981988
+  },
+  {
+   "year": 2004,
+   "season": "SON",
+   "anomaly_c": 0.61,
+   "midi": 69,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 374.63,
+   "co2_level": 0.5187625083388926
+  },
+  {
+   "year": 2004,
+   "season": "OND",
+   "anomaly_c": 0.64,
+   "midi": 69,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 376.33,
+   "co2_level": 0.5329386257505002
+  },
+  {
+   "year": 2004,
+   "season": "NDJ",
+   "anomaly_c": 0.71,
+   "midi": 69,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 377.68,
+   "co2_level": 0.544196130753836
+  },
+  {
+   "year": 2005,
+   "season": "DJF",
+   "anomaly_c": 0.62,
+   "midi": 69,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 378.63,
+   "co2_level": 0.5521180787191461
+  },
+  {
+   "year": 2005,
+   "season": "JFM",
+   "anomaly_c": 0.55,
+   "midi": 69,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 379.91,
+   "co2_level": 0.5627918612408275
+  },
+  {
+   "year": 2005,
+   "season": "FMA",
+   "anomaly_c": 0.4,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 380.95,
+   "co2_level": 0.5714643095396931
+  },
+  {
+   "year": 2005,
+   "season": "MAM",
+   "anomaly_c": 0.37,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 382.48,
+   "co2_level": 0.5842228152101403
+  },
+  {
+   "year": 2005,
+   "season": "AMJ",
+   "anomaly_c": 0.27,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 382.64,
+   "co2_level": 0.5855570380253502
+  },
+  {
+   "year": 2005,
+   "season": "MJJ",
+   "anomaly_c": 0.09,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 382.4,
+   "co2_level": 0.5835557038025349
+  },
+  {
+   "year": 2005,
+   "season": "JJA",
+   "anomaly_c": -0.04,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 380.93,
+   "co2_level": 0.571297531687792
+  },
+  {
+   "year": 2005,
+   "season": "JAS",
+   "anomaly_c": -0.14,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 378.93,
+   "co2_level": 0.5546197464976652
+  },
+  {
+   "year": 2005,
+   "season": "ASO",
+   "anomaly_c": -0.11,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 376.89,
+   "co2_level": 0.5376084056037358
+  },
+  {
+   "year": 2005,
+   "season": "SON",
+   "anomaly_c": -0.27,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 377.19,
+   "co2_level": 0.5401100733822549
+  },
+  {
+   "year": 2005,
+   "season": "OND",
+   "anomaly_c": -0.57,
+   "midi": 62,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 378.54,
+   "co2_level": 0.5513675783855906
+  },
+  {
+   "year": 2005,
+   "season": "NDJ",
+   "anomaly_c": -0.82,
+   "midi": 60,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 380.31,
+   "co2_level": 0.5661274182788526
+  },
+  {
+   "year": 2006,
+   "season": "DJF",
+   "anomaly_c": -0.86,
+   "midi": 60,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 381.58,
+   "co2_level": 0.576717811874583
+  },
+  {
+   "year": 2006,
+   "season": "JFM",
+   "anomaly_c": -0.8,
+   "midi": 62,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 382.4,
+   "co2_level": 0.5835557038025349
+  },
+  {
+   "year": 2006,
+   "season": "FMA",
+   "anomaly_c": -0.63,
+   "midi": 62,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 382.86,
+   "co2_level": 0.5873915943962643
+  },
+  {
+   "year": 2006,
+   "season": "MAM",
+   "anomaly_c": -0.45,
+   "midi": 62,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 384.8,
+   "co2_level": 0.6035690460306873
+  },
+  {
+   "year": 2006,
+   "season": "AMJ",
+   "anomaly_c": -0.19,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 385.22,
+   "co2_level": 0.6070713809206141
+  },
+  {
+   "year": 2006,
+   "season": "MJJ",
+   "anomaly_c": -0.05,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 384.24,
+   "co2_level": 0.5988992661774518
+  },
+  {
+   "year": 2006,
+   "season": "JJA",
+   "anomaly_c": 0.12,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 382.65,
+   "co2_level": 0.5856404269513007
+  },
+  {
+   "year": 2006,
+   "season": "JAS",
+   "anomaly_c": 0.33,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 380.6,
+   "co2_level": 0.5685456971314212
+  },
+  {
+   "year": 2006,
+   "season": "ASO",
+   "anomaly_c": 0.54,
+   "midi": 69,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 379.04,
+   "co2_level": 0.5555370246831223
+  },
+  {
+   "year": 2006,
+   "season": "SON",
+   "anomaly_c": 0.71,
+   "midi": 69,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 379.33,
+   "co2_level": 0.5579553035356903
+  },
+  {
+   "year": 2006,
+   "season": "OND",
+   "anomaly_c": 0.88,
+   "midi": 72,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 380.35,
+   "co2_level": 0.5664609739826554
+  },
+  {
+   "year": 2006,
+   "season": "NDJ",
+   "anomaly_c": 0.88,
+   "midi": 72,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 382.02,
+   "co2_level": 0.5803869246164108
+  },
+  {
+   "year": 2007,
+   "season": "DJF",
+   "anomaly_c": 0.62,
+   "midi": 69,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 383.1,
+   "co2_level": 0.5893929286190797
+  },
+  {
+   "year": 2007,
+   "season": "JFM",
+   "anomaly_c": 0.19,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 384.12,
+   "co2_level": 0.5978985990660441
+  },
+  {
+   "year": 2007,
+   "season": "FMA",
+   "anomaly_c": -0.12,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 384.81,
+   "co2_level": 0.6036524349566379
+  },
+  {
+   "year": 2007,
+   "season": "MAM",
+   "anomaly_c": -0.32,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 386.73,
+   "co2_level": 0.6196631087391596
+  },
+  {
+   "year": 2007,
+   "season": "AMJ",
+   "anomaly_c": -0.34,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 386.78,
+   "co2_level": 0.6200800533689125
+  },
+  {
+   "year": 2007,
+   "season": "MJJ",
+   "anomaly_c": -0.41,
+   "midi": 62,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 386.33,
+   "co2_level": 0.6163275517011341
+  },
+  {
+   "year": 2007,
+   "season": "JJA",
+   "anomaly_c": -0.49,
+   "midi": 62,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 384.73,
+   "co2_level": 0.6029853235490329
+  },
+  {
+   "year": 2007,
+   "season": "JAS",
+   "anomaly_c": -0.77,
+   "midi": 62,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 382.24,
+   "co2_level": 0.5822214809873251
+  },
+  {
+   "year": 2007,
+   "season": "ASO",
+   "anomaly_c": -1.05,
+   "midi": 60,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 381.2,
+   "co2_level": 0.5735490326884589
+  },
+  {
+   "year": 2007,
+   "season": "SON",
+   "anomaly_c": -1.38,
+   "midi": 57,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 381.37,
+   "co2_level": 0.5749666444296199
+  },
+  {
+   "year": 2007,
+   "season": "OND",
+   "anomaly_c": -1.57,
+   "midi": 57,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 382.7,
+   "co2_level": 0.586057371581054
+  },
+  {
+   "year": 2007,
+   "season": "NDJ",
+   "anomaly_c": -1.72,
+   "midi": 55,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 384.19,
+   "co2_level": 0.5984823215476985
+  },
+  {
+   "year": 2008,
+   "season": "DJF",
+   "anomaly_c": -1.76,
+   "midi": 55,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 385.78,
+   "co2_level": 0.6117411607738491
+  },
+  {
+   "year": 2008,
+   "season": "JFM",
+   "anomaly_c": -1.61,
+   "midi": 55,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 386.06,
+   "co2_level": 0.6140760507004671
+  },
+  {
+   "year": 2008,
+   "season": "FMA",
+   "anomaly_c": -1.37,
+   "midi": 57,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 386.28,
+   "co2_level": 0.6159106070713808
+  },
+  {
+   "year": 2008,
+   "season": "MAM",
+   "anomaly_c": -1.05,
+   "midi": 60,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 387.33,
+   "co2_level": 0.6246664442961974
+  },
+  {
+   "year": 2008,
+   "season": "AMJ",
+   "anomaly_c": -0.85,
+   "midi": 60,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 388.78,
+   "co2_level": 0.6367578385590392
+  },
+  {
+   "year": 2008,
+   "season": "MJJ",
+   "anomaly_c": -0.56,
+   "midi": 62,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 387.99,
+   "co2_level": 0.6301701134089395
+  },
+  {
+   "year": 2008,
+   "season": "JJA",
+   "anomaly_c": -0.33,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 386.62,
+   "co2_level": 0.6187458305537026
+  },
+  {
+   "year": 2008,
+   "season": "JAS",
+   "anomaly_c": -0.2,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 384.32,
+   "co2_level": 0.5995663775850567
+  },
+  {
+   "year": 2008,
+   "season": "ASO",
+   "anomaly_c": -0.25,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 383.41,
+   "co2_level": 0.5919779853235493
+  },
+  {
+   "year": 2008,
+   "season": "SON",
+   "anomaly_c": -0.36,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 383.22,
+   "co2_level": 0.5903935957304873
+  },
+  {
+   "year": 2008,
+   "season": "OND",
+   "anomaly_c": -0.57,
+   "midi": 62,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 384.41,
+   "co2_level": 0.6003168779186127
+  },
+  {
+   "year": 2008,
+   "season": "NDJ",
+   "anomaly_c": -0.79,
+   "midi": 62,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 385.79,
+   "co2_level": 0.6118245496998002
+  },
+  {
+   "year": 2009,
+   "season": "DJF",
+   "anomaly_c": -0.89,
+   "midi": 60,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 387.17,
+   "co2_level": 0.6233322214809875
+  },
+  {
+   "year": 2009,
+   "season": "JFM",
+   "anomaly_c": -0.84,
+   "midi": 60,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 387.7,
+   "co2_level": 0.6277518345563708
+  },
+  {
+   "year": 2009,
+   "season": "FMA",
+   "anomaly_c": -0.63,
+   "midi": 62,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 389.04,
+   "co2_level": 0.6389259506337561
+  },
+  {
+   "year": 2009,
+   "season": "MAM",
+   "anomaly_c": -0.35,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 389.76,
+   "co2_level": 0.6449299533022015
+  },
+  {
+   "year": 2009,
+   "season": "AMJ",
+   "anomaly_c": 0.03,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 390.36,
+   "co2_level": 0.6499332888592397
+  },
+  {
+   "year": 2009,
+   "season": "MJJ",
+   "anomaly_c": 0.34,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 389.7,
+   "co2_level": 0.6444296197464977
+  },
+  {
+   "year": 2009,
+   "season": "JJA",
+   "anomaly_c": 0.5,
+   "midi": 69,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 388.24,
+   "co2_level": 0.6322548365577053
+  },
+  {
+   "year": 2009,
+   "season": "JAS",
+   "anomaly_c": 0.56,
+   "midi": 69,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 386.29,
+   "co2_level": 0.6159939959973318
+  },
+  {
+   "year": 2009,
+   "season": "ASO",
+   "anomaly_c": 0.66,
+   "midi": 69,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 384.95,
+   "co2_level": 0.6048198799199466
+  },
+  {
+   "year": 2009,
+   "season": "SON",
+   "anomaly_c": 0.92,
+   "midi": 72,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 384.64,
+   "co2_level": 0.6022348232154769
+  },
+  {
+   "year": 2009,
+   "season": "OND",
+   "anomaly_c": 1.31,
+   "midi": 74,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 386.23,
+   "co2_level": 0.615493662441628
+  },
+  {
+   "year": 2009,
+   "season": "NDJ",
+   "anomaly_c": 1.5,
+   "midi": 74,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 387.63,
+   "co2_level": 0.6271681120747166
+  },
+  {
+   "year": 2010,
+   "season": "DJF",
+   "anomaly_c": 1.47,
+   "midi": 74,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 388.91,
+   "co2_level": 0.6378418945963978
+  },
+  {
+   "year": 2010,
+   "season": "JFM",
+   "anomaly_c": 1.21,
+   "midi": 74,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 390.41,
+   "co2_level": 0.650350233488993
+  },
+  {
+   "year": 2010,
+   "season": "FMA",
+   "anomaly_c": 0.88,
+   "midi": 72,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 391.37,
+   "co2_level": 0.6583555703802536
+  },
+  {
+   "year": 2010,
+   "season": "MAM",
+   "anomaly_c": 0.38,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 392.67,
+   "co2_level": 0.6691961307538361
+  },
+  {
+   "year": 2010,
+   "season": "AMJ",
+   "anomaly_c": -0.16,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 393.21,
+   "co2_level": 0.67369913275517
+  },
+  {
+   "year": 2010,
+   "season": "MJJ",
+   "anomaly_c": -0.66,
+   "midi": 62,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 392.38,
+   "co2_level": 0.6667778519012676
+  },
+  {
+   "year": 2010,
+   "season": "JJA",
+   "anomaly_c": -0.98,
+   "midi": 60,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 390.41,
+   "co2_level": 0.650350233488993
+  },
+  {
+   "year": 2010,
+   "season": "JAS",
+   "anomaly_c": -1.24,
+   "midi": 57,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 388.54,
+   "co2_level": 0.6347565043362244
+  },
+  {
+   "year": 2010,
+   "season": "ASO",
+   "anomaly_c": -1.43,
+   "midi": 57,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 387.03,
+   "co2_level": 0.6221647765176783
+  },
+  {
+   "year": 2010,
+   "season": "SON",
+   "anomaly_c": -1.54,
+   "midi": 57,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 387.43,
+   "co2_level": 0.6255003335557039
+  },
+  {
+   "year": 2010,
+   "season": "OND",
+   "anomaly_c": -1.57,
+   "midi": 57,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 388.87,
+   "co2_level": 0.6375083388925952
+  },
+  {
+   "year": 2010,
+   "season": "NDJ",
+   "anomaly_c": -1.48,
+   "midi": 57,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 389.99,
+   "co2_level": 0.6468478985990662
+  },
+  {
+   "year": 2011,
+   "season": "DJF",
+   "anomaly_c": -1.29,
+   "midi": 57,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 391.5,
+   "co2_level": 0.6594396264176118
+  },
+  {
+   "year": 2011,
+   "season": "JFM",
+   "anomaly_c": -1.06,
+   "midi": 60,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 392.05,
+   "co2_level": 0.6640260173448967
+  },
+  {
+   "year": 2011,
+   "season": "FMA",
+   "anomaly_c": -0.85,
+   "midi": 60,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 392.8,
+   "co2_level": 0.6702801867911943
+  },
+  {
+   "year": 2011,
+   "season": "MAM",
+   "anomaly_c": -0.68,
+   "midi": 62,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 393.44,
+   "co2_level": 0.6756170780520347
+  },
+  {
+   "year": 2011,
+   "season": "AMJ",
+   "anomaly_c": -0.5,
+   "midi": 62,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 394.41,
+   "co2_level": 0.6837058038692465
+  },
+  {
+   "year": 2011,
+   "season": "MJJ",
+   "anomaly_c": -0.34,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 393.95,
+   "co2_level": 0.679869913275517
+  },
+  {
+   "year": 2011,
+   "season": "JJA",
+   "anomaly_c": -0.37,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 392.72,
+   "co2_level": 0.6696130753835894
+  },
+  {
+   "year": 2011,
+   "season": "JAS",
+   "anomaly_c": -0.5,
+   "midi": 62,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 390.33,
+   "co2_level": 0.6496831220813876
+  },
+  {
+   "year": 2011,
+   "season": "ASO",
+   "anomaly_c": -0.76,
+   "midi": 62,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 389.28,
+   "co2_level": 0.6409272848565709
+  },
+  {
+   "year": 2011,
+   "season": "SON",
+   "anomaly_c": -0.94,
+   "midi": 60,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 389.19,
+   "co2_level": 0.6401767845230154
+  },
+  {
+   "year": 2011,
+   "season": "OND",
+   "anomaly_c": -1.02,
+   "midi": 60,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 390.48,
+   "co2_level": 0.6509339559706473
+  },
+  {
+   "year": 2011,
+   "season": "NDJ",
+   "anomaly_c": -0.92,
+   "midi": 60,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 392.06,
+   "co2_level": 0.6641094062708474
+  },
+  {
+   "year": 2012,
+   "season": "DJF",
+   "anomaly_c": -0.71,
+   "midi": 62,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 393.31,
+   "co2_level": 0.6745330220146766
+  },
+  {
+   "year": 2012,
+   "season": "JFM",
+   "anomaly_c": -0.56,
+   "midi": 62,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 394.04,
+   "co2_level": 0.680620413609073
+  },
+  {
+   "year": 2012,
+   "season": "FMA",
+   "anomaly_c": -0.44,
+   "midi": 62,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 394.59,
+   "co2_level": 0.6852068045363575
+  },
+  {
+   "year": 2012,
+   "season": "MAM",
+   "anomaly_c": -0.35,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 396.38,
+   "co2_level": 0.7001334222815211
+  },
+  {
+   "year": 2012,
+   "season": "AMJ",
+   "anomaly_c": -0.18,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 396.93,
+   "co2_level": 0.7047198132088061
+  },
+  {
+   "year": 2012,
+   "season": "MJJ",
+   "anomaly_c": 0.03,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 395.91,
+   "co2_level": 0.6962141427618416
+  },
+  {
+   "year": 2012,
+   "season": "JJA",
+   "anomaly_c": 0.28,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 394.56,
+   "co2_level": 0.6849566377585058
+  },
+  {
+   "year": 2012,
+   "season": "JAS",
+   "anomaly_c": 0.39,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 392.59,
+   "co2_level": 0.6685290193462307
+  },
+  {
+   "year": 2012,
+   "season": "ASO",
+   "anomaly_c": 0.37,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 391.32,
+   "co2_level": 0.6579386257505003
+  },
+  {
+   "year": 2012,
+   "season": "SON",
+   "anomaly_c": 0.28,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 391.27,
+   "co2_level": 0.6575216811207472
+  },
+  {
+   "year": 2012,
+   "season": "OND",
+   "anomaly_c": 0.13,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 393.2,
+   "co2_level": 0.6736157438292195
+  },
+  {
+   "year": 2012,
+   "season": "NDJ",
+   "anomaly_c": -0.03,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 394.57,
+   "co2_level": 0.6850400266844563
+  },
+  {
+   "year": 2013,
+   "season": "DJF",
+   "anomaly_c": -0.24,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 395.78,
+   "co2_level": 0.6951300867244828
+  },
+  {
+   "year": 2013,
+   "season": "JFM",
+   "anomaly_c": -0.28,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 397.03,
+   "co2_level": 0.7055537024683121
+  },
+  {
+   "year": 2013,
+   "season": "FMA",
+   "anomaly_c": -0.23,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 397.66,
+   "co2_level": 0.7108072048032025
+  },
+  {
+   "year": 2013,
+   "season": "MAM",
+   "anomaly_c": -0.2,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 398.64,
+   "co2_level": 0.7189793195463643
+  },
+  {
+   "year": 2013,
+   "season": "AMJ",
+   "anomaly_c": -0.3,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 400.02,
+   "co2_level": 0.7304869913275517
+  },
+  {
+   "year": 2013,
+   "season": "MJJ",
+   "anomaly_c": -0.38,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 398.81,
+   "co2_level": 0.7203969312875251
+  },
+  {
+   "year": 2013,
+   "season": "JJA",
+   "anomaly_c": -0.45,
+   "midi": 62,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 397.51,
+   "co2_level": 0.7095563709139426
+  },
+  {
+   "year": 2013,
+   "season": "JAS",
+   "anomaly_c": -0.34,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 395.39,
+   "co2_level": 0.6918779186124082
+  },
+  {
+   "year": 2013,
+   "season": "ASO",
+   "anomaly_c": -0.32,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 393.72,
+   "co2_level": 0.6779519679786528
+  },
+  {
+   "year": 2013,
+   "season": "SON",
+   "anomaly_c": -0.14,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 393.9,
+   "co2_level": 0.6794529686457638
+  },
+  {
+   "year": 2013,
+   "season": "OND",
+   "anomaly_c": -0.12,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 395.36,
+   "co2_level": 0.6916277518345566
+  },
+  {
+   "year": 2013,
+   "season": "NDJ",
+   "anomaly_c": -0.11,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 397.03,
+   "co2_level": 0.7055537024683121
+  },
+  {
+   "year": 2014,
+   "season": "DJF",
+   "anomaly_c": -0.24,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 398.04,
+   "co2_level": 0.7139759839893265
+  },
+  {
+   "year": 2014,
+   "season": "JFM",
+   "anomaly_c": -0.21,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 398.27,
+   "co2_level": 0.7158939292861908
+  },
+  {
+   "year": 2014,
+   "season": "FMA",
+   "anomaly_c": -0.02,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 399.91,
+   "co2_level": 0.7295697131420951
+  },
+  {
+   "year": 2014,
+   "season": "MAM",
+   "anomaly_c": 0.25,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 401.51,
+   "co2_level": 0.7429119412941961
+  },
+  {
+   "year": 2014,
+   "season": "AMJ",
+   "anomaly_c": 0.35,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 401.96,
+   "co2_level": 0.7466644429619747
+  },
+  {
+   "year": 2014,
+   "season": "MJJ",
+   "anomaly_c": 0.22,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 401.43,
+   "co2_level": 0.7422448298865912
+  },
+  {
+   "year": 2014,
+   "season": "JJA",
+   "anomaly_c": 0.07,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 399.27,
+   "co2_level": 0.7242328218812542
+  },
+  {
+   "year": 2014,
+   "season": "JAS",
+   "anomaly_c": 0.07,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 397.18,
+   "co2_level": 0.7068045363575719
+  },
+  {
+   "year": 2014,
+   "season": "ASO",
+   "anomaly_c": 0.24,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 395.54,
+   "co2_level": 0.693128752501668
+  },
+  {
+   "year": 2014,
+   "season": "SON",
+   "anomaly_c": 0.51,
+   "midi": 69,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 396.16,
+   "co2_level": 0.6982988659106074
+  },
+  {
+   "year": 2014,
+   "season": "OND",
+   "anomaly_c": 0.7,
+   "midi": 69,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 397.4,
+   "co2_level": 0.7086390927284856
+  },
+  {
+   "year": 2014,
+   "season": "NDJ",
+   "anomaly_c": 0.8,
+   "midi": 72,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 399.08,
+   "co2_level": 0.7226484322881921
+  },
+  {
+   "year": 2015,
+   "season": "DJF",
+   "anomaly_c": 0.73,
+   "midi": 69,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 400.18,
+   "co2_level": 0.731821214142762
+  },
+  {
+   "year": 2015,
+   "season": "JFM",
+   "anomaly_c": 0.65,
+   "midi": 69,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 400.55,
+   "co2_level": 0.7349066044029355
+  },
+  {
+   "year": 2015,
+   "season": "FMA",
+   "anomaly_c": 0.72,
+   "midi": 69,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 401.74,
+   "co2_level": 0.7448298865910609
+  },
+  {
+   "year": 2015,
+   "season": "MAM",
+   "anomaly_c": 0.86,
+   "midi": 72,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 403.35,
+   "co2_level": 0.7582555036691131
+  },
+  {
+   "year": 2015,
+   "season": "AMJ",
+   "anomaly_c": 1.04,
+   "midi": 72,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 404.15,
+   "co2_level": 0.7649266177451634
+  },
+  {
+   "year": 2015,
+   "season": "MJJ",
+   "anomaly_c": 1.19,
+   "midi": 72,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 402.97,
+   "co2_level": 0.755086724482989
+  },
+  {
+   "year": 2015,
+   "season": "JJA",
+   "anomaly_c": 1.44,
+   "midi": 74,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 401.46,
+   "co2_level": 0.742494996664443
+  },
+  {
+   "year": 2015,
+   "season": "JAS",
+   "anomaly_c": 1.73,
+   "midi": 76,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 399.11,
+   "co2_level": 0.7228985990660443
+  },
+  {
+   "year": 2015,
+   "season": "ASO",
+   "anomaly_c": 2.02,
+   "midi": 79,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 397.82,
+   "co2_level": 0.7121414276184124
+  },
+  {
+   "year": 2015,
+   "season": "SON",
+   "anomaly_c": 2.28,
+   "midi": 79,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 398.49,
+   "co2_level": 0.7177284856571049
+  },
+  {
+   "year": 2015,
+   "season": "OND",
+   "anomaly_c": 2.45,
+   "midi": 81,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 400.27,
+   "co2_level": 0.7325717144763175
+  },
+  {
+   "year": 2015,
+   "season": "NDJ",
+   "anomaly_c": 2.59,
+   "midi": 81,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 402.06,
+   "co2_level": 0.7474983322214811
+  },
+  {
+   "year": 2016,
+   "season": "DJF",
+   "anomaly_c": 2.5,
+   "midi": 81,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 402.73,
+   "co2_level": 0.7530853902601737
+  },
+  {
+   "year": 2016,
+   "season": "JFM",
+   "anomaly_c": 2.21,
+   "midi": 79,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 404.25,
+   "co2_level": 0.7657605070046699
+  },
+  {
+   "year": 2016,
+   "season": "FMA",
+   "anomaly_c": 1.69,
+   "midi": 76,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 405.06,
+   "co2_level": 0.7725150100066712
+  },
+  {
+   "year": 2016,
+   "season": "MAM",
+   "anomaly_c": 1.11,
+   "midi": 72,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 407.6,
+   "co2_level": 0.7936957971981324
+  },
+  {
+   "year": 2016,
+   "season": "AMJ",
+   "anomaly_c": 0.57,
+   "midi": 69,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 407.9,
+   "co2_level": 0.796197464976651
+  },
+  {
+   "year": 2016,
+   "season": "MJJ",
+   "anomaly_c": 0.09,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 406.99,
+   "co2_level": 0.7886090727151437
+  },
+  {
+   "year": 2016,
+   "season": "JJA",
+   "anomaly_c": -0.19,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 404.59,
+   "co2_level": 0.7685957304869913
+  },
+  {
+   "year": 2016,
+   "season": "JAS",
+   "anomaly_c": -0.34,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 402.45,
+   "co2_level": 0.7507505003335557
+  },
+  {
+   "year": 2016,
+   "season": "ASO",
+   "anomaly_c": -0.42,
+   "midi": 62,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 401.23,
+   "co2_level": 0.7405770513675787
+  },
+  {
+   "year": 2016,
+   "season": "SON",
+   "anomaly_c": -0.51,
+   "midi": 62,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 401.79,
+   "co2_level": 0.7452468312208141
+  },
+  {
+   "year": 2016,
+   "season": "OND",
+   "anomaly_c": -0.49,
+   "midi": 62,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 403.72,
+   "co2_level": 0.7613408939292865
+  },
+  {
+   "year": 2016,
+   "season": "NDJ",
+   "anomaly_c": -0.37,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 404.64,
+   "co2_level": 0.7690126751167445
+  },
+  {
+   "year": 2017,
+   "season": "DJF",
+   "anomaly_c": -0.08,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 406.36,
+   "co2_level": 0.7833555703802537
+  },
+  {
+   "year": 2017,
+   "season": "JFM",
+   "anomaly_c": 0.08,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 406.66,
+   "co2_level": 0.7858572381587728
+  },
+  {
+   "year": 2017,
+   "season": "FMA",
+   "anomaly_c": 0.27,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 407.54,
+   "co2_level": 0.7931954636424285
+  },
+  {
+   "year": 2017,
+   "season": "MAM",
+   "anomaly_c": 0.32,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 409.22,
+   "co2_level": 0.8072048032021352
+  },
+  {
+   "year": 2017,
+   "season": "AMJ",
+   "anomaly_c": 0.35,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 409.89,
+   "co2_level": 0.8127918612408273
+  },
+  {
+   "year": 2017,
+   "season": "MJJ",
+   "anomaly_c": 0.32,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 409.08,
+   "co2_level": 0.8060373582388259
+  },
+  {
+   "year": 2017,
+   "season": "JJA",
+   "anomaly_c": 0.14,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 407.33,
+   "co2_level": 0.791444296197465
+  },
+  {
+   "year": 2017,
+   "season": "JAS",
+   "anomaly_c": -0.07,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 405.32,
+   "co2_level": 0.7746831220813877
+  },
+  {
+   "year": 2017,
+   "season": "ASO",
+   "anomaly_c": -0.23,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 403.57,
+   "co2_level": 0.7600900600400268
+  },
+  {
+   "year": 2017,
+   "season": "SON",
+   "anomaly_c": -0.44,
+   "midi": 62,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 403.82,
+   "co2_level": 0.7621747831887926
+  },
+  {
+   "year": 2017,
+   "season": "OND",
+   "anomaly_c": -0.61,
+   "midi": 62,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 405.31,
+   "co2_level": 0.7745997331554371
+  },
+  {
+   "year": 2017,
+   "season": "NDJ",
+   "anomaly_c": -0.76,
+   "midi": 62,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 407.0,
+   "co2_level": 0.7886924616410942
+  },
+  {
+   "year": 2018,
+   "season": "DJF",
+   "anomaly_c": -0.71,
+   "midi": 62,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 408.15,
+   "co2_level": 0.7982821881254168
+  },
+  {
+   "year": 2018,
+   "season": "JFM",
+   "anomaly_c": -0.67,
+   "midi": 62,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 408.52,
+   "co2_level": 0.8013675783855904
+  },
+  {
+   "year": 2018,
+   "season": "FMA",
+   "anomaly_c": -0.55,
+   "midi": 62,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 409.59,
+   "co2_level": 0.8102901934623081
+  },
+  {
+   "year": 2018,
+   "season": "MAM",
+   "anomaly_c": -0.35,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 410.45,
+   "co2_level": 0.8174616410940627
+  },
+  {
+   "year": 2018,
+   "season": "AMJ",
+   "anomaly_c": -0.07,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 411.44,
+   "co2_level": 0.8257171447631756
+  },
+  {
+   "year": 2018,
+   "season": "MJJ",
+   "anomaly_c": 0.13,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 410.99,
+   "co2_level": 0.8219646430953972
+  },
+  {
+   "year": 2018,
+   "season": "JJA",
+   "anomaly_c": 0.2,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 408.9,
+   "co2_level": 0.8045363575717144
+  },
+  {
+   "year": 2018,
+   "season": "JAS",
+   "anomaly_c": 0.3,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 407.16,
+   "co2_level": 0.7900266844563045
+  },
+  {
+   "year": 2018,
+   "season": "ASO",
+   "anomaly_c": 0.52,
+   "midi": 69,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 405.71,
+   "co2_level": 0.7779352901934623
+  },
+  {
+   "year": 2018,
+   "season": "SON",
+   "anomaly_c": 0.82,
+   "midi": 72,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 406.19,
+   "co2_level": 0.7819379586390929
+  },
+  {
+   "year": 2018,
+   "season": "OND",
+   "anomaly_c": 1.04,
+   "midi": 72,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 408.21,
+   "co2_level": 0.7987825216811207
+  },
+  {
+   "year": 2018,
+   "season": "NDJ",
+   "anomaly_c": 1.05,
+   "midi": 72,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 409.27,
+   "co2_level": 0.8076217478318879
+  },
+  {
+   "year": 2019,
+   "season": "DJF",
+   "anomaly_c": 0.99,
+   "midi": 72,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 411.03,
+   "co2_level": 0.8222981987991994
+  },
+  {
+   "year": 2019,
+   "season": "JFM",
+   "anomaly_c": 0.94,
+   "midi": 72,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 411.96,
+   "co2_level": 0.8300533689126084
+  },
+  {
+   "year": 2019,
+   "season": "FMA",
+   "anomaly_c": 0.87,
+   "midi": 72,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 412.18,
+   "co2_level": 0.8318879252835225
+  },
+  {
+   "year": 2019,
+   "season": "MAM",
+   "anomaly_c": 0.82,
+   "midi": 72,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 413.54,
+   "co2_level": 0.8432288192128089
+  },
+  {
+   "year": 2019,
+   "season": "AMJ",
+   "anomaly_c": 0.71,
+   "midi": 69,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 414.86,
+   "co2_level": 0.8542361574382925
+  },
+  {
+   "year": 2019,
+   "season": "MJJ",
+   "anomaly_c": 0.59,
+   "midi": 69,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 414.15,
+   "co2_level": 0.8483155436957972
+  },
+  {
+   "year": 2019,
+   "season": "JJA",
+   "anomaly_c": 0.38,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 411.96,
+   "co2_level": 0.8300533689126084
+  },
+  {
+   "year": 2019,
+   "season": "JAS",
+   "anomaly_c": 0.2,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 410.17,
+   "co2_level": 0.8151267511674453
+  },
+  {
+   "year": 2019,
+   "season": "ASO",
+   "anomaly_c": 0.31,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 408.76,
+   "co2_level": 0.8033689126084057
+  },
+  {
+   "year": 2019,
+   "season": "SON",
+   "anomaly_c": 0.51,
+   "midi": 69,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 408.74,
+   "co2_level": 0.8032021347565046
+  },
+  {
+   "year": 2019,
+   "season": "OND",
+   "anomaly_c": 0.72,
+   "midi": 69,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 410.47,
+   "co2_level": 0.8176284189459644
+  },
+  {
+   "year": 2019,
+   "season": "NDJ",
+   "anomaly_c": 0.75,
+   "midi": 69,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 411.97,
+   "co2_level": 0.8301367578385594
+  },
+  {
+   "year": 2020,
+   "season": "DJF",
+   "anomaly_c": 0.71,
+   "midi": 69,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 413.59,
+   "co2_level": 0.8436457638425616
+  },
+  {
+   "year": 2020,
+   "season": "JFM",
+   "anomaly_c": 0.66,
+   "midi": 69,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 414.32,
+   "co2_level": 0.849733155436958
+  },
+  {
+   "year": 2020,
+   "season": "FMA",
+   "anomaly_c": 0.57,
+   "midi": 69,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 414.72,
+   "co2_level": 0.8530687124749837
+  },
+  {
+   "year": 2020,
+   "season": "MAM",
+   "anomaly_c": 0.33,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 416.42,
+   "co2_level": 0.8672448298865914
+  },
+  {
+   "year": 2020,
+   "season": "AMJ",
+   "anomaly_c": 0.04,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 417.28,
+   "co2_level": 0.8744162775183455
+  },
+  {
+   "year": 2020,
+   "season": "MJJ",
+   "anomaly_c": -0.18,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 416.58,
+   "co2_level": 0.8685790527018012
+  },
+  {
+   "year": 2020,
+   "season": "JJA",
+   "anomaly_c": -0.29,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 414.58,
+   "co2_level": 0.8519012675116745
+  },
+  {
+   "year": 2020,
+   "season": "JAS",
+   "anomaly_c": -0.43,
+   "midi": 62,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 412.75,
+   "co2_level": 0.8366410940627086
+  },
+  {
+   "year": 2020,
+   "season": "ASO",
+   "anomaly_c": -0.77,
+   "midi": 62,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 411.5,
+   "co2_level": 0.8262174783188794
+  },
+  {
+   "year": 2020,
+   "season": "SON",
+   "anomaly_c": -1.0,
+   "midi": 60,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 411.49,
+   "co2_level": 0.8261340893929289
+  },
+  {
+   "year": 2020,
+   "season": "OND",
+   "anomaly_c": -1.11,
+   "midi": 60,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 413.1,
+   "co2_level": 0.839559706470981
+  },
+  {
+   "year": 2020,
+   "season": "NDJ",
+   "anomaly_c": -1.06,
+   "midi": 60,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 414.23,
+   "co2_level": 0.8489826551034025
+  },
+  {
+   "year": 2021,
+   "season": "DJF",
+   "anomaly_c": -0.99,
+   "midi": 60,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 415.49,
+   "co2_level": 0.8594896597731824
+  },
+  {
+   "year": 2021,
+   "season": "JFM",
+   "anomaly_c": -0.85,
+   "midi": 60,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 416.72,
+   "co2_level": 0.8697464976651105
+  },
+  {
+   "year": 2021,
+   "season": "FMA",
+   "anomaly_c": -0.74,
+   "midi": 62,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 417.61,
+   "co2_level": 0.8771681120747168
+  },
+  {
+   "year": 2021,
+   "season": "MAM",
+   "anomaly_c": -0.56,
+   "midi": 62,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 419.01,
+   "co2_level": 0.8888425617078053
+  },
+  {
+   "year": 2021,
+   "season": "AMJ",
+   "anomaly_c": -0.4,
+   "midi": 62,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 419.09,
+   "co2_level": 0.8895096731154102
+  },
+  {
+   "year": 2021,
+   "season": "MJJ",
+   "anomaly_c": -0.31,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 418.93,
+   "co2_level": 0.8881754503002004
+  },
+  {
+   "year": 2021,
+   "season": "JJA",
+   "anomaly_c": -0.35,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 416.9,
+   "co2_level": 0.8712474983322215
+  },
+  {
+   "year": 2021,
+   "season": "JAS",
+   "anomaly_c": -0.46,
+   "midi": 62,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 414.42,
+   "co2_level": 0.8505670446964646
+  },
+  {
+   "year": 2021,
+   "season": "ASO",
+   "anomaly_c": -0.64,
+   "midi": 62,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 413.26,
+   "co2_level": 0.8408939292861909
+  },
+  {
+   "year": 2021,
+   "season": "SON",
+   "anomaly_c": -0.77,
+   "midi": 62,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 413.9,
+   "co2_level": 0.8462308205470314
+  },
+  {
+   "year": 2021,
+   "season": "OND",
+   "anomaly_c": -0.91,
+   "midi": 60,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 414.97,
+   "co2_level": 0.8551534356237496
+  },
+  {
+   "year": 2021,
+   "season": "NDJ",
+   "anomaly_c": -0.83,
+   "midi": 60,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 416.67,
+   "co2_level": 0.8693295530353572
+  },
+  {
+   "year": 2022,
+   "season": "DJF",
+   "anomaly_c": -0.76,
+   "midi": 62,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 418.13,
+   "co2_level": 0.8815043362241496
+  },
+  {
+   "year": 2022,
+   "season": "JFM",
+   "anomaly_c": -0.68,
+   "midi": 62,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 419.24,
+   "co2_level": 0.89076050700467
+  },
+  {
+   "year": 2022,
+   "season": "FMA",
+   "anomaly_c": -0.77,
+   "midi": 62,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 418.76,
+   "co2_level": 0.8867578385590394
+  },
+  {
+   "year": 2022,
+   "season": "MAM",
+   "anomaly_c": -0.86,
+   "midi": 60,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 420.19,
+   "co2_level": 0.8986824549699801
+  },
+  {
+   "year": 2022,
+   "season": "AMJ",
+   "anomaly_c": -0.83,
+   "midi": 60,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 420.97,
+   "co2_level": 0.9051867911941298
+  },
+  {
+   "year": 2022,
+   "season": "MJJ",
+   "anomaly_c": -0.73,
+   "midi": 62,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 420.94,
+   "co2_level": 0.9049366244162776
+  },
+  {
+   "year": 2022,
+   "season": "JJA",
+   "anomaly_c": -0.7,
+   "midi": 62,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 418.85,
+   "co2_level": 0.8875083388925954
+  },
+  {
+   "year": 2022,
+   "season": "JAS",
+   "anomaly_c": -0.78,
+   "midi": 62,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 417.15,
+   "co2_level": 0.8733322214809873
+  },
+  {
+   "year": 2022,
+   "season": "ASO",
+   "anomaly_c": -0.87,
+   "midi": 60,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 415.91,
+   "co2_level": 0.8629919946631092
+  },
+  {
+   "year": 2022,
+   "season": "SON",
+   "anomaly_c": -0.89,
+   "midi": 60,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 415.74,
+   "co2_level": 0.8615743829219482
+  },
+  {
+   "year": 2022,
+   "season": "OND",
+   "anomaly_c": -0.82,
+   "midi": 60,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 417.47,
+   "co2_level": 0.876000667111408
+  },
+  {
+   "year": 2022,
+   "season": "NDJ",
+   "anomaly_c": -0.7,
+   "midi": 62,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 418.99,
+   "co2_level": 0.8886757838559042
+  },
+  {
+   "year": 2023,
+   "season": "DJF",
+   "anomaly_c": -0.55,
+   "midi": 62,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 419.48,
+   "co2_level": 0.8927618412274854
+  },
+  {
+   "year": 2023,
+   "season": "JFM",
+   "anomaly_c": -0.33,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 420.31,
+   "co2_level": 0.8996831220813878
+  },
+  {
+   "year": 2023,
+   "season": "FMA",
+   "anomaly_c": -0.11,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 420.99,
+   "co2_level": 0.9053535690460309
+  },
+  {
+   "year": 2023,
+   "season": "MAM",
+   "anomaly_c": 0.19,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 423.35,
+   "co2_level": 0.9250333555703806
+  },
+  {
+   "year": 2023,
+   "season": "AMJ",
+   "anomaly_c": 0.46,
+   "midi": 69,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 424.0,
+   "co2_level": 0.9304536357571717
+  },
+  {
+   "year": 2023,
+   "season": "MJJ",
+   "anomaly_c": 0.73,
+   "midi": 69,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 423.68,
+   "co2_level": 0.9277851901267514
+  },
+  {
+   "year": 2023,
+   "season": "JJA",
+   "anomaly_c": 1.0,
+   "midi": 72,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 421.83,
+   "co2_level": 0.912358238825884
+  },
+  {
+   "year": 2023,
+   "season": "JAS",
+   "anomaly_c": 1.25,
+   "midi": 74,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 419.68,
+   "co2_level": 0.8944296197464979
+  },
+  {
+   "year": 2023,
+   "season": "ASO",
+   "anomaly_c": 1.5,
+   "midi": 74,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 418.5,
+   "co2_level": 0.8845897264843231
+  },
+  {
+   "year": 2023,
+   "season": "SON",
+   "anomaly_c": 1.74,
+   "midi": 76,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 418.82,
+   "co2_level": 0.8872581721147432
+  },
+  {
+   "year": 2023,
+   "season": "OND",
+   "anomaly_c": 1.9,
+   "midi": 76,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 420.46,
+   "co2_level": 0.9009339559706471
+  },
+  {
+   "year": 2023,
+   "season": "NDJ",
+   "anomaly_c": 1.99,
+   "midi": 76,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 421.86,
+   "co2_level": 0.9126084056037361
+  },
+  {
+   "year": 2024,
+   "season": "DJF",
+   "anomaly_c": 1.84,
+   "midi": 76,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 422.8,
+   "co2_level": 0.9204469646430957
+  },
+  {
+   "year": 2024,
+   "season": "JFM",
+   "anomaly_c": 1.53,
+   "midi": 74,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 424.55,
+   "co2_level": 0.9350400266844566
+  },
+  {
+   "year": 2024,
+   "season": "FMA",
+   "anomaly_c": 1.18,
+   "midi": 72,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 425.38,
+   "co2_level": 0.941961307538359
+  },
+  {
+   "year": 2024,
+   "season": "MAM",
+   "anomaly_c": 0.77,
+   "midi": 69,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 426.51,
+   "co2_level": 0.9513842561707806
+  },
+  {
+   "year": 2024,
+   "season": "AMJ",
+   "anomaly_c": 0.43,
+   "midi": 69,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 426.9,
+   "co2_level": 0.9546364242828552
+  },
+  {
+   "year": 2024,
+   "season": "MJJ",
+   "anomaly_c": 0.18,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 426.91,
+   "co2_level": 0.9547198132088063
+  },
+  {
+   "year": 2024,
+   "season": "JJA",
+   "anomaly_c": 0.06,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 425.55,
+   "co2_level": 0.94337891927952
+  },
+  {
+   "year": 2024,
+   "season": "JAS",
+   "anomaly_c": -0.04,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 422.99,
+   "co2_level": 0.9220313542361577
+  },
+  {
+   "year": 2024,
+   "season": "ASO",
+   "anomaly_c": -0.12,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 422.03,
+   "co2_level": 0.9140260173448965
+  },
+  {
+   "year": 2024,
+   "season": "SON",
+   "anomaly_c": -0.19,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 422.38,
+   "co2_level": 0.9169446297531689
+  },
+  {
+   "year": 2024,
+   "season": "OND",
+   "anomaly_c": -0.29,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 423.85,
+   "co2_level": 0.9292028018679123
+  },
+  {
+   "year": 2024,
+   "season": "NDJ",
+   "anomaly_c": -0.43,
+   "midi": 62,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 425.4,
+   "co2_level": 0.9421280853902602
+  },
+  {
+   "year": 2025,
+   "season": "DJF",
+   "anomaly_c": -0.46,
+   "midi": 62,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 426.65,
+   "co2_level": 0.9525517011340894
+  },
+  {
+   "year": 2025,
+   "season": "JFM",
+   "anomaly_c": -0.22,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 427.09,
+   "co2_level": 0.9562208138759173
+  },
+  {
+   "year": 2025,
+   "season": "FMA",
+   "anomaly_c": -0.08,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 428.15,
+   "co2_level": 0.9650600400266844
+  },
+  {
+   "year": 2025,
+   "season": "MAM",
+   "anomaly_c": 0.02,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 429.64,
+   "co2_level": 0.977484989993329
+  },
+  {
+   "year": 2025,
+   "season": "AMJ",
+   "anomaly_c": -0.04,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 430.51,
+   "co2_level": 0.9847398265510342
+  },
+  {
+   "year": 2025,
+   "season": "MJJ",
+   "anomaly_c": -0.02,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 429.61,
+   "co2_level": 0.9772348232154773
+  },
+  {
+   "year": 2025,
+   "season": "JJA",
+   "anomaly_c": -0.11,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 427.87,
+   "co2_level": 0.962725150100067
+  },
+  {
+   "year": 2025,
+   "season": "JAS",
+   "anomaly_c": -0.26,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 425.48,
+   "co2_level": 0.9427951967978656
+  },
+  {
+   "year": 2025,
+   "season": "ASO",
+   "anomaly_c": -0.43,
+   "midi": 62,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 424.37,
+   "co2_level": 0.9335390260173452
+  },
+  {
+   "year": 2025,
+   "season": "SON",
+   "anomaly_c": -0.57,
+   "midi": 62,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 424.87,
+   "co2_level": 0.9377084723148769
+  },
+  {
+   "year": 2025,
+   "season": "OND",
+   "anomaly_c": -0.61,
+   "midi": 62,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 426.46,
+   "co2_level": 0.9509673115410274
+  },
+  {
+   "year": 2025,
+   "season": "NDJ",
+   "anomaly_c": -0.6,
+   "midi": 62,
+   "clipped": false,
+   "phase": "cool",
+   "co2_ppm": 427.49,
+   "co2_level": 0.9595563709139429
+  },
+  {
+   "year": 2026,
+   "season": "DJF",
+   "anomaly_c": -0.39,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 428.62,
+   "co2_level": 0.9689793195463645
+  },
+  {
+   "year": 2026,
+   "season": "JFM",
+   "anomaly_c": -0.21,
+   "midi": 64,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 429.35,
+   "co2_level": 0.9750667111407609
+  },
+  {
+   "year": 2026,
+   "season": "FMA",
+   "anomaly_c": 0.11,
+   "midi": 67,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 430.15,
+   "co2_level": 0.9817378252168112
+  },
+  {
+   "year": 2026,
+   "season": "MAM",
+   "anomaly_c": 0.46,
+   "midi": 69,
+   "clipped": false,
+   "phase": "neutral",
+   "co2_ppm": 431.12,
+   "co2_level": 0.989826551034023
+  },
+  {
+   "year": 2026,
+   "season": "AMJ",
+   "anomaly_c": 0.95,
+   "midi": 72,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 432.34,
+   "co2_level": 1.0
+  },
+  {
+   "year": 2026,
+   "season": "MJJ",
+   "anomaly_c": 1.39,
+   "midi": 74,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 431.43,
+   "co2_level": 0.9924116077384926
+  },
+  {
+   "year": 2026,
+   "season": "JJA",
+   "anomaly_c": 1.8,
+   "midi": 76,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 429.13,
+   "co2_level": 0.9732321547698467
+  },
+  {
+   "year": 2026,
+   "season": "JAS",
+   "anomaly_c": 2.16,
+   "midi": 79,
+   "clipped": false,
+   "phase": "warm",
+   "co2_ppm": 427.55,
+   "co2_level": 0.9600567044696467
+  }
+ ]
+}

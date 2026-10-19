@@ -1,0 +1,20 @@
+[project]
+name = "hear-pacific"
+version = "0.1.0"
+description = "A sonification of 75 years of El Niño and La Niña."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = ["requests>=2.31"]
+
+[dependency-groups]
+dev = ["pytest>=8"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["backend/hear_pacific"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
